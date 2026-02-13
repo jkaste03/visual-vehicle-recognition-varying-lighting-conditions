@@ -8,6 +8,7 @@ from sklearn.model_selection import train_test_split
 
 internal = pd.read_csv('annotations/internal.csv')
 external = pd.read_csv('annotations/external.csv')
+
 internal["year"] = internal[["year_3", "year_s", "year_x", "year_y"]].bfill(
     axis="columns").iloc[:, 0]
 external["year"] = external[["year_3", "year_s", "year_x", "year_y"]].bfill(
