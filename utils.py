@@ -1,12 +1,10 @@
 import pandas as pd
 from typing import Tuple
 import os
-import tensorflow as tf
 from keras.utils import load_img, img_to_array
 import sys
-import matplotlib.pyplot as plt
-import keras
 import re
+import matplotlib.pyplot as plt
 
 
 internal = pd.read_csv('annotations/internal.csv')
