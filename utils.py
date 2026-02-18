@@ -6,9 +6,15 @@ from keras.utils import load_img, img_to_array
 import re
 from sklearn.model_selection import train_test_split
 from pathlib import Path
+
 base_dir = Path(__file__).resolve().parent
+labels = ['color', 'image', 'lighting',
+          'model', 'year_3', 'year_s', 'year_x', 'year_y']
 internal = pd.read_csv(base_dir / 'annotations/internal.csv')
+internal = internal[labels]
+
 external = pd.read_csv(base_dir / 'annotations/external.csv')
+external = external[labels]
 
 internal['year'] = internal[['year_3', 'year_s', 'year_x', 'year_y']].bfill(
     axis='columns').iloc[:, 0]
