@@ -25,6 +25,8 @@ internal.drop(['year_3', 'year_s', 'year_x', 'year_y'], axis=1, inplace=True)
 external.drop(['year_3', 'year_s', 'year_x', 'year_y'], axis=1, inplace=True)
 
 default = internal['image'][0]
+internal['source'] = 'internal'
+external['source'] = 'external'
 
 
 def image_label_to_array(image_label: str, target_size: Tuple[int, int]):
@@ -55,12 +57,12 @@ def load_images_and_labels(target_size: Tuple[int, int], data=internal) -> Tuple
     images_list = []
     valid_indices = []
 
-    for idx, img_label in enumerate(data['image']):
+    for id, img_label in enumerate(data['image']):
         img = image_label_to_array(img_label, target_size=target_size)
 
         if img is not None:
             images_list.append(img)
-            valid_indices.append(idx)
+            valid_indices.append(id)
 
     external_images = np.array(images_list)
     external_labels = data.iloc[valid_indices].drop('image', axis=1)
@@ -80,11 +82,11 @@ def read_data() -> Tuple[Tuple[np.ndarray, pd.DataFrame], Tuple[np.ndarray, pd.D
 
 def read_stratified_data(test_size: float = 0.15,
                          target_size: Tuple[int, int] = (300, 300),
-                         columns=('color', 'lighting', 'model', 'year')
+                         columns=('color', 'lighting', 'model', 'year'),
+                         strata_threshold=10
                          ) -> Tuple[Tuple[np.ndarray, pd.DataFrame], Tuple[np.ndarray, pd.DataFrame]]:
+
     combined = pd.concat([internal, external])
-    # combined = combined[~((combined['model'] ==
-    #                       'X') & (combined['year'] == '2021–nå'))]
 
     strata = combined[list(columns)]\
         .fillna('')\
@@ -92,13 +94,17 @@ def read_stratified_data(test_size: float = 0.15,
         .agg('-'.join, axis=1)
 
     strata_count = strata.value_counts()
-    for c, i in enumerate(strata_count):
-        if c < 10:
-            print(i)
+    under_represented_labels = [
+        label for label, count in strata_count.items() if count < strata_threshold
+    ]
+    under_represented_rows = combined[strata.isin(under_represented_labels)]
+    combined = combined[~(strata.isin(under_represented_labels))]
+    strata = strata[~(strata.isin(under_represented_labels))]
 
     train_set, test_set = train_test_split(
         combined, test_size=test_size, stratify=strata)
 
+    train_set = pd.concat([train_set, under_represented_rows])
     train_x, train_y = load_images_and_labels(
         target_size=target_size, data=train_set)
     test_x, test_y = load_images_and_labels(
@@ -122,7 +128,9 @@ def read_gate_one_data() -> Tuple[Tuple[np.ndarray, pd.DataFrame], Tuple[np.ndar
 
 
 def main():
-    read_stratified_data(columns=("lighting", "year", "model"))
+    # read_stratified_data(columns=("lighting", "year", "model"))
+    combined = pd.concat([internal, external])
+    print(combined.head)
 
 
 if __name__ == '__main__':
