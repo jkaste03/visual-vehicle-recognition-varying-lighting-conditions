@@ -83,13 +83,18 @@ def read_stratified_data(test_size: float = 0.15,
                          columns=('color', 'lighting', 'model', 'year')
                          ) -> Tuple[Tuple[np.ndarray, pd.DataFrame], Tuple[np.ndarray, pd.DataFrame]]:
     combined = pd.concat([internal, external])
-    combined = combined[~((combined['model'] ==
-                          'X') & (combined['year'] == '2021–nå'))]
+    # combined = combined[~((combined['model'] ==
+    #                       'X') & (combined['year'] == '2021–nå'))]
 
     strata = combined[list(columns)]\
         .fillna('')\
         .astype(str)\
         .agg('-'.join, axis=1)
+
+    strata_count = strata.value_counts()
+    for c, i in enumerate(strata_count):
+        if c < 10:
+            print(i)
 
     train_set, test_set = train_test_split(
         combined, test_size=test_size, stratify=strata)
@@ -117,7 +122,7 @@ def read_gate_one_data() -> Tuple[Tuple[np.ndarray, pd.DataFrame], Tuple[np.ndar
 
 
 def main():
-    pass
+    read_stratified_data(columns=("lighting", "year", "model"))
 
 
 if __name__ == '__main__':
