@@ -24,7 +24,7 @@ external['year'] = external[['year_3', 'year_s', 'year_x', 'year_y']].bfill(
 internal.drop(['year_3', 'year_s', 'year_x', 'year_y'], axis=1, inplace=True)
 external.drop(['year_3', 'year_s', 'year_x', 'year_y'], axis=1, inplace=True)
 
-default = internal['image'][0]
+
 internal['source'] = 'internal'
 external['source'] = 'external'
 
