@@ -21,10 +21,26 @@ internal['year'] = internal[['year_3', 'year_s', 'year_x', 'year_y']].bfill(
     axis='columns').iloc[:, 0]
 external['year'] = external[['year_3', 'year_s', 'year_x', 'year_y']].bfill(
     axis='columns').iloc[:, 0]
-
 internal.drop(['year_3', 'year_s', 'year_x', 'year_y'], axis=1, inplace=True)
 external.drop(['year_3', 'year_s', 'year_x', 'year_y'], axis=1, inplace=True)
 
+
+filter = (internal['model'] == 'Y') | (internal['model'] == '3')
+internal.loc[filter, 'model'] = internal.loc[filter,
+                                             'model'] + ' ' + internal.loc[filter, 'year']
+filter = (external['model'] == 'Y') | (external['model'] == '3')
+external.loc[filter, 'model'] = external.loc[filter,
+                                             'model'] + ' ' + external.loc[filter, 'year']
+
+filter = (internal['model'] == 'S') & (internal['year'] == '2012–2015')
+internal.loc[filter, 'model'] = 'S 2012–2015'
+filter = (external['model'] == 'S') & (external['year'] == '2012–2015')
+external.loc[filter, 'model'] = 'S 2012–2015'
+
+filter = internal['model'] == 'S'
+internal.loc[filter, 'model'] = 'S 2016–nå'
+filter = external['model'] == 'S'
+external.loc[filter, 'model'] = 'S 2016–nå'
 
 internal['source'] = 'internal'
 external['source'] = 'external'
@@ -37,7 +53,7 @@ def image_label_to_array(image_label: str, target_size: Tuple[int, int]):
     if ('%25~' in image_name):
         image_name = re.sub(r'25', '', image_name, count=1)
 
-    path = os.path.join('../datasett', image_name)
+    path = os.path.join(base_dir, 'datasett', image_name)
     if (os.path.exists(path)):
         img = load_img(
             path,
@@ -50,7 +66,7 @@ def image_label_to_array(image_label: str, target_size: Tuple[int, int]):
         img = img_to_array(img) / 255.0
 
         return img
-    print(path, image_label)
+    print(path)
     return None
 
 
@@ -84,7 +100,7 @@ def read_data() -> Tuple[Tuple[np.ndarray, pd.DataFrame], Tuple[np.ndarray, pd.D
 def read_stratified_data(test_size: float = 0.15,
                          target_size: Tuple[int, int] = (300, 300),
                          columns=('color', 'lighting', 'model', 'year'),
-                         strata_threshold=10
+                         strata_threshold=38
                          ) -> Tuple[Tuple[np.ndarray, pd.DataFrame], Tuple[np.ndarray, pd.DataFrame]]:
 
     combined = pd.concat([internal, external])
@@ -128,10 +144,29 @@ def read_gate_one_data() -> Tuple[Tuple[np.ndarray, pd.DataFrame], Tuple[np.ndar
     return (train_x, train_y_encoded), (test_x, test_y_encoded)
 
 
+def model_str_to_int(model_str):
+    dict = {
+        'S 2012–2015': 0, 'S 2016–nå': 1,
+        '3 2017–2023': 2, '3 2024–nå': 3,
+        'X': 4,
+        'Y 2020–2024': 5, 'Y 2025-nå': 6
+    }
+    return dict[model_str]
+
+
+def int_to_model_str(x):
+    dict = {
+        0: 'S 2012–2015',  1: 'S 2016–nå',
+        2: '3 2017–2023', 3: '3 2024–nå',
+        4: 'X',
+        5: 'Y 2020–2024', 6: 'Y 2025-nå'
+    }
+    return dict[x]
+
+
 def main():
-    # read_stratified_data(columns=("lighting", "year", "model"))
-    combined = pd.concat([internal, external])
-    print(combined.head)
+    columns = ("model", "lighting")
+    read_stratified_data(columns=columns)
 
 
 if __name__ == '__main__':
