@@ -164,6 +164,72 @@ def int_to_model_str(x):
     return dict[x]
 
 
+def read_stratified_data_new(
+    val_size: float = 0.15,
+    test_size: float = 0.15,
+    target_size: Tuple[int, int] = (300, 300),
+    columns=('color', 'lighting', 'model', 'year'),
+    strata_threshold=10
+) -> Tuple:
+
+    combined = pd.concat([internal, external])
+    strata = combined[list(columns)].fillna(
+        '').astype(str).agg('-'.join, axis=1)
+
+    strata_count = strata.value_counts()
+    under_represented_labels = [
+        label for label, count in strata_count.items() if count < strata_threshold]
+
+    under_represented_rows = combined[strata.isin(under_represented_labels)]
+    safe_combined = combined[~(strata.isin(under_represented_labels))]
+    safe_strata = strata[~(strata.isin(under_represented_labels))]
+    # 1. Add the strata directly to the dataframe temporarily
+    combined['tmp_strata'] = strata
+
+    # 2. Filter out under-represented labels
+    strata_count = combined['tmp_strata'].value_counts()
+    under_represented_mask = combined['tmp_strata'].isin(
+        [label for label, count in strata_count.items() if count < strata_threshold]
+    )
+
+    under_represented_rows = combined[under_represented_mask]
+    safe_combined = combined[~under_represented_mask]
+
+    # 3. First Split: Separate the Test set (15%)
+    train_val_df, test_df = train_test_split(
+        safe_combined,
+        test_size=test_size,
+        random_state=42,
+        stratify=safe_combined['tmp_strata']  # Pull from the df
+    )
+
+    # 4. Second Split: Separate Train (70%) and Val (15%)
+    relative_val_size = val_size / (1 - test_size)
+    train_df, val_df = train_test_split(
+        train_val_df,
+        test_size=relative_val_size,
+        random_state=42,
+        stratify=train_val_df['tmp_strata']  # Pull from the df
+    )
+
+    # 5. Clean up: Add rare rows back and remove the temporary column
+    train_df = pd.concat([train_df, under_represented_rows])
+
+    for d in [train_df, val_df, test_df]:
+        d.drop(columns=['tmp_strata'], inplace=True)
+
+    train_x, train_y = load_images_and_labels(
+        target_size=target_size, data=train_df
+    )
+    val_x, val_y = load_images_and_labels(target_size=target_size, data=val_df)
+    test_x, test_y = load_images_and_labels(
+        target_size=target_size,
+        data=test_df
+    )
+
+    return (train_x, train_y), (val_x, val_y), (test_x, test_y)
+
+
 def main():
     columns = ("model", "lighting")
     read_stratified_data(columns=columns)

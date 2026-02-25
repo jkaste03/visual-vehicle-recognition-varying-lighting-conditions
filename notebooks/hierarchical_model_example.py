@@ -4,31 +4,27 @@ from Hierarchical_model import Hierarchical_model
 
 
 callback1 = keras.callbacks.TensorBoard(
-    log_dir="./logs/gate1", histogram_freq=0, write_graph=True, write_images=True
+    log_dir="../logs/gate1", histogram_freq=0, write_graph=True, write_images=True
 )
 callback2 = keras.callbacks.TensorBoard(
-    log_dir="./logs/gate2", histogram_freq=0, write_graph=True, write_images=True
+    log_dir="../logs/gate2", histogram_freq=0, write_graph=True, write_images=True
 )
 
 strata_columns = ("model", "lighting")
-(train_x, train_y), (test_x, test_y) = utils.read_stratified_data(
-    columns=strata_columns)
+(train_x, train_y), (val_x, val_y), (test_x, test_y) = utils.read_stratified_data_new(
+    columns=strata_columns, target_size=(300, 300), strata_threshold=38
+)
 
 input_shape = train_x[0].shape
 
 
 feature_extractor = keras.Sequential(
     [
-        keras.layers.Conv2D(64, (3, 3), activation="relu"),
-        keras.layers.MaxPooling2D((2, 2)),
-        keras.layers.Conv2D(64, (3, 3), activation="relu"),
-        keras.layers.MaxPooling2D((2, 2)),
-        keras.layers.Conv2D(64, (3, 3), activation="relu"),
+        keras.layers.Conv2D(128, (3, 3), activation="relu"),
         keras.layers.MaxPooling2D((2, 2)),
         keras.layers.Conv2D(64, (3, 3), activation="relu"),
         keras.layers.MaxPooling2D((2, 2)),
         keras.layers.Flatten(),
-        keras.layers.Dropout(0.4)
     ]
 )
 
@@ -61,4 +57,13 @@ model.compile_gate2(
 )
 
 model.fit(train_x, train_y, epochs=5, batch_size=16)
-model.evaluate(test_x=test_x, test_y=test_y)
+
+print("Light")
+filter = val_y["lighting"] == "Light"
+model.evaluate(test_x=val_x[filter], test_y=val_y[filter])
+print("Medium")
+filter = val_y["lighting"] == "Medium"
+model.evaluate(test_x=val_x[filter], test_y=val_y[filter])
+print("Dark")
+filter = val_y["lighting"] == "Dark"
+model.evaluate(test_x=val_x[filter], test_y=val_y[filter])
