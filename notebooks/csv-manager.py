@@ -3,6 +3,7 @@ from pathlib import Path
 import pandas as pd
 import numpy as np
 import re
+from sklearn.preprocessing import LabelEncoder
 
 base_dir = Path(__file__).resolve().parent.parent
 labels = ['color', 'image', 'lighting',
@@ -54,7 +55,23 @@ def clean_image_label(image_label):
 internal["image"] = internal["image"].apply(clean_image_label)
 external["image"] = external["image"].apply(clean_image_label)
 
-labels_to_save = ['image', 'color', 'lighting', 'model', 'source']
+internal["gate1"] = (internal["model"] == 'Other car').apply(int)
+external["gate1"] = (external["model"] == 'Other car').apply(int)
+
+le = LabelEncoder()
+internal_filter = internal["model"] != 'Other car'
+internal.loc[internal_filter, "gate2"] = le.fit_transform(
+    internal.loc[internal_filter, "model"])
+external_filter = external["model"] != 'Other car'
+external.loc[external_filter, "gate2"] = le.transform(
+    external.loc[external_filter, "model"])
+
+le = LabelEncoder()
+internal["color"] = le.fit_transform(internal["color"])
+external["color"] = le.fit_transform(external["color"])
+
+labels_to_save = ['image', 'gate1', 'gate2',
+                  'color', 'lighting', 'source', 'model']
 internal[labels_to_save].to_csv(
     base_dir / 'annotations/internal_new.csv', index=False)
 external[labels_to_save].to_csv(

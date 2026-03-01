@@ -18,36 +18,24 @@ class Hierarchical_model:
         self.callbacks = callbacks
 
     def fit_gate1(self, train_x, train_y, epochs=10, batch_size=16, validation_data=None):
-        vt = np.vectorize(lambda x: 1 if x else 0)
-        train_y_gate1 = train_y["model"] == self.other
-        train_y_gate1 = vt(train_y_gate1)
-        self.gate1.fit(train_x, train_y_gate1,
+        self.gate1.fit(train_x, train_y,
                        epochs=epochs, batch_size=batch_size, callbacks=self.callbacks[0], validation_data=validation_data)
 
     def fit_gate2(self, train_x, train_y, epochs=10, batch_size=16, validation_data=None):
-        train_y_gate2 = train_y["model"][train_y["model"] != self.other]
-        train_y_gate2 = np.vectorize(utils.model_str_to_int)(train_y_gate2)
-
-        train_x_gate2 = train_x[train_y["model"] != self.other]
-
-        self.gate2.fit(train_x_gate2, train_y_gate2,
+        self.gate2.fit(train_x, train_y,
                        epochs=epochs, batch_size=batch_size, callbacks=self.callbacks[1], validation_data=validation_data)
 
     def fit(self, train_x, train_y, epochs=10, batch_size=16):
-        self.fit_gate1(train_x=train_x, train_y=train_y,
+        self.fit_gate1(train_x=train_x, train_y=train_y["gate1"],
                        epochs=epochs, batch_size=batch_size)
-        self.fit_gate2(train_x=train_x, train_y=train_y,
+        self.fit_gate2(train_x=train_x, train_y=train_y.loc[train_y["model"] != 'Other car', "gate2"],
                        epochs=epochs, batch_size=batch_size)
 
     def evaluate(self, test_x, test_y, ):
-        vt = np.vectorize(lambda x: 1 if x else 0)
-        test_y_gate1 = test_y["model"] == 'Other car'
-        test_y_gate1 = vt(test_y_gate1)
 
         print(self.gate1.evaluate(
-            test_x, test_y_gate1, callbacks=self.callbacks[0]))
-        test_y_gate2 = test_y["model"][test_y["model"] != self.other]
-        test_y_gate2 = np.vectorize(utils.model_str_to_int)(test_y_gate2)
+            test_x, test_y["gate1"], callbacks=self.callbacks[0]))
+        test_y_gate2 = test_y["gate2"][test_y["model"] != self.other]
         test_x_gate2 = test_x[test_y["model"] != self.other]
 
         print(self.gate2.evaluate(test_x_gate2,

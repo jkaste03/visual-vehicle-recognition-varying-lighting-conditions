@@ -1,7 +1,5 @@
 import utils
 import keras
-from Hierarchical_model import Hierarchical_model
-
 
 callback1 = keras.callbacks.TensorBoard(
     log_dir="../logs/gate1", histogram_freq=0, write_graph=True, write_images=True
@@ -11,7 +9,7 @@ callback2 = keras.callbacks.TensorBoard(
 )
 
 strata_columns = ("model", "lighting")
-(train_x, train_y), (val_x, val_y), (test_x, test_y) = utils.read_stratified_data_new(
+(train_x, train_y), (val_x, val_y), (test_x, test_y) = utils.read_stratified_data(
     columns=strata_columns, target_size=(300, 300), strata_threshold=38
 )
 
@@ -39,31 +37,33 @@ output_gate2 = keras.Sequential([
     keras.layers.Dense(7, activation="softmax"),
 ])
 
-model = Hierarchical_model(input=input,
-                           feature_extractor=feature_extractor,
-                           output_gate1=output_gate1,
-                           output_gate2=output_gate2,
-                           callbacks=([callback1], [callback2]))
+x = feature_extractor(input)
+gate1 = keras.Model(input, output_gate1(x))
+gate2 = keras.Model(input, output_gate2(x))
 
-model.compile_gate1(
+
+gate1.compile(
     optimizer=keras.optimizers.Adam(6e-4),
     loss="binary_crossentropy",
-    metrics=["binary_accuracy"],
+    metrics=[keras.metrics.Accuracy()],
 )
-model.compile_gate2(
+gate2.compile(
     optimizer=keras.optimizers.Adam(6e-4),
     loss="sparse_categorical_crossentropy",
     metrics=["accuracy"],
 )
 
-model.fit(train_x, train_y, epochs=5, batch_size=16)
+gate1.fit(train_x, train_y['gate1'], epochs=5, batch_size=16)
+other_filter = train_y["model"] != 'Other car'
+gate2.fit(train_x[other_filter], train_y.loc[other_filter,
+          'gate2'], epochs=5, batch_size=16)
 
 print("Light")
 filter = val_y["lighting"] == "Light"
-model.evaluate(test_x=val_x[filter], test_y=val_y[filter])
+gate1.evaluate(test_x=val_x[filter], test_y=val_y.loc[filter, "gate1"])
 print("Medium")
 filter = val_y["lighting"] == "Medium"
-model.evaluate(test_x=val_x[filter], test_y=val_y[filter])
+gate1.evaluate(test_x=val_x[filter], test_y=val_y.loc[filter, "gate1"])
 print("Dark")
 filter = val_y["lighting"] == "Dark"
-model.evaluate(test_x=val_x[filter], test_y=val_y[filter])
+gate1.evaluate(test_x=val_x[filter], test_y=val_y.loc[filter, "gate1"])
