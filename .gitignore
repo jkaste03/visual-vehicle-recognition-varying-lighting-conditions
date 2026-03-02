@@ -219,7 +219,9 @@ __marimo__/
 
 .DS_Store
 
-datasett
+datasett_src
 requirements.txt
 .lvenv
 logs/*
+.aim/
+notebooks/results/
