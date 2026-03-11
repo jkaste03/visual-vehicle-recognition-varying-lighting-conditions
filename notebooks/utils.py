@@ -75,14 +75,25 @@ def read_andre_data(target_size=(300, 300)):
     train_df = pd.read_csv(BASE_DIR / 'datasplitt/train.csv')
     val_df = pd.read_csv(BASE_DIR / 'datasplitt/val.csv')
     test_df = pd.read_csv(BASE_DIR / 'datasplitt/test.csv')
+
+    # Fit encoders on training data
     le_gate1 = LabelEncoder()
     le_gate1.fit(train_df['lvl1'])
+
     le_gate2 = LabelEncoder()
-    le_gate2.fit(train_df.iloc[train_df['lvl1'] == 'Tesla', 'lvl2'])
+    # Ensure we only fit on non-null Tesla rows
+    tesla_train = train_df[train_df['lvl1'] == 'Tesla']['lvl2']
+    le_gate2.fit(tesla_train)
+
     xs = []
     for df in [train_df, val_df, test_df]:
         df['gate1'] = le_gate1.transform(df['lvl1'])
-        df['gate2'] = le_gate2.transform(df['lvl2'])
+        is_tesla = df['lvl1'] == 'Tesla'
+
+        df.loc[is_tesla, 'gate2'] = le_gate2.transform(
+            df.loc[is_tesla, 'lvl2'])
+        df['gate2'] = df['gate2'].fillna(-1).astype(int)
+
         df = fix_image_paths(df, IMG_ROOT_ANDRE)
         xs.append(load_images_and_labels(
             data=df, target_size=target_size, img_root=IMG_ROOT_ANDRE))
