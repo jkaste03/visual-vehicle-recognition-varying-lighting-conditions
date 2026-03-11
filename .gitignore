@@ -226,3 +226,5 @@ logs/*
 datasett_src
 notebooks/.aim
 .aim
+
+notebooks/checkpoints
