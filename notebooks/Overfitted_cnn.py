@@ -9,6 +9,10 @@ from keras import layers
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+BATCH_SIZE = 32
+EPOCHS = 100
+SEED = 42
+
 
 (train_x, train_y), (val_x, val_y), (test_x, test_y) = utils.read_andre_data()
 
@@ -19,45 +23,48 @@ early_stop = keras.callbacks.EarlyStopping(
     restore_best_weights=True
 )
 
-data_augmentation = keras.Sequential([
-    layers.RandomFlip("horizontal"),
-    layers.RandomRotation(0.05),
-    layers.RandomZoom(0.1),
-    layers.RandomContrast(0.2),
-    layers.RandomBrightness(factor=0.2)
-])
+
+def build_model():
+    data_augmentation = keras.Sequential([
+        # layers.RandomFlip("horizontal", seed=SEED),
+        layers.RandomRotation(0.05, seed=SEED),
+        # layers.RandomZoom(0.1, seed=SEED),
+        # layers.RandomContrast(0.2, seed=SEED),
+        # layers.RandomBrightness(factor=0.2, seed=SEED)
+    ])
+
+    # input = x = keras.Input(shape=train_x[0].shape)
+    # x = data_augmentation(x)
+    # x = layers.Rescaling(1./255)(x)
+    # x = layers.Conv2D(filters=64, kernel_size=3, activation="relu")(x)
+    # x = layers.MaxPool2D()(x)
+    # x = layers.Conv2D(filters=128, kernel_size=3, activation="relu")(x)
+    # x = layers.MaxPool2D()(x)
+    # x = layers.Flatten()(x)
+    # # x = layers.Dropout(0.5)(x)
+
+    input = x = keras.Input(shape=train_x[0].shape)
+    x = layers.Conv2D(filters=32, kernel_size=3, activation="relu")(x)
+    x = layers.Conv2D(filters=32, kernel_size=3, activation="relu")(x)
+    x = layers.MaxPool2D()(x)
+    x = layers.Conv2D(filters=64, kernel_size=3, activation="relu")(x)
+    x = layers.Conv2D(filters=64, kernel_size=3, activation="relu")(x)
+    x = layers.MaxPool2D()(x)
+    x = layers.Conv2D(filters=128, kernel_size=3, activation="relu")(x)
+    x = layers.MaxPool2D()(x)
+    x = layers.GlobalAveragePooling2D()(x)
+    x = layers.Dense(128, activation="relu")(x)
+
+    lvl1 = layers.Dense(1, activation="sigmoid", name="lvl1")(x)
+    lvl2 = layers.Dense(7, activation="softmax", name="lvl2")(x)
+
+    return keras.Model(inputs=input, outputs={
+        "lvl1": lvl1, "lvl2": lvl2}, name="Overfitted_model")
 
 
-input = x = keras.Input(shape=(train_x[0].shape))
-x = input
-x = data_augmentation(x)
-x = layers.Rescaling(1./255)(x)
+model = build_model()
 
-x = layers.Conv2D(filters=32, kernel_size=3, activation="relu")(x)
-x = layers.MaxPool2D()(x)
-x = layers.BatchNormalization()(x)
-
-x = layers.Conv2D(filters=64, kernel_size=3, activation="relu")(x)
-x = layers.MaxPool2D()(x)
-x = layers.BatchNormalization()(x)
-
-x = layers.Conv2D(filters=128, kernel_size=3, activation="relu")(x)
-x = layers.MaxPool2D()(x)
-x = layers.BatchNormalization()(x)
-
-x = layers.Flatten()(x)
-x = layers.Dense(512, activation="relu")(x)
-x = layers.Dropout(0.5)(x)
-
-
-lvl1 = layers.Dense(1, activation="sigmoid", name="lvl1")(x)
-lvl2 = layers.Dense(8, activation="softmax", name="lvl2")(x)
-
-model = keras.Model(inputs=input, outputs={
-                    "lvl1": lvl1, "lvl2": lvl2}, name="Overfitted_model")
-
-
-opt = keras.optimizers.Adam(learning_rate=1e-5)
+opt = keras.optimizers.Adam(learning_rate=6e-4)
 
 model.compile(
     optimizer=opt,
@@ -74,9 +81,6 @@ model.compile(
 )
 
 
-BATCH_SIZE = 32
-EPOCHS = 100
-SEED = 42
 aim_cb = AimCallback(
     repo=".",
     experiment="Vehicle_lvl_Test",

@@ -221,7 +221,7 @@ __marimo__/
 
 datasett
 requirements.txt
-.lvenv
+.venv_l
 logs/*
 datasett_src
 notebooks/.aim
