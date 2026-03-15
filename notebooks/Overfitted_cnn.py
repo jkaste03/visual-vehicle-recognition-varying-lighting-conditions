@@ -9,12 +9,13 @@ from keras import layers
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-BATCH_SIZE = 32
+BATCH_SIZE = 16
 EPOCHS = 100
 SEED = 42
 
 
 (train_x, train_y), (val_x, val_y), (test_x, test_y) = utils.read_andre_data()
+
 
 early_stop = keras.callbacks.EarlyStopping(
     monitor='val_lvl1_loss',
@@ -34,8 +35,6 @@ def build_model():
     ])
 
     # input = x = keras.Input(shape=train_x[0].shape)
-    # x = data_augmentation(x)
-    # x = layers.Rescaling(1./255)(x)
     # x = layers.Conv2D(filters=64, kernel_size=3, activation="relu")(x)
     # x = layers.MaxPool2D()(x)
     # x = layers.Conv2D(filters=128, kernel_size=3, activation="relu")(x)
@@ -44,6 +43,8 @@ def build_model():
     # # x = layers.Dropout(0.5)(x)
 
     input = x = keras.Input(shape=train_x[0].shape)
+    # x = data_augmentation(x)
+    x = layers.Rescaling(1./255)(x)
     x = layers.Conv2D(filters=32, kernel_size=3, activation="relu")(x)
     x = layers.Conv2D(filters=32, kernel_size=3, activation="relu")(x)
     x = layers.MaxPool2D()(x)
@@ -63,7 +64,7 @@ def build_model():
 
 
 model = build_model()
-
+print(model.summary())
 opt = keras.optimizers.Adam(learning_rate=6e-4)
 
 model.compile(
@@ -103,7 +104,7 @@ validation_data = (val_x, {'lvl1': val_y["lvl1"], 'lvl2': val_y["lvl2"]})
 
 y = {'lvl1': train_y["lvl1"], 'lvl2': train_y["lvl2"]}
 history = model.fit(epochs=EPOCHS, batch_size=BATCH_SIZE, x=train_x, y=y,
-                    sample_weight=sample_weight, validation_data=validation_data, callbacks=[aim_cb, early_stop])
+                    sample_weight=sample_weight, validation_data=validation_data, callbacks=[aim_cb])
 
 
 y = {'lvl1': val_y["lvl1"], 'lvl2': val_y["lvl2"]}

@@ -1,32 +1,55 @@
-import tensorflow as tf
-import pandas as pd
+from itertools import chain, combinations
+from aim.keras import AimCallback
 import numpy as np
-import utils
-from keras import layers
 import keras
-from sklearn.metrics import f1_score
-import itertools
+import utils
+import aim
+from keras import layers
 import gc
-import sys
+from sklearn.metrics import f1_score
+import tensorflow as tf
+from datetime import datetime
+
+
+tf.config.optimizer.set_jit(False)
 
 
 SEED = 42
 IMG_SIZE = (300, 300)
-EPOCHS = 100
+EPOCHS = 200
 BATCH_SIZE = 32
+FILE_NAME = "out_augmentation"
 
-AUGMENTATION_CONFIGS = [
-    ("Flip", lambda: layers.RandomFlip("horizontal",    seed=SEED)),
-    ("Rotation", lambda: layers.RandomRotation(0.05,    seed=SEED)),
-    ("Zoom", lambda: layers.RandomZoom(0.1,             seed=SEED)),
-    ("Contrast", lambda: layers.RandomContrast(0.2,     seed=SEED)),
-    ("Brightness", lambda: layers.RandomBrightness(0.2, seed=SEED)),
-]
 
-LAYER_NAMES = [name for (name, _) in AUGMENTATION_CONFIGS]
+def v4_model(augmentation):
+    input = x = keras.Input(shape=(*IMG_SIZE, 3))
+    x = augmentation(x)
+    x = layers.Rescaling(1./255)(x)
+    x = layers.Conv2D(filters=32, kernel_size=3, activation="relu")(x)
+    x = layers.Conv2D(filters=32, kernel_size=3, activation="relu")(x)
+    x = layers.MaxPool2D()(x)
+    x = layers.Conv2D(filters=64, kernel_size=3, activation="relu")(x)
+    x = layers.Conv2D(filters=64, kernel_size=3, activation="relu")(x)
+    x = layers.MaxPool2D()(x)
+    x = layers.Conv2D(filters=128, kernel_size=3, activation="relu")(x)
+    x = layers.Conv2D(filters=128, kernel_size=3, activation="relu")(x)
+    x = layers.MaxPool2D()(x)
+    x = layers.Conv2D(filters=256, kernel_size=3, activation="relu")(x)
+    x = layers.GlobalAveragePooling2D()(x)
+    x = layers.Dense(256, activation="relu")(x)
+    x = layers.Dense(128, activation="relu")(x)
+
+    lvl1 = layers.Dense(1, activation="sigmoid", name="lvl1")(x)
+    lvl2 = layers.Dense(7, activation="softmax", name="lvl2")(x)
+
+    return keras.Model(inputs=input, outputs={"lvl1": lvl1, "lvl2": lvl2}, name="v4_model")
 
 
 (train_x, train_y), (val_x, val_y), (test_x, test_y) = utils.read_andre_data()
+
+train_y_dict = {'lvl1': train_y["lvl1"], 'lvl2': train_y["lvl2"]}
+val_y_dict = {'lvl1': val_y["lvl1"], 'lvl2': val_y["lvl2"]}
+validation_data = (val_x, {'lvl1': val_y["lvl1"], 'lvl2': val_y["lvl2"]})
 
 early_stop = keras.callbacks.EarlyStopping(
     monitor='val_lvl1_loss',
@@ -35,119 +58,91 @@ early_stop = keras.callbacks.EarlyStopping(
     restore_best_weights=True
 )
 
-with open('out.txt', 'w') as f:
-    def get_combinations():
-        all_combos = []
-        for r in range(1, len(AUGMENTATION_CONFIGS) + 1):
-            for combo in itertools.combinations(range(len(AUGMENTATION_CONFIGS)), r):
-                all_combos.append(combo)
-        return all_combos
+aim_cb = AimCallback(
+    repo=".",
+    experiment="Vehicle_lvl_Test",
+)
 
-    def build_dynamic_model(selected_indices):
-        input_layer = keras.Input(shape=(*IMG_SIZE, 3))
-        x = input_layer
+sample_weight = {
+    "lvl1": np.ones(len(train_y)),
+    "lvl2": train_y['lvl1'].to_numpy()
+}
 
-        # Create fresh augmentation layers each time (no global layer instances)
-        for i in selected_indices:
-            _, layer_factory = AUGMENTATION_CONFIGS[i]
-            x = layer_factory()(x)
+data_augmentation = [
+    layers.RandomFlip("horizontal", seed=SEED),
+    layers.RandomRotation(0.05, seed=SEED),
+    layers.RandomZoom(0.1, seed=SEED),
+    layers.RandomContrast(0.2, seed=SEED),
+    layers.RandomBrightness(factor=0.2, seed=SEED)
+]
 
-        x = layers.Conv2D(filters=32, kernel_size=3, activation="relu")(x)
-        x = layers.Conv2D(filters=32, kernel_size=3, activation="relu")(x)
-        x = layers.MaxPool2D()(x)
-        x = layers.Conv2D(filters=64, kernel_size=3, activation="relu")(x)
-        x = layers.Conv2D(filters=64, kernel_size=3, activation="relu")(x)
-        x = layers.MaxPool2D()(x)
-        x = layers.Conv2D(filters=128, kernel_size=3, activation="relu")(x)
-        x = layers.MaxPool2D()(x)
-        x = layers.GlobalAveragePooling2D()(x)
-        x = layers.Dense(128, activation="relu")(x)
 
-        lvl1 = layers.Dense(1, activation="sigmoid", name="lvl1")(x)
-        lvl2 = layers.Dense(7, activation="softmax", name="lvl2")(x)
+def powerset(iterable):
+    s = list(iterable)
+    return chain.from_iterable(combinations(s, r) for r in range(len(s) + 1))
 
-        return keras.Model(inputs=input_layer, outputs={"lvl1": lvl1, "lvl2": lvl2})
 
-    results = []
-    best_f1 = -1
-    best_config = None
+best_loss = 99999
+best_combo = ""
+power_set = list(powerset(data_augmentation))
 
-    combinations = get_combinations()
-    print(
-        f"Starter testing av {len(combinations)} ulike augmentasjons-konfigurasjoner...")
 
-    for combo_indices in combinations:
-        current_names = [LAYER_NAMES[i] for i in combo_indices]
-        config_str = " + ".join(current_names)
-        print(f"\n[Tester]: {config_str}", file=f)
+with open(FILE_NAME, mode="w") as f:
+    for combo in power_set[1:]:
+        now = datetime.now()
+        print(now, file=f)
 
-        model = build_dynamic_model(combo_indices)
+        print("combo =", combo, file=f)
+
+        model = v4_model(keras.Sequential([*combo]))
+
+        opt = keras.optimizers.Adam(learning_rate=6e-4)
+
         model.compile(
-            optimizer=keras.optimizers.Adam(learning_rate=6e-4),
-            loss={"lvl1": "binary_crossentropy",
-                  "lvl2": "sparse_categorical_crossentropy"},
-            metrics={"lvl1": [keras.metrics.BinaryAccuracy(name="acc")]},
+            optimizer=opt,
+            loss={
+                "lvl1": keras.losses.BinaryCrossentropy(),
+                "lvl2": keras.losses.SparseCategoricalCrossentropy(),
+            },
+            metrics={
+                "lvl1": [keras.metrics.BinaryAccuracy(name="acc")],
+            },
             weighted_metrics={
-                "lvl2": [keras.metrics.SparseCategoricalAccuracy(name="acc")]},
+                "lvl2": [keras.metrics.SparseCategoricalAccuracy(name="acc")],
+            },
         )
 
-        y = {'lvl1': train_y["lvl1"], 'lvl2': train_y["lvl2"]}
-
-        n_samples = len(train_y["lvl1"])  # IMPORTANT: use number of samples
-        sample_weight = {
-            "lvl1": np.ones(n_samples, dtype=np.float32),
-            "lvl2": train_y['lvl1'].to_numpy(dtype=np.float32),
-        }
-
-        validation_data = (
-            val_x, {'lvl1': val_y["lvl1"], 'lvl2': val_y["lvl2"]})
-
-        model.fit(
+        history = model.fit(
             x=train_x,
-            y=y,
+            y=train_y_dict,
+            batch_size=BATCH_SIZE,
+            callbacks=[aim_cb],
             sample_weight=sample_weight,
             validation_data=validation_data,
-            epochs=EPOCHS,
-            batch_size=BATCH_SIZE,
-            callbacks=[early_stop],
-            verbose=0
+            epochs=EPOCHS
         )
 
-        preds = model.predict(val_x, verbose=0)
-        p1_probs = preds['lvl1'].flatten()
-        y_pred = (p1_probs >= 0.5).astype(int)
+        val = model.evaluate(x=val_x, y=val_y_dict, return_dict=True)
 
-        current_f1 = f1_score(val_y['lvl1'], y_pred)
+        val_losses = history.history["val_loss"]
+        best_epoch_index = int(np.argmin(val_losses))
+        best_epoch = best_epoch_index + 1
 
-        results.append({
-            "Config": config_str,
-            "F1_Score": current_f1
-        })
+        if (best_loss > val_losses[best_epoch_index]):
+            best_loss = val_losses[best_epoch_index]
+            best_combo = str(combo)
 
-        print(f"Resultat F1: {current_f1:.4f}", file=f, flush=True)
+        print(f"Best epoch (1-based): {best_epoch}", file=f)
+        print(
+            f"val_loss at best epoch: {val_losses[best_epoch_index]}", file=f)
 
-        if current_f1 > best_f1:
-            best_f1 = current_f1
-            best_config = config_str
+        print(history.history.items(), file=f)
 
-        del config_str
+        print(val, file=f)
+        print(file=f)
+        print(file=f)
+        print(file=f)
+        print(file=f, flush=True)
         del model
-        del current_names
-        del y
-        del validation_data
-        del n_samples
-        del sample_weight
-        del preds
-        del p1_probs
-        del y_pred
-        del current_f1
-        keras.backend.clear_session()
         gc.collect()
-
-    df_results = pd.DataFrame(results).sort_values(
-        by="F1_Score", ascending=False)
-    print("\n--- ENDELIG RANKING ---", file=f)
-    print(df_results, file=f)
-
-    print(
-        f"\nBeste konfigurasjon: {best_config} med F1-score: {best_f1:.4f}", file=f)
+    print("best combo: ", best_combo, "  best_loss: ", best_loss, file=f)
