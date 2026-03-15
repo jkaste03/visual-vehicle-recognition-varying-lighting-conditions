@@ -114,18 +114,26 @@ def decode_image_file(path: tf.Tensor) -> tf.Tensor:
     return tf.image.convert_image_dtype(img, tf.float32)
 
 
-def decode_and_preprocess(
-    path: tf.Tensor,
+def preprocess_image_tensor(
+    img: tf.Tensor,
     target: int,
     crop_fraction_of_excess: float = 0.5,
 ) -> tf.Tensor:
     """
-    Leser bildefil fra path, dekoder til RGB float32 [0,1],
-    og bruker formatavhengig preprocessing:
+    Tar inn et ferdig bilde som tensor og bruker formatavhengig preprocessing:
     - square/portrait -> resize + center crop
     - landscape -> hybrid crop + reflect
+
+    Forventet input:
+    - shape [H, W, 3]
+    - dtype uint8 eller float32
+    - RGB-kanaler
     """
-    img = decode_image_file(path)
+    img = tf.convert_to_tensor(img)
+
+    # Konverter til float32 i [0, 1] hvis nødvendig
+    if img.dtype != tf.float32:
+        img = tf.image.convert_image_dtype(img, tf.float32)
 
     shape = tf.shape(img)
     h = shape[0]
@@ -143,3 +151,20 @@ def decode_and_preprocess(
 
     img = tf.ensure_shape(img, [target, target, 3])
     return img
+
+
+def decode_and_preprocess(
+    path: tf.Tensor,
+    target: int,
+    crop_fraction_of_excess: float = 0.5,
+) -> tf.Tensor:
+    """
+    Leser bildefil fra path, dekoder til RGB float32 [0,1],
+    og bruker samme preprocessing som preprocess_image_tensor().
+    """
+    img = decode_image_file(path)
+    return preprocess_image_tensor(
+        img,
+        target=target,
+        crop_fraction_of_excess=crop_fraction_of_excess,
+    )
