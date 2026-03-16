@@ -16,7 +16,7 @@ tf.config.optimizer.set_jit(False)
 SEED = 42
 IMG_SIZE = (300, 300)
 EPOCHS = 150
-BATCH_SIZE = 32
+BATCH_SIZE = 16
 FILE_NAME = "out_baseline_padding.txt"
 
 
@@ -30,7 +30,6 @@ def faiga_model():
     x = layers.Conv2D(filters=64, kernel_size=3, activation="relu")(x)
     x = layers.MaxPool2D()(x)
     x = layers.Conv2D(filters=128, kernel_size=3, activation="relu")(x)
-    x = layers.MaxPool2D()(x)
     x = layers.GlobalAveragePooling2D()(x)
     x = layers.Dense(128, activation="relu")(x)
 
@@ -56,6 +55,8 @@ def v1_model():
     x = layers.Conv2D(filters=128, kernel_size=3,
                       activation="relu", strides=2, padding="same")(x)
     x = layers.MaxPool2D()(x)
+    x = layers.Conv2D(filters=256, kernel_size=3,
+                      activation="relu", strides=2, padding="same")(x)
     x = layers.GlobalAveragePooling2D()(x)
     x = layers.Dense(128, activation="relu")(x)
 
@@ -80,10 +81,8 @@ def v2_model():
     x = layers.MaxPool2D()(x)
     x = layers.Conv2D(filters=128, kernel_size=3,
                       activation="relu", padding="same")(x)
-    x = layers.MaxPool2D()(x)
     x = layers.GlobalAveragePooling2D()(x)
-    x = layers.Dense(128, activation="relu")(x)
-    x = layers.Dense(128, activation="relu")(x)
+    x = layers.Dense(256, activation="relu")(x)
 
     lvl1 = layers.Dense(1, activation="sigmoid", name="lvl1")(x)
     lvl2 = layers.Dense(7, activation="softmax", name="lvl2")(x)
@@ -94,17 +93,19 @@ def v2_model():
 def v3_model():
     input = x = keras.Input(shape=(*IMG_SIZE, 3))
     x = layers.Rescaling(1./255)(x)
-    x = layers.Conv2D(filters=32, kernel_size=4,
+    x = layers.Conv2D(filters=32, kernel_size=3,
                       activation="relu", padding="same")(x)
-    x = layers.Conv2D(filters=32, kernel_size=4,
-                      activation="relu", padding="same")(x)
-    x = layers.MaxPool2D()(x)
-    x = layers.Conv2D(filters=64, kernel_size=4,
-                      activation="relu", padding="same")(x)
-    x = layers.Conv2D(filters=64, kernel_size=4,
+    x = layers.Conv2D(filters=32, kernel_size=3,
                       activation="relu", padding="same")(x)
     x = layers.MaxPool2D()(x)
-    x = layers.Conv2D(filters=128, kernel_size=4,
+    x = layers.Conv2D(filters=64, kernel_size=3,
+                      activation="relu", padding="same")(x)
+    x = layers.Conv2D(filters=64, kernel_size=3,
+                      activation="relu", padding="same")(x)
+    x = layers.MaxPool2D()(x)
+    x = layers.Conv2D(filters=128, kernel_size=3,
+                      activation="relu", padding="same")(x)
+    x = layers.Conv2D(filters=128, kernel_size=3,
                       activation="relu", padding="same")(x)
     x = layers.MaxPool2D()(x)
     x = layers.GlobalAveragePooling2D()(x)
@@ -138,7 +139,6 @@ def v4_model():
                       activation="relu", padding="same")(x)
     x = layers.GlobalAveragePooling2D()(x)
     x = layers.Dense(256, activation="relu")(x)
-    x = layers.Dense(128, activation="relu")(x)
 
     lvl1 = layers.Dense(1, activation="sigmoid", name="lvl1")(x)
     lvl2 = layers.Dense(7, activation="softmax", name="lvl2")(x)
@@ -149,37 +149,20 @@ def v4_model():
 def v5_model():
     input = keras.Input(shape=(*IMG_SIZE, 3))
     x = layers.Rescaling(1.0 / 255)(input)
-
-    # Block 1
     x = layers.Conv2D(64, 3, padding="same", activation="relu")(x)
     x = layers.Conv2D(64, 3, padding="same", activation="relu")(x)
-
     x = layers.MaxPool2D()(x)
-
-    # Block 2
     x = layers.Conv2D(128, 3, padding="same", activation="relu")(x)
     x = layers.Conv2D(128, 3, padding="same", activation="relu")(x)
-
     x = layers.MaxPool2D()(x)
-
-    # Block 3
     x = layers.Conv2D(256, 3, padding="same", activation="relu")(x)
-    x = layers.Conv2D(256, 3, padding="same", activation="relu")(x)
-
-    x = layers.MaxPool2D()(x)
-
-    # Keep more spatial info (optional: fewer pooling layers if you want even more params)
     x = layers.GlobalAveragePooling2D()(x)
-
-    # Big dense head -> lots of parameters
-    x = layers.Dense(1024, activation="relu")(x)
     x = layers.Dense(512, activation="relu")(x)
-    x = layers.Dense(256, activation="relu")(x)
 
     lvl1 = layers.Dense(1, activation="sigmoid", name="lvl1")(x)
     lvl2 = layers.Dense(7, activation="softmax", name="lvl2")(x)
 
-    return keras.Model(inputs=input, outputs={"lvl1": lvl1, "lvl2": lvl2}, name="GPT")
+    return keras.Model(inputs=input, outputs={"lvl1": lvl1, "lvl2": lvl2}, name="André")
 
 
 (train_x, train_y), (val_x, val_y), (test_x, test_y) = utils.read_andre_data()
