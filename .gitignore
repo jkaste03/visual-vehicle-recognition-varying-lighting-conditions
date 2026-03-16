@@ -223,4 +223,10 @@ datasett_src
 requirements.txt
 .lvenv
 logs/*
+.aim/
+notebooks/results/
+notebooks/checkpoints/
+
+datasett_src
+notebooks/logs
 gradio/.gradio

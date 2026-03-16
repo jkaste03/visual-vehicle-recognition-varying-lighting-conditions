@@ -1,0 +1,2 @@
+image_original,image_normalized,chosen,num_matches,matches,via
+/data/upload/3/5a858483-Tesla-Model-X.webp,5a858483-Tesla-Model-X.webp,Eksternt/Tesla/daylight/Kaggle/3/Tesla-Model-X.jpg,2,Eksternt/Tesla/daylight/Kaggle/3/Tesla-Model-X.jpg|Eksternt/Tesla/daylight/Kaggle/X/tesla-model-x.png,stem_ambiguous:Tesla-Model-X.webp
