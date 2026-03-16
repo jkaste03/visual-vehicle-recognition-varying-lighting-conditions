@@ -223,3 +223,5 @@ datasett
 requirements.txt
 .lvenv
 logs/*
+datasett_src
+gradio/.gradio
