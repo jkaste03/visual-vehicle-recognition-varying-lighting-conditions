@@ -14,10 +14,12 @@ internal = internal[labels]
 external = pd.read_csv(base_dir / 'annotations/external.csv')
 external = external[labels]
 
+# De to linjene under er basert på: https://stackoverflow.com/questions/71523769/merge-two-columns-into-one-with-nan-values
 internal['year'] = internal[['year_3', 'year_s', 'year_x', 'year_y']].bfill(
     axis='columns').iloc[:, 0]
 external['year'] = external[['year_3', 'year_s', 'year_x', 'year_y']].bfill(
     axis='columns').iloc[:, 0]
+# De to linjene under er basert på: https://stackoverflow.com/questions/40389018/dropping-multiple-columns-from-a-dataframe
 internal.drop(['year_3', 'year_s', 'year_x', 'year_y'], axis=1, inplace=True)
 external.drop(['year_3', 'year_s', 'year_x', 'year_y'], axis=1, inplace=True)
 
