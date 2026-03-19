@@ -17,7 +17,7 @@ tf.config.optimizer.set_jit(False)
 SEED = 42
 IMG_SIZE = (300, 300)
 EPOCHS = 200
-BATCH_SIZE = 32
+BATCH_SIZE = 16
 FILE_NAME = "out_augmentation"
 
 
@@ -25,19 +25,25 @@ def v4_model(augmentation):
     input = x = keras.Input(shape=(*IMG_SIZE, 3))
     x = augmentation(x)
     x = layers.Rescaling(1./255)(x)
-    x = layers.Conv2D(filters=32, kernel_size=3, activation="relu")(x)
-    x = layers.Conv2D(filters=32, kernel_size=3, activation="relu")(x)
+    x = layers.Conv2D(filters=32, kernel_size=3,
+                      activation="relu", padding="same")(x)
+    x = layers.Conv2D(filters=32, kernel_size=3,
+                      activation="relu", padding="same")(x)
     x = layers.MaxPool2D()(x)
-    x = layers.Conv2D(filters=64, kernel_size=3, activation="relu")(x)
-    x = layers.Conv2D(filters=64, kernel_size=3, activation="relu")(x)
+    x = layers.Conv2D(filters=64, kernel_size=3,
+                      activation="relu", padding="same")(x)
+    x = layers.Conv2D(filters=64, kernel_size=3,
+                      activation="relu", padding="same")(x)
     x = layers.MaxPool2D()(x)
-    x = layers.Conv2D(filters=128, kernel_size=3, activation="relu")(x)
-    x = layers.Conv2D(filters=128, kernel_size=3, activation="relu")(x)
+    x = layers.Conv2D(filters=128, kernel_size=3,
+                      activation="relu", padding="same")(x)
+    x = layers.Conv2D(filters=128, kernel_size=3,
+                      activation="relu", padding="same")(x)
     x = layers.MaxPool2D()(x)
-    x = layers.Conv2D(filters=256, kernel_size=3, activation="relu")(x)
+    x = layers.Conv2D(filters=256, kernel_size=3,
+                      activation="relu", padding="same")(x)
     x = layers.GlobalAveragePooling2D()(x)
     x = layers.Dense(256, activation="relu")(x)
-    x = layers.Dense(128, activation="relu")(x)
 
     lvl1 = layers.Dense(1, activation="sigmoid", name="lvl1")(x)
     lvl2 = layers.Dense(7, activation="softmax", name="lvl2")(x)
@@ -71,7 +77,18 @@ sample_weight = {
 data_augmentation = [
     layers.RandomFlip("horizontal", seed=SEED),
     layers.RandomRotation(0.05, seed=SEED),
-    layers.RandomZoom(0.1, seed=SEED),
+    layers.RandomZoom(
+        height_factor=(-0.03, 0.01),
+        width_factor=(-0.03, 0.01),
+        fill_mode="reflect",
+        seed=SEED
+    ),
+    keras.layers.RandomTranslation(
+        height_factor=0.03,
+        width_factor=0.03,
+        fill_mode="reflect",
+        seed=SEED
+    ),
     layers.RandomContrast(0.2, seed=SEED),
     layers.RandomBrightness(factor=0.2, seed=SEED)
 ]
@@ -123,6 +140,10 @@ with open(FILE_NAME, mode="w") as f:
         )
 
         val = model.evaluate(x=val_x, y=val_y_dict, return_dict=True)
+        preds = model.predict(val_x, verbose="0")
+        p1_probs = preds['lvl1'].flatten()
+        y_pred = (p1_probs >= 0.5).astype(int)
+        current_f1 = f1_score(val_y['lvl1'], y_pred)
 
         val_losses = history.history["val_loss"]
         best_epoch_index = int(np.argmin(val_losses))

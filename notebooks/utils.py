@@ -76,12 +76,11 @@ def read_andre_data(target_size=(300, 300)):
     val_df = pd.read_csv(BASE_DIR / 'datasplitt/val.csv')
     test_df = pd.read_csv(BASE_DIR / 'datasplitt/test.csv')
 
-    # Fit encoders on training data
     le_gate1 = LabelEncoder()
     le_gate1.fit(train_df['lvl1'])
 
     le_gate2 = LabelEncoder()
-    # Ensure we only fit on non-null Tesla rows
+
     tesla_train = train_df[train_df['lvl1'] == 'Tesla']['lvl2']
     le_gate2.fit(tesla_train)
 

@@ -229,3 +229,5 @@ notebooks/.aim
 
 notebooks/checkpoints
 gradio/.gradio
+.python-version
+bayesian_search

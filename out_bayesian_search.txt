@@ -1,0 +1,18 @@
+2026-03-17 20:00:50.954603
+Best hyperparameters:
+use_flip: True
+use_rotation: False
+max_rotation: 0.03
+use_zoom: False
+max_zoom_in: 0.02
+max_zoom_out: 0.0
+use_translation: False
+max_translation: 0.1
+use_contrast: False
+contrast_factor: 0.05
+use_brightness: False
+brightness_factor: 0.4
+Validation metrics:
+{'loss': 2.178454637527466, 'lvl1_acc': 0.8909541368484497, 'lvl1_loss': 0.2678368389606476, 'lvl2_acc': 0.3667905926704407, 'lvl2_loss': 1.9288209676742554}
+F1 (lvl1): 0.8757062146892656
+
