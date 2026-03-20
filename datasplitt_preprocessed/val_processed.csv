@@ -1,0 +1,808 @@
+color,image,lighting,model,source,year,lvl1,lvl2,strat_key,w_lvl2,y_lvl1,w_lvl1,y_lvl2,processed_image
+Light gray/Silver,Egenprodusert/non-tesla/dark/IMG_1951.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_1951.jpg
+Black/Dark gray,Egenprodusert/non-tesla/dark/20260303_181544713_iOS.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/20260303_181544713_iOS.jpg
+Black/Dark gray,Egenprodusert/non-tesla/dark/20260303_180013070_iOS.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/20260303_180013070_iOS.jpg
+Light gray/Silver,Egenprodusert/non-tesla/low-light/IMG_4358.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_4358.jpg
+Red,Eksternt/Tesla/daylight/Kaggle/3/images - 2023-08-30T070939.517.jpg,Light,3 2017–2023,external,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Light,1.0,1,1.0,0,val/Eksternt/Tesla/daylight/Kaggle/3/images - 2023-08-30T070939.jpg
+Blue,Eksternt/Tesla/daylight/Kaggle/X/t124.jpg,Light,X,external,2016–2020,Tesla,X,Tesla|X|Light,1.0,1,1.0,4,val/Eksternt/Tesla/daylight/Kaggle/X/t124.jpg
+Black/Dark gray,Egenprodusert/Tesla/daylight/%~n1-423.jpg,Light,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Egenprodusert/Tesla/daylight/%~n1-423.jpg
+Black/Dark gray,Egenprodusert/non-tesla/low-light/20260128_071510770_iOS.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/20260128_071510770_iOS.jpg
+Light gray/Silver,Egenprodusert/non-tesla/dark/20260303_183159700_iOS.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/20260303_183159700_iOS.jpg
+Black/Dark gray,Eksternt/Tesla/daylight/Kaggle/S/Tesla_S90D_Ext-1.jpg,Light,S 2016–nå,external,2016–2020,Tesla,S 2016–nå,Tesla|S 2016–nå|Light,1.0,1,1.0,3,val/Eksternt/Tesla/daylight/Kaggle/S/Tesla_S90D_Ext-1.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/1236_02913.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1236_02913.jpg
+Blue,Eksternt/non-tesla/daylight/0127_05649.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0127_05649.jpg
+Black/Dark gray,Egenprodusert/Tesla/dark/IMG_4221.jpg,Dark,S 2016–nå,internal,2016–2020,Tesla,S 2016–nå,Tesla|S 2016–nå|Dark,1.0,1,1.0,3,val/Egenprodusert/Tesla/dark/IMG_4221.jpg
+White,Egenprodusert/Tesla/daylight/%~n1-426.jpg,Light,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Egenprodusert/Tesla/daylight/%~n1-426.jpg
+Blue,Egenprodusert/Tesla/dark/IMG_1193.jpg,Dark,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Dark,1.0,1,1.0,6,val/Egenprodusert/Tesla/dark/IMG_1193.jpg
+Red,Eksternt/Tesla/daylight/Kaggle/Y/t103.jpg,Light,Y 2020–2024,external,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Eksternt/Tesla/daylight/Kaggle/Y/t103.jpg
+Black/Dark gray,Egenprodusert/Tesla/daylight/IMG_1350.jpg,Light,3 2017–2023,internal,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Light,1.0,1,1.0,0,val/Egenprodusert/Tesla/daylight/IMG_1350.jpg
+Light gray/Silver,Egenprodusert/non-tesla/dark/20260303_175541352_iOS.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/20260303_175541352_iOS.jpg
+Black/Dark gray,Egenprodusert/Tesla/daylight/IMG_4025.jpg,Light,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Light,1.0,1,1.0,6,val/Egenprodusert/Tesla/daylight/IMG_4025.jpg
+Black/Dark gray,Eksternt/Tesla/daylight/Kaggle/X/IMG_89874-large.jpg,Light,X,external,2016–2020,Tesla,X,Tesla|X|Light,1.0,1,1.0,4,val/Eksternt/Tesla/daylight/Kaggle/X/IMG_89874-large.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/0165_07414.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0165_07414.jpg
+White,Eksternt/non-tesla/daylight/1829_05733.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1829_05733.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/0780_01742.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0780_01742.jpg
+Black/Dark gray,Egenprodusert/Tesla/dark/IMG_3780.jpg,Dark,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Dark,1.0,1,1.0,5,val/Egenprodusert/Tesla/dark/IMG_3780.jpg
+Black/Dark gray,Egenprodusert/Tesla/low-light/IMG_1245.jpg,Medium,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Medium,1.0,1,1.0,5,val/Egenprodusert/Tesla/low-light/IMG_1245.jpg
+Red,Eksternt/non-tesla/daylight/2152_03789.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/2152_03789.jpg
+White,Eksternt/non-tesla/daylight/0537_01836.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0537_01836.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/0727_04846.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0727_04846.jpg
+Red,Egenprodusert/Tesla/dark/IMG_3839.jpg,Dark,3 2024–nå,internal,2024–nå,Tesla,3 2024–nå,Tesla|3 2024–nå|Dark,1.0,1,1.0,1,val/Egenprodusert/Tesla/dark/IMG_3839.jpg
+Red,Eksternt/non-tesla/daylight/0736_01932.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0736_01932.jpg
+White,Egenprodusert/Tesla/dark/IMG_4293.jpg,Dark,X,internal,2016–2020,Tesla,X,Tesla|X|Dark,1.0,1,1.0,4,val/Egenprodusert/Tesla/dark/IMG_4293.jpg
+White,Eksternt/non-tesla/daylight/0428_01383.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0428_01383.jpg
+White,Egenprodusert/Tesla/low-light/IMG_4141.jpg,Medium,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Medium,1.0,1,1.0,6,val/Egenprodusert/Tesla/low-light/IMG_4141.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/1914_07897.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1914_07897.jpg
+White,Egenprodusert/non-tesla/low-light/IMG_1839.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_1839.jpg
+Red,Egenprodusert/Tesla/daylight/20260207_143307868_iOS.jpg,Light,S 2012–2015,internal,2012–2015,Tesla,S 2012–2015,Tesla|S 2012–2015|Light,1.0,1,1.0,2,val/Egenprodusert/Tesla/daylight/20260207_143307868_iOS.jpg
+White,Eksternt/non-tesla/daylight/2041_05848.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/2041_05848.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/1347_05138.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1347_05138.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/0342_06339.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0342_06339.jpg
+White,Eksternt/non-tesla/daylight/1557_07278.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1557_07278.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/0266_01672.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0266_01672.jpg
+White,Egenprodusert/Tesla/low-light/%~n1-261.jpg,Medium,3 2017–2023,internal,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Medium,1.0,1,1.0,0,val/Egenprodusert/Tesla/low-light/%~n1-261.jpg
+Black/Dark gray,Egenprodusert/Tesla/low-light/%~n1-278.jpg,Medium,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Medium,1.0,1,1.0,5,val/Egenprodusert/Tesla/low-light/%~n1-278.jpg
+Black/Dark gray,Egenprodusert/Tesla/dark/IMG_4158.jpg,Dark,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Dark,1.0,1,1.0,5,val/Egenprodusert/Tesla/dark/IMG_4158.jpg
+Light gray/Silver,Egenprodusert/non-tesla/daylight/IMG_1724.jpg,Light,Other car,internal,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Egenprodusert/non-tesla/daylight/IMG_1724.jpg
+Red,Eksternt/non-tesla/daylight/2114_04222.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/2114_04222.jpg
+Black/Dark gray,Egenprodusert/non-tesla/low-light/IMG_2025.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_2025.jpg
+Black/Dark gray,Egenprodusert/non-tesla/low-light/IMG_4740.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_4740.jpg
+White,Egenprodusert/non-tesla/low-light/IMG_4605.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_4605.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/0049_00725.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0049_00725.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/1819_06996.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1819_06996.jpg
+Black/Dark gray,Egenprodusert/Tesla/low-light/IMG_1581.jpg,Medium,3 2017–2023,internal,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Medium,1.0,1,1.0,0,val/Egenprodusert/Tesla/low-light/IMG_1581.jpg
+White,Eksternt/non-tesla/daylight/2185_01958.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/2185_01958.jpg
+Black/Dark gray,Egenprodusert/non-tesla/dark/IMG_4840.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_4840.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/0595_06317.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0595_06317.jpg
+Black/Dark gray,Egenprodusert/Tesla/low-light/IMG_1323.jpg,Medium,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Medium,1.0,1,1.0,5,val/Egenprodusert/Tesla/low-light/IMG_1323.jpg
+Black/Dark gray,Egenprodusert/Tesla/dark/IMG_3854.jpg,Dark,3 2017–2023,internal,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Dark,1.0,1,1.0,0,val/Egenprodusert/Tesla/dark/IMG_3854.jpg
+White,Eksternt/non-tesla/daylight/1924_03495.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1924_03495.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/0455_00614.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0455_00614.jpg
+Black/Dark gray,Egenprodusert/Tesla/dark/%~n1-317.jpg,Dark,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Dark,1.0,1,1.0,6,val/Egenprodusert/Tesla/dark/%~n1-317.jpg
+Black/Dark gray,Egenprodusert/Tesla/low-light/IMG_4045.jpg,Medium,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Medium,1.0,1,1.0,6,val/Egenprodusert/Tesla/low-light/IMG_4045.jpg
+White,Eksternt/Tesla/daylight/Kaggle/3/images - 2023-08-30T070952.813.jpg,Light,3 2017–2023,external,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Light,1.0,1,1.0,0,val/Eksternt/Tesla/daylight/Kaggle/3/images - 2023-08-30T070952.jpg
+Red,Eksternt/non-tesla/daylight/1941_02618.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1941_02618.jpg
+Black/Dark gray,Egenprodusert/Tesla/dark/IMG_1621.jpg,Dark,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Dark,1.0,1,1.0,6,val/Egenprodusert/Tesla/dark/IMG_1621.jpg
+Light gray/Silver,Eksternt/Tesla/daylight/Kaggle/S/t166.jpg,Light,S 2016–nå,external,2016–2020,Tesla,S 2016–nå,Tesla|S 2016–nå|Light,1.0,1,1.0,3,val/Eksternt/Tesla/daylight/Kaggle/S/t166.jpg
+Blue,Eksternt/non-tesla/daylight/1627_03420.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1627_03420.jpg
+Red,Eksternt/non-tesla/daylight/1323_00302.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1323_00302.jpg
+White,Eksternt/Tesla/daylight/Kaggle/3/2022_tesla_model-3_sedan_performance_fq_oem_1_1600.jpg,Light,3 2017–2023,external,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Light,1.0,1,1.0,0,val/Eksternt/Tesla/daylight/Kaggle/3/2022_tesla_model-3_sedan_performance_fq_oem_1_1600.jpg
+Black/Dark gray,Egenprodusert/Tesla/low-light/IMG_1646.jpg,Medium,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Medium,1.0,1,1.0,6,val/Egenprodusert/Tesla/low-light/IMG_1646.jpg
+Red,Eksternt/non-tesla/daylight/0368_01112.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0368_01112.jpg
+Light gray/Silver,Egenprodusert/Tesla/low-light/IMG_3741.jpg,Medium,S 2012–2015,internal,2012–2015,Tesla,S 2012–2015,Tesla|S 2012–2015|Medium,1.0,1,1.0,2,val/Egenprodusert/Tesla/low-light/IMG_3741.jpg
+White,Egenprodusert/Tesla/low-light/IMG_1252.jpg,Medium,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Medium,1.0,1,1.0,5,val/Egenprodusert/Tesla/low-light/IMG_1252.jpg
+Red,Eksternt/Tesla/daylight/Stanford/015244.jpg,Light,S 2012–2015,external,2012–2015,Tesla,S 2012–2015,Tesla|S 2012–2015|Light,1.0,1,1.0,2,val/Eksternt/Tesla/daylight/Stanford/015244.jpg
+White,Eksternt/non-tesla/daylight/1370_01608.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1370_01608.jpg
+Light gray/Silver,Egenprodusert/non-tesla/dark/20260303_181301254_iOS.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/20260303_181301254_iOS.jpg
+Red,Egenprodusert/non-tesla/dark/IMG_4394.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_4394.jpg
+Black/Dark gray,Egenprodusert/non-tesla/low-light/IMG_2055.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_2055.jpg
+White,Egenprodusert/Tesla/dark/IMG_3753.jpg,Dark,3 2024–nå,internal,2024–nå,Tesla,3 2024–nå,Tesla|3 2024–nå|Dark,1.0,1,1.0,1,val/Egenprodusert/Tesla/dark/IMG_3753.jpg
+Light gray/Silver,Egenprodusert/Tesla/low-light/IMG_1261.jpg,Medium,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Medium,1.0,1,1.0,6,val/Egenprodusert/Tesla/low-light/IMG_1261.jpg
+Blue,Eksternt/Tesla/daylight/Kaggle/Y/images - 2023-08-30T082149.962.jpg,Light,Y 2020–2024,external,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Eksternt/Tesla/daylight/Kaggle/Y/images - 2023-08-30T082149.jpg
+White,Eksternt/Tesla/daylight/Kaggle/Y/editors_images_1657768803496-Model+Y_Featured.jpg,Light,Y 2020–2024,external,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Eksternt/Tesla/daylight/Kaggle/Y/editors_images_1657768803496-Model+Y_Featured.jpg
+Black/Dark gray,Egenprodusert/Tesla/dark/%~n1-364.jpg,Dark,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Dark,1.0,1,1.0,5,val/Egenprodusert/Tesla/dark/%~n1-364.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/1724_02399.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1724_02399.jpg
+Black/Dark gray,Egenprodusert/Tesla/dark/%~n1-132.jpg,Dark,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Dark,1.0,1,1.0,5,val/Egenprodusert/Tesla/dark/%~n1-132.jpg
+White,Eksternt/non-tesla/daylight/1996_07149.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1996_07149.jpg
+Light gray/Silver,Eksternt/Tesla/daylight/Kaggle/Y/images - 2023-08-30T082148.090.jpg,Light,Y 2020–2024,external,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Eksternt/Tesla/daylight/Kaggle/Y/images - 2023-08-30T082148.jpg
+White,Eksternt/Tesla/daylight/Kaggle/Y/images (66).jpg,Light,Y 2020–2024,external,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Eksternt/Tesla/daylight/Kaggle/Y/images (66).jpg
+Black/Dark gray,Egenprodusert/Tesla/low-light/IMG_4064.jpg,Medium,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Medium,1.0,1,1.0,5,val/Egenprodusert/Tesla/low-light/IMG_4064.jpg
+Black/Dark gray,Egenprodusert/non-tesla/dark/IMG_4832.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_4832.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/2302_05022.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/2302_05022.jpg
+Light gray/Silver,Egenprodusert/Tesla/daylight/IMG_4034.jpg,Light,3 2024–nå,internal,2024–nå,Tesla,3 2024–nå,Tesla|3 2024–nå|Light,1.0,1,1.0,1,val/Egenprodusert/Tesla/daylight/IMG_4034.jpg
+White,Egenprodusert/Tesla/dark/IMG_3796.jpg,Dark,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Dark,1.0,1,1.0,5,val/Egenprodusert/Tesla/dark/IMG_3796.jpg
+Black/Dark gray,Egenprodusert/non-tesla/low-light/20260303_122632080_iOS.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/20260303_122632080_iOS.jpg
+Black/Dark gray,Egenprodusert/Tesla/dark/IMG_1333.jpg,Dark,3 2024–nå,internal,2024–nå,Tesla,3 2024–nå,Tesla|3 2024–nå|Dark,1.0,1,1.0,1,val/Egenprodusert/Tesla/dark/IMG_1333.jpg
+Black/Dark gray,Egenprodusert/Tesla/low-light/%~n1-108.jpg,Medium,X,internal,2016–2020,Tesla,X,Tesla|X|Medium,1.0,1,1.0,4,val/Egenprodusert/Tesla/low-light/%~n1-108.jpg
+Green,Eksternt/non-tesla/daylight/1771_04509.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1771_04509.jpg
+Black/Dark gray,Egenprodusert/non-tesla/dark/IMG_1994.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_1994.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/0340_07816.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0340_07816.jpg
+White,Eksternt/Tesla/daylight/Kaggle/3/images - 2023-08-30T070937.688.jpg,Light,Y 2020–2024,external,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Eksternt/Tesla/daylight/Kaggle/3/images - 2023-08-30T070937.jpg
+Black/Dark gray,Egenprodusert/non-tesla/low-light/20260303_122447862_iOS.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/20260303_122447862_iOS.jpg
+Black/Dark gray,Egenprodusert/Tesla/daylight/IMG_3874.jpg,Light,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Egenprodusert/Tesla/daylight/IMG_3874.jpg
+White,Eksternt/Tesla/daylight/Kaggle/X/images - 2023-08-30T070132.396.jpg,Light,X,external,2021–nå,Tesla,X,Tesla|X|Light,1.0,1,1.0,4,val/Eksternt/Tesla/daylight/Kaggle/X/images - 2023-08-30T070132.jpg
+White,Egenprodusert/non-tesla/dark/IMG_2035.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_2035.jpg
+Red,Egenprodusert/non-tesla/low-light/20260303_122853033_iOS.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/20260303_122853033_iOS.jpg
+White,Eksternt/non-tesla/daylight/2284_02557.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/2284_02557.jpg
+Red,Eksternt/Tesla/daylight/Kaggle/S/images - 2023-08-30T035702.300.jpg,Light,S 2016–nå,external,2021–nå,Tesla,S 2016–nå,Tesla|S 2016–nå|Light,1.0,1,1.0,3,val/Eksternt/Tesla/daylight/Kaggle/S/images - 2023-08-30T035702.jpg
+White,Eksternt/non-tesla/daylight/1091_06470.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1091_06470.jpg
+White,Egenprodusert/Tesla/low-light/IMG_4206.jpg,Dark,3 2024–nå,internal,2024–nå,Tesla,3 2024–nå,Tesla|3 2024–nå|Dark,1.0,1,1.0,1,val/Egenprodusert/Tesla/low-light/IMG_4206.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/0616_03022.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0616_03022.jpg
+Red,Egenprodusert/Tesla/daylight/IMG_3961.jpg,Light,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Egenprodusert/Tesla/daylight/IMG_3961.jpg
+Light gray/Silver,Egenprodusert/non-tesla/dark/IMG_1891.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_1891.jpg
+Red,Eksternt/non-tesla/daylight/0107_06803.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0107_06803.jpg
+Black/Dark gray,Egenprodusert/Tesla/low-light/IMG_1326.jpg,Medium,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Medium,1.0,1,1.0,5,val/Egenprodusert/Tesla/low-light/IMG_1326.jpg
+Black/Dark gray,Egenprodusert/non-tesla/dark/IMG_1943.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_1943.jpg
+Black/Dark gray,Egenprodusert/Tesla/daylight/20260207_150215076_iOS.jpg,Light,X,internal,2016–2020,Tesla,X,Tesla|X|Light,1.0,1,1.0,4,val/Egenprodusert/Tesla/daylight/20260207_150215076_iOS.jpg
+Red,Eksternt/non-tesla/daylight/1697_05798.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1697_05798.jpg
+Light gray/Silver,Egenprodusert/non-tesla/low-light/IMG_1857.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_1857.jpg
+Yellow,Eksternt/non-tesla/daylight/0369_02117.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0369_02117.jpg
+White,Eksternt/non-tesla/daylight/1497_06766.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1497_06766.jpg
+White,Egenprodusert/Tesla/dark/%~n1-273.jpg,Dark,3 2017–2023,internal,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Dark,1.0,1,1.0,0,val/Egenprodusert/Tesla/dark/%~n1-273.jpg
+Black/Dark gray,Egenprodusert/non-tesla/daylight/IMG_1746.jpg,Light,Other car,internal,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Egenprodusert/non-tesla/daylight/IMG_1746.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/0193_06578.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0193_06578.jpg
+Black/Dark gray,Egenprodusert/Tesla/dark/%~n1-90.jpg,Dark,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Dark,1.0,1,1.0,5,val/Egenprodusert/Tesla/dark/%~n1-90.jpg
+Red,Egenprodusert/Tesla/daylight/20260207_143310316_iOS.jpg,Light,S 2012–2015,internal,2012–2015,Tesla,S 2012–2015,Tesla|S 2012–2015|Light,1.0,1,1.0,2,val/Egenprodusert/Tesla/daylight/20260207_143310316_iOS.jpg
+White,Eksternt/Tesla/daylight/Kaggle/X/t41.jpg,Light,X,external,2016–2020,Tesla,X,Tesla|X|Light,1.0,1,1.0,4,val/Eksternt/Tesla/daylight/Kaggle/X/t41.jpg
+Black/Dark gray,Egenprodusert/Tesla/dark/IMG_4138.jpg,Dark,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Dark,1.0,1,1.0,5,val/Egenprodusert/Tesla/dark/IMG_4138.jpg
+Light gray/Silver,Egenprodusert/non-tesla/dark/IMG_1276.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_1276.jpg
+Black/Dark gray,Egenprodusert/Tesla/daylight/IMG_4005.jpg,Light,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Light,1.0,1,1.0,6,val/Egenprodusert/Tesla/daylight/IMG_4005.jpg
+Black/Dark gray,Egenprodusert/Tesla/dark/IMG_4234.jpg,Dark,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Dark,1.0,1,1.0,6,val/Egenprodusert/Tesla/dark/IMG_4234.jpg
+Blue,Egenprodusert/non-tesla/low-light/20260128_071306071_iOS.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/20260128_071306071_iOS.jpg
+Black/Dark gray,Egenprodusert/non-tesla/dark/IMG_4379.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_4379.jpg
+Light gray/Silver,Egenprodusert/non-tesla/dark/20260303_182503967_iOS.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/20260303_182503967_iOS.jpg
+Blue,Egenprodusert/Tesla/low-light/IMG_1597.jpg,Medium,3 2024–nå,internal,2024–nå,Tesla,3 2024–nå,Tesla|3 2024–nå|Medium,1.0,1,1.0,1,val/Egenprodusert/Tesla/low-light/IMG_1597.jpg
+Red,Eksternt/Tesla/daylight/Kaggle/S/Tesla-Model-S-Ultra-Red.jpg,Light,S 2016–nå,external,2021–nå,Tesla,S 2016–nå,Tesla|S 2016–nå|Light,1.0,1,1.0,3,val/Eksternt/Tesla/daylight/Kaggle/S/Tesla-Model-S-Ultra-Red.jpg
+Black/Dark gray,Egenprodusert/Tesla/dark/%~n1-219.jpg,Dark,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Dark,1.0,1,1.0,5,val/Egenprodusert/Tesla/dark/%~n1-219.jpg
+Light gray/Silver,Egenprodusert/Tesla/low-light/IMG_1624.jpg,Medium,3 2017–2023,internal,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Medium,1.0,1,1.0,0,val/Egenprodusert/Tesla/low-light/IMG_1624.jpg
+Light gray/Silver,Egenprodusert/non-tesla/dark/20260303_175803370_iOS.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/20260303_175803370_iOS.jpg
+White,Egenprodusert/Tesla/dark/IMG_1165.jpg,Dark,3 2017–2023,internal,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Dark,1.0,1,1.0,0,val/Egenprodusert/Tesla/dark/IMG_1165.jpg
+White,Egenprodusert/non-tesla/dark/20260303_183448509_iOS.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/20260303_183448509_iOS.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/0882_05482.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0882_05482.jpg
+White,Egenprodusert/Tesla/daylight/IMG_3885.jpg,Light,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Egenprodusert/Tesla/daylight/IMG_3885.jpg
+White,Eksternt/non-tesla/daylight/1800_01628.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1800_01628.jpg
+Red,Egenprodusert/Tesla/dark/%~n1-17.jpg,Dark,3 2017–2023,internal,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Dark,1.0,1,1.0,0,val/Egenprodusert/Tesla/dark/%~n1-17.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/0176_02836.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0176_02836.jpg
+Light gray/Silver,Egenprodusert/non-tesla/low-light/20260303_121633237_iOS.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/20260303_121633237_iOS.jpg
+Light gray/Silver,Egenprodusert/non-tesla/low-light/IMG_2118.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_2118.jpg
+White,Eksternt/Tesla/daylight/Kaggle/S/images - 2023-08-30T035657.502.jpg,Light,S 2016–nå,external,2016–2020,Tesla,S 2016–nå,Tesla|S 2016–nå|Light,1.0,1,1.0,3,val/Eksternt/Tesla/daylight/Kaggle/S/images - 2023-08-30T035657.jpg
+White,Egenprodusert/Tesla/daylight/%~n1-418.jpg,Light,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Light,1.0,1,1.0,6,val/Egenprodusert/Tesla/daylight/%~n1-418.jpg
+Black/Dark gray,Egenprodusert/non-tesla/dark/20260201_175749259_iOS.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/20260201_175749259_iOS.jpg
+Blue,Eksternt/non-tesla/daylight/2195_01698.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/2195_01698.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/1602_02815.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1602_02815.jpg
+Red,Eksternt/non-tesla/daylight/0966_03798.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0966_03798.jpg
+Black/Dark gray,Egenprodusert/non-tesla/dark/IMG_4382.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_4382.jpg
+White,Egenprodusert/non-tesla/dark/IMG_4906.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_4906.jpg
+Red,Eksternt/non-tesla/daylight/0833_07371.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0833_07371.jpg
+Light gray/Silver,Egenprodusert/non-tesla/dark/IMG_4861.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_4861.jpg
+Red,Eksternt/non-tesla/daylight/0408_04776.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0408_04776.jpg
+White,Egenprodusert/non-tesla/low-light/IMG_2215.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_2215.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/1185_02587.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1185_02587.jpg
+White,Egenprodusert/Tesla/daylight/%~n1-428.jpg,Light,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Egenprodusert/Tesla/daylight/%~n1-428.jpg
+Blue,Egenprodusert/non-tesla/daylight/IMG_1725.jpg,Light,Other car,internal,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Egenprodusert/non-tesla/daylight/IMG_1725.jpg
+Black/Dark gray,Egenprodusert/non-tesla/dark/IMG_4797.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_4797.jpg
+Red,Eksternt/non-tesla/daylight/1276_06889.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1276_06889.jpg
+Black/Dark gray,Egenprodusert/Tesla/low-light/IMG_1312.jpg,Medium,S 2012–2015,internal,2012–2015,Tesla,S 2012–2015,Tesla|S 2012–2015|Medium,1.0,1,1.0,2,val/Egenprodusert/Tesla/low-light/IMG_1312.jpg
+Red,Eksternt/non-tesla/daylight/0404_07091.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0404_07091.jpg
+Blue,Eksternt/Tesla/daylight/Kaggle/Y/20190315013221_Tesla-model_y_front_34_blue.jpg,Light,Y 2020–2024,external,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Eksternt/Tesla/daylight/Kaggle/Y/20190315013221_Tesla-model_y_front_34_blue.jpg
+Blue,Egenprodusert/non-tesla/dark/IMG_1892.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_1892.jpg
+Black/Dark gray,Egenprodusert/Tesla/low-light/%~n1-203.jpg,Medium,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Medium,1.0,1,1.0,6,val/Egenprodusert/Tesla/low-light/%~n1-203.jpg
+Orange,Eksternt/non-tesla/daylight/2338_06601.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/2338_06601.jpg
+Light gray/Silver,Egenprodusert/non-tesla/low-light/20260303_123843698_iOS.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/20260303_123843698_iOS.jpg
+White,Egenprodusert/Tesla/dark/%~n1-307.jpg,Dark,3 2017–2023,internal,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Dark,1.0,1,1.0,0,val/Egenprodusert/Tesla/dark/%~n1-307.jpg
+White,Egenprodusert/Tesla/low-light/%~n1-121.jpg,Medium,3 2024–nå,internal,2024–nå,Tesla,3 2024–nå,Tesla|3 2024–nå|Medium,1.0,1,1.0,1,val/Egenprodusert/Tesla/low-light/%~n1-121.jpg
+Red,Eksternt/Tesla/daylight/Kaggle/S/t64.jpg,Light,S 2016–nå,external,2021–nå,Tesla,S 2016–nå,Tesla|S 2016–nå|Light,1.0,1,1.0,3,val/Eksternt/Tesla/daylight/Kaggle/S/t64.jpg
+White,Egenprodusert/Tesla/daylight/IMG_3998.jpg,Light,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Egenprodusert/Tesla/daylight/IMG_3998.jpg
+White,Egenprodusert/Tesla/dark/IMG_4294.jpg,Dark,X,internal,2016–2020,Tesla,X,Tesla|X|Dark,1.0,1,1.0,4,val/Egenprodusert/Tesla/dark/IMG_4294.jpg
+Black/Dark gray,Egenprodusert/Tesla/dark/IMG_4285.jpg,Dark,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Dark,1.0,1,1.0,5,val/Egenprodusert/Tesla/dark/IMG_4285.jpg
+White,Egenprodusert/Tesla/low-light/%~n1-175.jpg,Medium,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Medium,1.0,1,1.0,6,val/Egenprodusert/Tesla/low-light/%~n1-175.jpg
+Black/Dark gray,Egenprodusert/non-tesla/dark/20260303_180109743_iOS.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/20260303_180109743_iOS.jpg
+White,Egenprodusert/Tesla/dark/IMG_4151.jpg,Dark,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Dark,1.0,1,1.0,5,val/Egenprodusert/Tesla/dark/IMG_4151.jpg
+White,Eksternt/Tesla/daylight/Kaggle/X/images - 2023-08-30T070132.445.jpg,Light,X,external,2016–2020,Tesla,X,Tesla|X|Light,1.0,1,1.0,4,val/Eksternt/Tesla/daylight/Kaggle/X/images - 2023-08-30T070132.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/0500_05074.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0500_05074.jpg
+Black/Dark gray,Egenprodusert/Tesla/dark/IMG_1233.jpg,Dark,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Dark,1.0,1,1.0,5,val/Egenprodusert/Tesla/dark/IMG_1233.jpg
+Light gray/Silver,Egenprodusert/non-tesla/dark/IMG_1914.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_1914.jpg
+Blue,Egenprodusert/Tesla/low-light/IMG_4187.jpg,Dark,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Dark,1.0,1,1.0,5,val/Egenprodusert/Tesla/low-light/IMG_4187.jpg
+White,Eksternt/Tesla/daylight/Kaggle/X/O5M2BN34JRNO7OLTHY7KCPE5GA.jpg,Light,X,external,2016–2020,Tesla,X,Tesla|X|Light,1.0,1,1.0,4,val/Eksternt/Tesla/daylight/Kaggle/X/O5M2BN34JRNO7OLTHY7KCPE5GA.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/2210_06893.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/2210_06893.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/1094_07730.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1094_07730.jpg
+Blue,Eksternt/non-tesla/daylight/1776_02372.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1776_02372.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/0965_01072.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0965_01072.jpg
+White,Egenprodusert/Tesla/daylight/%~n1-386.jpg,Light,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Egenprodusert/Tesla/daylight/%~n1-386.jpg
+White,Eksternt/non-tesla/daylight/2235_04346.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/2235_04346.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/2182_00812.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/2182_00812.jpg
+Light gray/Silver,Egenprodusert/Tesla/low-light/IMG_3705.jpg,Medium,S 2016–nå,internal,2016–2020,Tesla,S 2016–nå,Tesla|S 2016–nå|Medium,1.0,1,1.0,3,val/Egenprodusert/Tesla/low-light/IMG_3705.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/0978_07847.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0978_07847.jpg
+White,Eksternt/non-tesla/daylight/0512_01791.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0512_01791.jpg
+Black/Dark gray,Eksternt/Tesla/daylight/Kaggle/3/images - 2023-08-30T070931.146.jpg,Light,Y 2020–2024,external,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Eksternt/Tesla/daylight/Kaggle/3/images - 2023-08-30T070931.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/0823_04668.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0823_04668.jpg
+White,Eksternt/Tesla/daylight/Kaggle/Y/images - 2023-08-30T082153.554.jpg,Light,Y 2020–2024,external,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Eksternt/Tesla/daylight/Kaggle/Y/images - 2023-08-30T082153.jpg
+Black/Dark gray,Egenprodusert/non-tesla/low-light/20260303_122035933_iOS.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/20260303_122035933_iOS.jpg
+White,Egenprodusert/non-tesla/daylight/%~n1-493.jpg,Light,Other car,internal,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Egenprodusert/non-tesla/daylight/%~n1-493.jpg
+Blue,Egenprodusert/non-tesla/low-light/20260303_123132084_iOS.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/20260303_123132084_iOS.jpg
+Black/Dark gray,Egenprodusert/Tesla/low-light/IMG_1229.jpg,Medium,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Medium,1.0,1,1.0,6,val/Egenprodusert/Tesla/low-light/IMG_1229.jpg
+Black/Dark gray,Egenprodusert/Tesla/daylight/IMG_3945.jpg,Light,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Egenprodusert/Tesla/daylight/IMG_3945.jpg
+Light gray/Silver,Eksternt/Tesla/daylight/Kaggle/X/images - 2023-08-30T070122.905.jpg,Light,X,external,2021–nå,Tesla,X,Tesla|X|Light,1.0,1,1.0,4,val/Eksternt/Tesla/daylight/Kaggle/X/images - 2023-08-30T070122.jpg
+Red,Egenprodusert/Tesla/dark/IMG_1387.jpg,Medium,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Medium,1.0,1,1.0,6,val/Egenprodusert/Tesla/dark/IMG_1387.jpg
+White,Egenprodusert/non-tesla/dark/IMG_4817.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_4817.jpg
+Light gray/Silver,Egenprodusert/non-tesla/low-light/IMG_4658.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_4658.jpg
+Light gray/Silver,Egenprodusert/non-tesla/low-light/IMG_2114.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_2114.jpg
+Red,Eksternt/Tesla/daylight/Kaggle/3/images - 2023-08-30T070958.257.jpg,Light,3 2017–2023,external,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Light,1.0,1,1.0,0,val/Eksternt/Tesla/daylight/Kaggle/3/images - 2023-08-30T070958.jpg
+White,Eksternt/non-tesla/daylight/0123_01688.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0123_01688.jpg
+Black/Dark gray,Egenprodusert/Tesla/low-light/IMG_3725.jpg,Medium,X,internal,2016–2020,Tesla,X,Tesla|X|Medium,1.0,1,1.0,4,val/Egenprodusert/Tesla/low-light/IMG_3725.jpg
+White,Egenprodusert/Tesla/dark/%~n1-80.jpg,Dark,3 2024–nå,internal,2024–nå,Tesla,3 2024–nå,Tesla|3 2024–nå|Dark,1.0,1,1.0,1,val/Egenprodusert/Tesla/dark/%~n1-80.jpg
+Light gray/Silver,Egenprodusert/non-tesla/dark/IMG_4390.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_4390.jpg
+White,Eksternt/non-tesla/daylight/1336_02800.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1336_02800.jpg
+Blue,Eksternt/Tesla/daylight/Kaggle/X/krgm2ccnjqa.jpg,Light,X,external,2021–nå,Tesla,X,Tesla|X|Light,1.0,1,1.0,4,val/Eksternt/Tesla/daylight/Kaggle/X/krgm2ccnjqa.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/1562_03556.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1562_03556.jpg
+Black/Dark gray,Egenprodusert/Tesla/daylight/20260207_140446188_iOS.jpg,Light,S 2012–2015,internal,2012–2015,Tesla,S 2012–2015,Tesla|S 2012–2015|Light,1.0,1,1.0,2,val/Egenprodusert/Tesla/daylight/20260207_140446188_iOS.jpg
+White,Egenprodusert/non-tesla/low-light/IMG_4656.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_4656.jpg
+White,Egenprodusert/Tesla/daylight/IMG_1714.jpg,Light,3 2017–2023,internal,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Light,1.0,1,1.0,0,val/Egenprodusert/Tesla/daylight/IMG_1714.jpg
+White,Egenprodusert/Tesla/low-light/IMG_1439.jpg,Medium,3 2024–nå,internal,2024–nå,Tesla,3 2024–nå,Tesla|3 2024–nå|Medium,1.0,1,1.0,1,val/Egenprodusert/Tesla/low-light/IMG_1439.jpg
+Black/Dark gray,Egenprodusert/non-tesla/dark/IMG_2219.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_2219.jpg
+Black/Dark gray,Egenprodusert/non-tesla/low-light/IMG_4718.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_4718.jpg
+Blue,Egenprodusert/non-tesla/daylight/IMG_4330.jpg,Light,Other car,internal,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Egenprodusert/non-tesla/daylight/IMG_4330.jpg
+Black/Dark gray,Egenprodusert/Tesla/low-light/IMG_3727.jpg,Medium,X,internal,2016–2020,Tesla,X,Tesla|X|Medium,1.0,1,1.0,4,val/Egenprodusert/Tesla/low-light/IMG_3727.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/1927_02309.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1927_02309.jpg
+Black/Dark gray,Eksternt/Tesla/daylight/Kaggle/X/t47.jpg,Light,X,external,2016–2020,Tesla,X,Tesla|X|Light,1.0,1,1.0,4,val/Eksternt/Tesla/daylight/Kaggle/X/t47.jpg
+Yellow,Eksternt/non-tesla/daylight/1764_02095.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1764_02095.jpg
+Blue,Egenprodusert/Tesla/daylight/IMG_1754.jpg,Light,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Egenprodusert/Tesla/daylight/IMG_1754.jpg
+White,Eksternt/non-tesla/daylight/2076_06719.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/2076_06719.jpg
+White,Eksternt/non-tesla/daylight/0909_05403.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0909_05403.jpg
+Black/Dark gray,Egenprodusert/Tesla/low-light/%~n1-288.jpg,Medium,3 2024–nå,internal,2024–nå,Tesla,3 2024–nå,Tesla|3 2024–nå|Medium,1.0,1,1.0,1,val/Egenprodusert/Tesla/low-light/%~n1-288.jpg
+Black/Dark gray,Egenprodusert/non-tesla/dark/IMG_4896.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_4896.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/2017_06711.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/2017_06711.jpg
+Light gray/Silver,Egenprodusert/Tesla/low-light/%~n1-329.jpg,Medium,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Medium,1.0,1,1.0,5,val/Egenprodusert/Tesla/low-light/%~n1-329.jpg
+White,Eksternt/non-tesla/daylight/1414_03640.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1414_03640.jpg
+Black/Dark gray,Egenprodusert/non-tesla/dark/IMG_1277.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_1277.jpg
+Red,Egenprodusert/non-tesla/dark/IMG_4898.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_4898.jpg
+Light gray/Silver,Egenprodusert/non-tesla/dark/IMG_1832.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_1832.jpg
+White,Egenprodusert/Tesla/daylight/IMG_1403.jpg,Light,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Egenprodusert/Tesla/daylight/IMG_1403.jpg
+White,Egenprodusert/non-tesla/dark/20260303_175750075_iOS.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/20260303_175750075_iOS.jpg
+White,Eksternt/non-tesla/daylight/1512_03305.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1512_03305.jpg
+White,Egenprodusert/Tesla/daylight/%~n1-454.jpg,Light,3 2017–2023,internal,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Light,1.0,1,1.0,0,val/Egenprodusert/Tesla/daylight/%~n1-454.jpg
+Blue,Egenprodusert/Tesla/low-light/IMG_1545.jpg,Medium,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Medium,1.0,1,1.0,5,val/Egenprodusert/Tesla/low-light/IMG_1545.jpg
+Black/Dark gray,Egenprodusert/Tesla/daylight/IMG_1696.jpg,Light,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Egenprodusert/Tesla/daylight/IMG_1696.jpg
+Black/Dark gray,Egenprodusert/Tesla/daylight/%~n1-534.jpg,Light,3 2017–2023,internal,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Light,1.0,1,1.0,0,val/Egenprodusert/Tesla/daylight/%~n1-534.jpg
+White,Eksternt/Tesla/daylight/Kaggle/X/images - 2023-08-30T070132.604.jpg,Light,X,external,2016–2020,Tesla,X,Tesla|X|Light,1.0,1,1.0,4,val/Eksternt/Tesla/daylight/Kaggle/X/images - 2023-08-30T070132.jpg
+Black/Dark gray,Egenprodusert/Tesla/daylight/IMG_3880.jpg,Light,3 2017–2023,internal,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Light,1.0,1,1.0,0,val/Egenprodusert/Tesla/daylight/IMG_3880.jpg
+Black/Dark gray,Eksternt/Tesla/daylight/Kaggle/X/images - 2023-08-30T070125.780.jpg,Light,X,external,2021–nå,Tesla,X,Tesla|X|Light,1.0,1,1.0,4,val/Eksternt/Tesla/daylight/Kaggle/X/images - 2023-08-30T070125.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/1510_04257.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1510_04257.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/0479_03987.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0479_03987.jpg
+Light gray/Silver,Egenprodusert/non-tesla/low-light/20260303_121602687_iOS.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/20260303_121602687_iOS.jpg
+Red,Eksternt/non-tesla/daylight/0031_06997.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0031_06997.jpg
+Black/Dark gray,Egenprodusert/Tesla/dark/%~n1-70.jpg,Dark,X,internal,2016–2020,Tesla,X,Tesla|X|Dark,1.0,1,1.0,4,val/Egenprodusert/Tesla/dark/%~n1-70.jpg
+Black/Dark gray,Eksternt/Tesla/daylight/Kaggle/S/tesla_model_s_plaid_front_cornering.jpg,Light,S 2016–nå,external,2021–nå,Tesla,S 2016–nå,Tesla|S 2016–nå|Light,1.0,1,1.0,3,val/Eksternt/Tesla/daylight/Kaggle/S/tesla_model_s_plaid_front_cornering.jpg
+Blue,Eksternt/non-tesla/daylight/2248_04980.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/2248_04980.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/1920_03148.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1920_03148.jpg
+Light gray/Silver,Egenprodusert/Tesla/low-light/IMG_4058.jpg,Medium,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Medium,1.0,1,1.0,5,val/Egenprodusert/Tesla/low-light/IMG_4058.jpg
+Light gray/Silver,Egenprodusert/non-tesla/low-light/IMG_2067.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_2067.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/0955_02183.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0955_02183.jpg
+Blue,Egenprodusert/non-tesla/low-light/IMG_4633.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_4633.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/0857_05206.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0857_05206.jpg
+Light gray/Silver,Egenprodusert/Tesla/dark/IMG_1296.jpg,Dark,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Dark,1.0,1,1.0,6,val/Egenprodusert/Tesla/dark/IMG_1296.jpg
+Black/Dark gray,Egenprodusert/Tesla/low-light/IMG_1343.jpg,Dark,3 2017–2023,internal,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Dark,1.0,1,1.0,0,val/Egenprodusert/Tesla/low-light/IMG_1343.jpg
+White,Eksternt/non-tesla/daylight/1015_05500.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1015_05500.jpg
+White,Eksternt/Tesla/daylight/Kaggle/Y/TopGear - Tesla Model Y - 003.jpg,Light,Y 2020–2024,external,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Eksternt/Tesla/daylight/Kaggle/Y/TopGear - Tesla Model Y - 003.jpg
+White,Egenprodusert/non-tesla/low-light/20260303_122013061_iOS.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/20260303_122013061_iOS.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/2301_04989.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/2301_04989.jpg
+Red,Eksternt/non-tesla/daylight/0020_00581.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0020_00581.jpg
+Red,Egenprodusert/Tesla/low-light/IMG_3709.jpg,Medium,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Medium,1.0,1,1.0,5,val/Egenprodusert/Tesla/low-light/IMG_3709.jpg
+Orange,Eksternt/non-tesla/daylight/0865_05397.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0865_05397.jpg
+White,Egenprodusert/Tesla/low-light/IMG_1617.jpg,Medium,3 2017–2023,internal,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Medium,1.0,1,1.0,0,val/Egenprodusert/Tesla/low-light/IMG_1617.jpg
+Light gray/Silver,Egenprodusert/non-tesla/dark/IMG_4887.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_4887.jpg
+Black/Dark gray,Eksternt/Tesla/daylight/Kaggle/Y/t67.jpg,Light,Y 2020–2024,external,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Eksternt/Tesla/daylight/Kaggle/Y/t67.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/0294_04001.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0294_04001.jpg
+Black/Dark gray,Egenprodusert/non-tesla/low-light/20260128_071517858_iOS.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/20260128_071517858_iOS.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/2263_02215.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/2263_02215.jpg
+White,Eksternt/Tesla/daylight/Kaggle/3/t30.jpg,Light,3 2017–2023,external,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Light,1.0,1,1.0,0,val/Eksternt/Tesla/daylight/Kaggle/3/t30.jpg
+White,Eksternt/non-tesla/daylight/0713_06138.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0713_06138.jpg
+Red,Egenprodusert/non-tesla/low-light/20260303_121832072_iOS.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/20260303_121832072_iOS.jpg
+Black/Dark gray,Egenprodusert/non-tesla/dark/20260303_175715598_iOS.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/20260303_175715598_iOS.jpg
+Red,Egenprodusert/Tesla/low-light/%~n1-144.jpg,Medium,S 2016–nå,internal,2016–2020,Tesla,S 2016–nå,Tesla|S 2016–nå|Medium,1.0,1,1.0,3,val/Egenprodusert/Tesla/low-light/%~n1-144.jpg
+Black/Dark gray,Egenprodusert/Tesla/low-light/%~n1-254.jpg,Medium,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Medium,1.0,1,1.0,6,val/Egenprodusert/Tesla/low-light/%~n1-254.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/0290_07218.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0290_07218.jpg
+Black/Dark gray,Egenprodusert/non-tesla/low-light/IMG_1843.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_1843.jpg
+White,Eksternt/Tesla/daylight/Kaggle/S/t145.jpg,Light,3 2017–2023,external,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Light,1.0,1,1.0,0,val/Eksternt/Tesla/daylight/Kaggle/S/t145.jpg
+Blue,Eksternt/non-tesla/daylight/0392_02375.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0392_02375.jpg
+Black/Dark gray,Egenprodusert/Tesla/daylight/%~n1-442.jpg,Light,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Egenprodusert/Tesla/daylight/%~n1-442.jpg
+Red,Egenprodusert/non-tesla/low-light/IMG_2125.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_2125.jpg
+Red,Eksternt/non-tesla/daylight/1916_04992.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1916_04992.jpg
+White,Eksternt/Tesla/daylight/Kaggle/3/images - 2023-08-30T071000.113.jpg,Light,Y 2020–2024,external,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Eksternt/Tesla/daylight/Kaggle/3/images - 2023-08-30T071000.jpg
+Light gray/Silver,Egenprodusert/non-tesla/dark/IMG_1981.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_1981.jpg
+White,Eksternt/Tesla/daylight/Kaggle/3/images - 2023-08-30T082140.680.jpg,Light,Y 2020–2024,external,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Eksternt/Tesla/daylight/Kaggle/3/images - 2023-08-30T082140.jpg
+White,Eksternt/Tesla/daylight/Kaggle/X/50199_st0640_116.jpg,Light,X,external,2021–nå,Tesla,X,Tesla|X|Light,1.0,1,1.0,4,val/Eksternt/Tesla/daylight/Kaggle/X/50199_st0640_116.jpg
+Light gray/Silver,Egenprodusert/non-tesla/low-light/IMG_2221.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_2221.jpg
+White,Eksternt/Tesla/daylight/Kaggle/X/t20.jpg,Light,X,external,2016–2020,Tesla,X,Tesla|X|Light,1.0,1,1.0,4,val/Eksternt/Tesla/daylight/Kaggle/X/t20.jpg
+White,Eksternt/non-tesla/daylight/1241_07767.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1241_07767.jpg
+White,Eksternt/non-tesla/daylight/0935_07653.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0935_07653.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/1971_04127.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1971_04127.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/2151_05879.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/2151_05879.jpg
+Black/Dark gray,Egenprodusert/Tesla/low-light/%~n1-282.jpg,Medium,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Medium,1.0,1,1.0,6,val/Egenprodusert/Tesla/low-light/%~n1-282.jpg
+White,Eksternt/non-tesla/daylight/1139_05025.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1139_05025.jpg
+Red,Eksternt/non-tesla/daylight/0632_01575.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0632_01575.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/2203_04654.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/2203_04654.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/1967_06352.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1967_06352.jpg
+Blue,Eksternt/non-tesla/daylight/0246_04617.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0246_04617.jpg
+Red,Eksternt/non-tesla/daylight/1586_04565.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1586_04565.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/0375_02534.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0375_02534.jpg
+White,Eksternt/non-tesla/daylight/1713_03703.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1713_03703.jpg
+Blue,Eksternt/non-tesla/daylight/0660_01663.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0660_01663.jpg
+Red,Eksternt/Tesla/daylight/Kaggle/S/t104.jpg,Light,S 2016–nå,external,2021–nå,Tesla,S 2016–nå,Tesla|S 2016–nå|Light,1.0,1,1.0,3,val/Eksternt/Tesla/daylight/Kaggle/S/t104.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/2131_04428.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/2131_04428.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/1854_04196.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1854_04196.jpg
+White,Eksternt/non-tesla/daylight/0783_05747.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0783_05747.jpg
+Red,Eksternt/Tesla/daylight/Kaggle/X/images - 2023-08-30T070122.598.jpg,Light,S 2016–nå,external,2021–nå,Tesla,S 2016–nå,Tesla|S 2016–nå|Light,1.0,1,1.0,3,val/Eksternt/Tesla/daylight/Kaggle/X/images - 2023-08-30T070122.jpg
+Light gray/Silver,Egenprodusert/non-tesla/low-light/IMG_4672.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_4672.jpg
+Black/Dark gray,Egenprodusert/Tesla/low-light/IMG_3698.jpg,Medium,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Medium,1.0,1,1.0,5,val/Egenprodusert/Tesla/low-light/IMG_3698.jpg
+Black/Dark gray,Egenprodusert/Tesla/dark/IMG_3869.jpg,Dark,3 2017–2023,internal,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Dark,1.0,1,1.0,0,val/Egenprodusert/Tesla/dark/IMG_3869.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/2083_05670.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/2083_05670.jpg
+Black/Dark gray,Egenprodusert/non-tesla/dark/IMG_1920.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_1920.jpg
+Black/Dark gray,Egenprodusert/Tesla/low-light/IMG_1185.jpg,Medium,3 2017–2023,internal,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Medium,1.0,1,1.0,0,val/Egenprodusert/Tesla/low-light/IMG_1185.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/1035_00912.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1035_00912.jpg
+Black/Dark gray,Eksternt/Tesla/daylight/Kaggle/S/2016_tesla_model_s-pic-4209294532671629022-1024x768.jpg,Light,S 2012–2015,external,2012–2015,Tesla,S 2012–2015,Tesla|S 2012–2015|Light,1.0,1,1.0,2,val/Eksternt/Tesla/daylight/Kaggle/S/2016_tesla_model_s-pic-4209294532671629022-1024x768.jpg
+White,Egenprodusert/Tesla/dark/IMG_1466.jpg,Dark,X,internal,2016–2020,Tesla,X,Tesla|X|Dark,1.0,1,1.0,4,val/Egenprodusert/Tesla/dark/IMG_1466.jpg
+White,Egenprodusert/non-tesla/low-light/20260303_123436947_iOS.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/20260303_123436947_iOS.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/0064_00917.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0064_00917.jpg
+Light gray/Silver,Egenprodusert/Tesla/low-light/IMG_1504.jpg,Medium,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Medium,1.0,1,1.0,5,val/Egenprodusert/Tesla/low-light/IMG_1504.jpg
+Light gray/Silver,Egenprodusert/non-tesla/low-light/IMG_4608.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_4608.jpg
+White,Eksternt/Tesla/daylight/Kaggle/3/images - 2023-08-30T071002.455.jpg,Light,3 2017–2023,external,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Light,1.0,1,1.0,0,val/Eksternt/Tesla/daylight/Kaggle/3/images - 2023-08-30T071002.jpg
+White,Egenprodusert/Tesla/low-light/IMG_3718.jpg,Medium,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Medium,1.0,1,1.0,5,val/Egenprodusert/Tesla/low-light/IMG_3718.jpg
+Black/Dark gray,Egenprodusert/non-tesla/low-light/IMG_4733.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_4733.jpg
+White,Eksternt/Tesla/daylight/Kaggle/X/images - 2023-08-30T070122.555.jpg,Light,X,external,2016–2020,Tesla,X,Tesla|X|Light,1.0,1,1.0,4,val/Eksternt/Tesla/daylight/Kaggle/X/images - 2023-08-30T070122.jpg
+White,Egenprodusert/non-tesla/low-light/20260303_121349694_iOS.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/20260303_121349694_iOS.jpg
+Blue,Egenprodusert/Tesla/daylight/%~n1-464.jpg,Light,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Egenprodusert/Tesla/daylight/%~n1-464.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/0351_06994.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0351_06994.jpg
+Light gray/Silver,Egenprodusert/non-tesla/dark/20260303_182924825_iOS.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/20260303_182924825_iOS.jpg
+Red,Eksternt/non-tesla/daylight/0443_02545.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0443_02545.jpg
+Black/Dark gray,Egenprodusert/Tesla/dark/IMG_4276.jpg,Dark,3 2017–2023,internal,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Dark,1.0,1,1.0,0,val/Egenprodusert/Tesla/dark/IMG_4276.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/1111_06859.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1111_06859.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/1045_04175.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1045_04175.jpg
+Orange,Eksternt/non-tesla/daylight/1330_02208.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1330_02208.jpg
+Black/Dark gray,Egenprodusert/Tesla/low-light/IMG_1154.jpg,Medium,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Medium,1.0,1,1.0,5,val/Egenprodusert/Tesla/low-light/IMG_1154.jpg
+White,Eksternt/non-tesla/daylight/1977_04637.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1977_04637.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/0871_06585.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0871_06585.jpg
+Blue,Eksternt/Tesla/daylight/Kaggle/X/t68.jpg,Light,S 2016–nå,external,2021–nå,Tesla,S 2016–nå,Tesla|S 2016–nå|Light,1.0,1,1.0,3,val/Eksternt/Tesla/daylight/Kaggle/X/t68.jpg
+White,Eksternt/non-tesla/daylight/2275_04669.jpg,Dark,Other car,external,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/2275_04669.jpg
+Black/Dark gray,Egenprodusert/non-tesla/low-light/IMG_4697.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_4697.jpg
+Green,Eksternt/non-tesla/daylight/0235_04389.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0235_04389.jpg
+Light gray/Silver,Egenprodusert/Tesla/daylight/%~n1-407.jpg,Light,3 2017–2023,internal,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Light,1.0,1,1.0,0,val/Egenprodusert/Tesla/daylight/%~n1-407.jpg
+White,Egenprodusert/Tesla/low-light/IMG_1571.jpg,Medium,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Medium,1.0,1,1.0,5,val/Egenprodusert/Tesla/low-light/IMG_1571.jpg
+Black/Dark gray,Egenprodusert/non-tesla/low-light/IMG_4720.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_4720.jpg
+Blue,Eksternt/non-tesla/daylight/0591_05301.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0591_05301.jpg
+Light gray/Silver,Egenprodusert/non-tesla/dark/20260201_175122189_iOS.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/20260201_175122189_iOS.jpg
+Blue,Eksternt/non-tesla/daylight/0148_04961.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0148_04961.jpg
+White,Eksternt/non-tesla/daylight/1585_06651.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1585_06651.jpg
+Black/Dark gray,Eksternt/Tesla/daylight/Kaggle/3/main_tesla.jpg,Light,S 2012–2015,external,2012–2015,Tesla,S 2012–2015,Tesla|S 2012–2015|Light,1.0,1,1.0,2,val/Eksternt/Tesla/daylight/Kaggle/3/main_tesla.jpg
+Black/Dark gray,Egenprodusert/Tesla/dark/IMG_1661.jpg,Dark,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Dark,1.0,1,1.0,6,val/Egenprodusert/Tesla/dark/IMG_1661.jpg
+White,Eksternt/non-tesla/daylight/1653_07055.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1653_07055.jpg
+White,Egenprodusert/Tesla/dark/%~n1-64.jpg,Dark,3 2017–2023,internal,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Dark,1.0,1,1.0,0,val/Egenprodusert/Tesla/dark/%~n1-64.jpg
+White,Egenprodusert/Tesla/dark/IMG_4197.jpg,Dark,3 2024–nå,internal,2024–nå,Tesla,3 2024–nå,Tesla|3 2024–nå|Dark,1.0,1,1.0,1,val/Egenprodusert/Tesla/dark/IMG_4197.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/1563_07567.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1563_07567.jpg
+Black/Dark gray,Egenprodusert/Tesla/dark/%~n1-315.jpg,Dark,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Dark,1.0,1,1.0,6,val/Egenprodusert/Tesla/dark/%~n1-315.jpg
+Blue,Egenprodusert/Tesla/daylight/%~n1-533.jpg,Light,3 2024–nå,internal,2024–nå,Tesla,3 2024–nå,Tesla|3 2024–nå|Light,1.0,1,1.0,1,val/Egenprodusert/Tesla/daylight/%~n1-533.jpg
+Light gray/Silver,Egenprodusert/Tesla/low-light/%~n1-158.jpg,Medium,3 2024–nå,internal,2024–nå,Tesla,3 2024–nå,Tesla|3 2024–nå|Medium,1.0,1,1.0,1,val/Egenprodusert/Tesla/low-light/%~n1-158.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/1277_05784.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1277_05784.jpg
+White,Eksternt/non-tesla/daylight/1278_06514.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1278_06514.jpg
+Red,Egenprodusert/Tesla/daylight/IMG_3964.jpg,Light,3 2024–nå,internal,2024–nå,Tesla,3 2024–nå,Tesla|3 2024–nå|Light,1.0,1,1.0,1,val/Egenprodusert/Tesla/daylight/IMG_3964.jpg
+Blue,Eksternt/non-tesla/daylight/1259_00941.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1259_00941.jpg
+Black/Dark gray,Egenprodusert/non-tesla/low-light/IMG_2002.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_2002.jpg
+Red,Eksternt/non-tesla/daylight/2006_05639.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/2006_05639.jpg
+Blue,Eksternt/non-tesla/daylight/1460_02366.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1460_02366.jpg
+Blue,Eksternt/Tesla/daylight/Kaggle/S/t93.jpg,Light,S 2016–nå,external,2016–2020,Tesla,S 2016–nå,Tesla|S 2016–nå|Light,1.0,1,1.0,3,val/Eksternt/Tesla/daylight/Kaggle/S/t93.jpg
+Blue,Egenprodusert/non-tesla/dark/20260201_175812252_iOS.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/20260201_175812252_iOS.jpg
+Black/Dark gray,Egenprodusert/Tesla/low-light/IMG_4097.jpg,Medium,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Medium,1.0,1,1.0,6,val/Egenprodusert/Tesla/low-light/IMG_4097.jpg
+Light gray/Silver,Egenprodusert/non-tesla/dark/IMG_2021.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_2021.jpg
+White,Eksternt/non-tesla/daylight/0516_00759.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0516_00759.jpg
+Light gray/Silver,Egenprodusert/non-tesla/low-light/IMG_2116.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_2116.jpg
+Black/Dark gray,Egenprodusert/non-tesla/dark/IMG_1961.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_1961.jpg
+Black/Dark gray,Egenprodusert/Tesla/low-light/IMG_1265.jpg,Medium,3 2017–2023,internal,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Medium,1.0,1,1.0,0,val/Egenprodusert/Tesla/low-light/IMG_1265.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/1984_03937.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1984_03937.jpg
+Light gray/Silver,Egenprodusert/non-tesla/dark/20260303_181312132_iOS.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/20260303_181312132_iOS.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/1809_07101.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1809_07101.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/1279_00419.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1279_00419.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/0195_06476.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0195_06476.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/2172_02602.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/2172_02602.jpg
+Light gray/Silver,Eksternt/Tesla/daylight/Stanford/015224.jpg,Light,S 2012–2015,external,2012–2015,Tesla,S 2012–2015,Tesla|S 2012–2015|Light,1.0,1,1.0,2,val/Eksternt/Tesla/daylight/Stanford/015224.jpg
+Black/Dark gray,Egenprodusert/non-tesla/low-light/IMG_4366.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_4366.jpg
+Black/Dark gray,Egenprodusert/non-tesla/low-light/IMG_4350.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_4350.jpg
+Black/Dark gray,Egenprodusert/non-tesla/low-light/20260303_123004217_iOS.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/20260303_123004217_iOS.jpg
+Blue,Egenprodusert/Tesla/low-light/%~n1-118.jpg,Medium,3 2017–2023,internal,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Medium,1.0,1,1.0,0,val/Egenprodusert/Tesla/low-light/%~n1-118.jpg
+Light gray/Silver,Egenprodusert/non-tesla/dark/IMG_1933.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_1933.jpg
+Light gray/Silver,Eksternt/Tesla/daylight/Kaggle/3/images (95).jpg,Dark,Y 2020–2024,external,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Dark,1.0,1,1.0,5,val/Eksternt/Tesla/daylight/Kaggle/3/images (95).jpg
+Orange,Eksternt/non-tesla/daylight/0988_07340.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0988_07340.jpg
+White,Egenprodusert/Tesla/dark/IMG_1650.jpg,Dark,X,internal,2016–2020,Tesla,X,Tesla|X|Dark,1.0,1,1.0,4,val/Egenprodusert/Tesla/dark/IMG_1650.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/1127_01907.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1127_01907.jpg
+Blue,Eksternt/non-tesla/daylight/0171_06891.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0171_06891.jpg
+White,Egenprodusert/non-tesla/low-light/20260303_123632432_iOS.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/20260303_123632432_iOS.jpg
+Black/Dark gray,Eksternt/Tesla/daylight/Kaggle/Y/2021-Tesla-Model-Y-dual-motor-screenshot-RCR.jpg,Light,Y 2020–2024,external,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Eksternt/Tesla/daylight/Kaggle/Y/2021-Tesla-Model-Y-dual-motor-screenshot-RCR.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/0757_01818.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0757_01818.jpg
+White,Egenprodusert/Tesla/daylight/IMG_1690.jpg,Light,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Egenprodusert/Tesla/daylight/IMG_1690.jpg
+Black/Dark gray,Egenprodusert/non-tesla/low-light/IMG_4736.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_4736.jpg
+Light gray/Silver,Egenprodusert/non-tesla/dark/IMG_1923.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_1923.jpg
+Black/Dark gray,Egenprodusert/Tesla/low-light/IMG_1565.jpg,Medium,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Medium,1.0,1,1.0,6,val/Egenprodusert/Tesla/low-light/IMG_1565.jpg
+Light gray/Silver,Egenprodusert/non-tesla/low-light/IMG_2097.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_2097.jpg
+White,Eksternt/non-tesla/daylight/1953_01394.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1953_01394.jpg
+Black/Dark gray,Egenprodusert/Tesla/low-light/IMG_3735.jpg,Medium,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Medium,1.0,1,1.0,5,val/Egenprodusert/Tesla/low-light/IMG_3735.jpg
+White,Egenprodusert/Tesla/daylight/IMG_1792.jpg,Light,X,internal,2016–2020,Tesla,X,Tesla|X|Light,1.0,1,1.0,4,val/Egenprodusert/Tesla/daylight/IMG_1792.jpg
+Black/Dark gray,Egenprodusert/Tesla/low-light/IMG_4134.jpg,Medium,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Medium,1.0,1,1.0,6,val/Egenprodusert/Tesla/low-light/IMG_4134.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/1983_04552.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1983_04552.jpg
+Black/Dark gray,Egenprodusert/non-tesla/dark/20260201_175308965_iOS.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/20260201_175308965_iOS.jpg
+White,Egenprodusert/non-tesla/dark/IMG_4915.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_4915.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/0672_05136.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0672_05136.jpg
+White,Eksternt/Tesla/daylight/Kaggle/X/t115.jpg,Light,X,external,2016–2020,Tesla,X,Tesla|X|Light,1.0,1,1.0,4,val/Eksternt/Tesla/daylight/Kaggle/X/t115.jpg
+White,Eksternt/Tesla/daylight/Kaggle/3/2019_Tesla_Model_3_Performance_AWD_Front.jpg,Light,3 2017–2023,external,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Light,1.0,1,1.0,0,val/Eksternt/Tesla/daylight/Kaggle/3/2019_Tesla_Model_3_Performance_AWD_Front.jpg
+White,Egenprodusert/Tesla/daylight/IMG_3917.jpg,Light,3 2017–2023,internal,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Light,1.0,1,1.0,0,val/Egenprodusert/Tesla/daylight/IMG_3917.jpg
+Light gray/Silver,Egenprodusert/non-tesla/low-light/IMG_4751.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_4751.jpg
+Black/Dark gray,Egenprodusert/Tesla/dark/IMG_1232.jpg,Dark,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Dark,1.0,1,1.0,5,val/Egenprodusert/Tesla/dark/IMG_1232.jpg
+White,Egenprodusert/Tesla/daylight/IMG_1777.jpg,Light,3 2024–nå,internal,2024–nå,Tesla,3 2024–nå,Tesla|3 2024–nå|Light,1.0,1,1.0,1,val/Egenprodusert/Tesla/daylight/IMG_1777.jpg
+White,Eksternt/non-tesla/daylight/1816_02244.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1816_02244.jpg
+Black/Dark gray,Egenprodusert/Tesla/daylight/%~n1-193.jpg,Light,3 2017–2023,internal,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Light,1.0,1,1.0,0,val/Egenprodusert/Tesla/daylight/%~n1-193.jpg
+Black/Dark gray,Egenprodusert/Tesla/low-light/IMG_3715.jpg,Medium,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Medium,1.0,1,1.0,5,val/Egenprodusert/Tesla/low-light/IMG_3715.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/0361_00934.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0361_00934.jpg
+Black/Dark gray,Egenprodusert/Tesla/daylight/%~n1-491.jpg,Light,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Light,1.0,1,1.0,6,val/Egenprodusert/Tesla/daylight/%~n1-491.jpg
+Black/Dark gray,Egenprodusert/Tesla/low-light/IMG_4121.jpg,Medium,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Medium,1.0,1,1.0,6,val/Egenprodusert/Tesla/low-light/IMG_4121.jpg
+Black/Dark gray,Egenprodusert/Tesla/low-light/IMG_1614.jpg,Medium,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Medium,1.0,1,1.0,6,val/Egenprodusert/Tesla/low-light/IMG_1614.jpg
+White,Eksternt/non-tesla/daylight/0399_00198.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0399_00198.jpg
+Blue,Eksternt/non-tesla/daylight/2242_05907.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/2242_05907.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/1203_07386.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1203_07386.jpg
+White,Egenprodusert/Tesla/dark/IMG_1595.jpg,Dark,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Dark,1.0,1,1.0,6,val/Egenprodusert/Tesla/dark/IMG_1595.jpg
+White,Eksternt/non-tesla/daylight/0365_01103.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0365_01103.jpg
+Black/Dark gray,Egenprodusert/Tesla/daylight/IMG_3909.jpg,Light,X,internal,2016–2020,Tesla,X,Tesla|X|Light,1.0,1,1.0,4,val/Egenprodusert/Tesla/daylight/IMG_3909.jpg
+Light gray/Silver,Eksternt/Tesla/daylight/Stanford/015218.jpg,Light,S 2012–2015,external,2012–2015,Tesla,S 2012–2015,Tesla|S 2012–2015|Light,1.0,1,1.0,2,val/Eksternt/Tesla/daylight/Stanford/015218.jpg
+Red,Egenprodusert/non-tesla/dark/IMG_1894.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_1894.jpg
+Red,Egenprodusert/Tesla/low-light/IMG_1140.jpg,Medium,3 2024–nå,internal,2024–nå,Tesla,3 2024–nå,Tesla|3 2024–nå|Medium,1.0,1,1.0,1,val/Egenprodusert/Tesla/low-light/IMG_1140.jpg
+Black/Dark gray,Egenprodusert/Tesla/daylight/IMG_1798.jpg,Light,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Egenprodusert/Tesla/daylight/IMG_1798.jpg
+Blue,Eksternt/non-tesla/daylight/1271_06755.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1271_06755.jpg
+Black/Dark gray,Egenprodusert/Tesla/dark/%~n1-13.jpg,Dark,S 2016–nå,internal,2016–2020,Tesla,S 2016–nå,Tesla|S 2016–nå|Dark,1.0,1,1.0,3,val/Egenprodusert/Tesla/dark/%~n1-13.jpg
+Yellow,Egenprodusert/non-tesla/low-light/20260303_121755514_iOS.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/20260303_121755514_iOS.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/1590_02289.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1590_02289.jpg
+Orange,Eksternt/non-tesla/daylight/1799_05569.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1799_05569.jpg
+Black/Dark gray,Egenprodusert/non-tesla/dark/IMG_4878.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_4878.jpg
+Light gray/Silver,Egenprodusert/Tesla/dark/IMG_1472.jpg,Dark,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Dark,1.0,1,1.0,6,val/Egenprodusert/Tesla/dark/IMG_1472.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/1202_04281.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1202_04281.jpg
+Black/Dark gray,Egenprodusert/non-tesla/low-light/20260303_122637582_iOS.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/20260303_122637582_iOS.jpg
+Red,Eksternt/non-tesla/daylight/1048_03490.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1048_03490.jpg
+Red,Egenprodusert/non-tesla/daylight/IMG_1738.jpg,Light,Other car,internal,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Egenprodusert/non-tesla/daylight/IMG_1738.jpg
+Red,Eksternt/Tesla/daylight/Kaggle/Y/2022-Tesla-Model-Y-launch-CarBuyer-Singapore-15.jpg,Light,Y 2020–2024,external,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Eksternt/Tesla/daylight/Kaggle/Y/2022-Tesla-Model-Y-launch-CarBuyer-Singapore-15.jpg
+Yellow,Eksternt/non-tesla/daylight/2200_02113.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/2200_02113.jpg
+White,Egenprodusert/Tesla/low-light/IMG_4061.jpg,Medium,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Medium,1.0,1,1.0,5,val/Egenprodusert/Tesla/low-light/IMG_4061.jpg
+Light gray/Silver,Egenprodusert/non-tesla/low-light/IMG_2085.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_2085.jpg
+Black/Dark gray,Egenprodusert/Tesla/dark/IMG_3855.jpg,Dark,X,internal,2016–2020,Tesla,X,Tesla|X|Dark,1.0,1,1.0,4,val/Egenprodusert/Tesla/dark/IMG_3855.jpg
+White,Egenprodusert/non-tesla/dark/IMG_1816.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_1816.jpg
+Light gray/Silver,Egenprodusert/non-tesla/low-light/IMG_4586.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_4586.jpg
+Black/Dark gray,Eksternt/Tesla/daylight/Kaggle/S/images (48).jpg,Light,Y 2020–2024,external,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Eksternt/Tesla/daylight/Kaggle/S/images (48).jpg
+White,Egenprodusert/non-tesla/dark/20260303_182913635_iOS.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/20260303_182913635_iOS.jpg
+White,Eksternt/non-tesla/daylight/0644_02439.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0644_02439.jpg
+Black/Dark gray,Egenprodusert/Tesla/dark/IMG_1670.jpg,Medium,3 2024–nå,internal,2024–nå,Tesla,3 2024–nå,Tesla|3 2024–nå|Medium,1.0,1,1.0,1,val/Egenprodusert/Tesla/dark/IMG_1670.jpg
+Red,Eksternt/non-tesla/daylight/0508_02098.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0508_02098.jpg
+Black/Dark gray,Egenprodusert/Tesla/daylight/IMG_1782.jpg,Light,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Egenprodusert/Tesla/daylight/IMG_1782.jpg
+Black/Dark gray,Egenprodusert/non-tesla/low-light/IMG_2030.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_2030.jpg
+White,Eksternt/non-tesla/daylight/0241_03186.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0241_03186.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/0169_05712.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0169_05712.jpg
+Red,Eksternt/non-tesla/daylight/0983_06916.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0983_06916.jpg
+White,Egenprodusert/non-tesla/dark/20260303_182840229_iOS.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/20260303_182840229_iOS.jpg
+Light gray/Silver,Egenprodusert/non-tesla/low-light/20260303_122703316_iOS.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/20260303_122703316_iOS.jpg
+Black/Dark gray,Egenprodusert/non-tesla/dark/IMG_2154.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_2154.jpg
+White,Egenprodusert/Tesla/low-light/IMG_3690.jpg,Medium,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Medium,1.0,1,1.0,5,val/Egenprodusert/Tesla/low-light/IMG_3690.jpg
+Black/Dark gray,Egenprodusert/Tesla/daylight/IMG_3972.jpg,Light,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Egenprodusert/Tesla/daylight/IMG_3972.jpg
+Red,Egenprodusert/Tesla/dark/%~n1-348.jpg,Dark,3 2024–nå,internal,2024–nå,Tesla,3 2024–nå,Tesla|3 2024–nå|Dark,1.0,1,1.0,1,val/Egenprodusert/Tesla/dark/%~n1-348.jpg
+Black/Dark gray,Egenprodusert/Tesla/low-light/IMG_1647.jpg,Medium,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Medium,1.0,1,1.0,6,val/Egenprodusert/Tesla/low-light/IMG_1647.jpg
+White,Eksternt/non-tesla/daylight/0454_02251.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0454_02251.jpg
+Black/Dark gray,Eksternt/Tesla/daylight/Kaggle/3/t80.jpg,Light,S 2012–2015,external,2012–2015,Tesla,S 2012–2015,Tesla|S 2012–2015|Light,1.0,1,1.0,2,val/Eksternt/Tesla/daylight/Kaggle/3/t80.jpg
+White,Eksternt/non-tesla/daylight/1748_07006.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1748_07006.jpg
+White,Egenprodusert/Tesla/dark/IMG_4243.jpg,Dark,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Dark,1.0,1,1.0,6,val/Egenprodusert/Tesla/dark/IMG_4243.jpg
+White,Egenprodusert/non-tesla/low-light/IMG_1828.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_1828.jpg
+Light gray/Silver,Egenprodusert/non-tesla/low-light/20260303_121934527_iOS.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/20260303_121934527_iOS.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/0550_04082.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0550_04082.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/0634_03811.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0634_03811.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/1601_06699.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1601_06699.jpg
+White,Eksternt/Tesla/daylight/Kaggle/3/t55.jpg,Light,Y 2020–2024,external,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Eksternt/Tesla/daylight/Kaggle/3/t55.jpg
+White,Eksternt/non-tesla/daylight/0001_05740.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0001_05740.jpg
+Black/Dark gray,Egenprodusert/non-tesla/dark/IMG_4765.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_4765.jpg
+Red,Egenprodusert/Tesla/low-light/%~n1-62.jpg,Medium,X,internal,2016–2020,Tesla,X,Tesla|X|Medium,1.0,1,1.0,4,val/Egenprodusert/Tesla/low-light/%~n1-62.jpg
+White,Eksternt/non-tesla/daylight/0366_00664.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0366_00664.jpg
+Blue,Eksternt/non-tesla/daylight/1104_06022.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1104_06022.jpg
+Red,Eksternt/Tesla/daylight/Kaggle/Y/t131.jpg,Light,Y 2020–2024,external,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Eksternt/Tesla/daylight/Kaggle/Y/t131.jpg
+Light gray/Silver,Egenprodusert/non-tesla/low-light/IMG_2061.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_2061.jpg
+White,Eksternt/Tesla/daylight/Kaggle/S/dsc_0265-1600x1067-b6e8014d-0dd2-4947-ab78-319201653550.jpg,Light,S 2016–nå,external,2016–2020,Tesla,S 2016–nå,Tesla|S 2016–nå|Light,1.0,1,1.0,3,val/Eksternt/Tesla/daylight/Kaggle/S/dsc_0265-1600x1067-b6e8014d-0dd2-4947-ab78-319201653550.jpg
+Black/Dark gray,Egenprodusert/non-tesla/low-light/20260303_122052574_iOS.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/20260303_122052574_iOS.jpg
+Black/Dark gray,Egenprodusert/Tesla/low-light/IMG_3734.jpg,Medium,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Medium,1.0,1,1.0,5,val/Egenprodusert/Tesla/low-light/IMG_3734.jpg
+White,Egenprodusert/Tesla/dark/IMG_1515.jpg,Medium,3 2017–2023,internal,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Medium,1.0,1,1.0,0,val/Egenprodusert/Tesla/dark/IMG_1515.jpg
+White,Eksternt/non-tesla/daylight/0810_05031.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0810_05031.jpg
+Red,Eksternt/non-tesla/daylight/1234_00470.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1234_00470.jpg
+White,Egenprodusert/Tesla/low-light/IMG_4060.jpg,Medium,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Medium,1.0,1,1.0,5,val/Egenprodusert/Tesla/low-light/IMG_4060.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/1779_02155.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1779_02155.jpg
+Blue,Egenprodusert/Tesla/dark/IMG_4214.jpg,Dark,3 2017–2023,internal,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Dark,1.0,1,1.0,0,val/Egenprodusert/Tesla/dark/IMG_4214.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/2119_02666.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/2119_02666.jpg
+Red,Egenprodusert/Tesla/low-light/%~n1-143.jpg,Medium,S 2016–nå,internal,2016–2020,Tesla,S 2016–nå,Tesla|S 2016–nå|Medium,1.0,1,1.0,3,val/Egenprodusert/Tesla/low-light/%~n1-143.jpg
+White,Eksternt/Tesla/daylight/Kaggle/X/c340a77d-af56-4562-abfb-bd5518ccb292_2023+Tesla+Model+X+front+quarter+moving.jpg,Light,X,external,2021–nå,Tesla,X,Tesla|X|Light,1.0,1,1.0,4,val/Eksternt/Tesla/daylight/Kaggle/X/c340a77d-af56-4562-abfb-bd5518ccb292_2023+Tesla+Model+X+front+quarter+moving.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/0232_02854.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0232_02854.jpg
+Black/Dark gray,Egenprodusert/Tesla/daylight/IMG_1768.jpg,Light,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Light,1.0,1,1.0,6,val/Egenprodusert/Tesla/daylight/IMG_1768.jpg
+White,Egenprodusert/Tesla/dark/IMG_1179.jpg,Dark,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Dark,1.0,1,1.0,5,val/Egenprodusert/Tesla/dark/IMG_1179.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/1430_07054.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1430_07054.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/2327_01140.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/2327_01140.jpg
+Light gray/Silver,Egenprodusert/Tesla/low-light/IMG_1590.jpg,Medium,3 2024–nå,internal,2024–nå,Tesla,3 2024–nå,Tesla|3 2024–nå|Medium,1.0,1,1.0,1,val/Egenprodusert/Tesla/low-light/IMG_1590.jpg
+White,Egenprodusert/Tesla/daylight/IMG_1700.jpg,Light,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Light,1.0,1,1.0,6,val/Egenprodusert/Tesla/daylight/IMG_1700.jpg
+Light gray/Silver,Egenprodusert/Tesla/low-light/IMG_1561.jpg,Medium,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Medium,1.0,1,1.0,5,val/Egenprodusert/Tesla/low-light/IMG_1561.jpg
+Red,Eksternt/non-tesla/daylight/1254_02890.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1254_02890.jpg
+Red,Egenprodusert/non-tesla/low-light/20260303_123548488_iOS.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/20260303_123548488_iOS.jpg
+White,Egenprodusert/non-tesla/low-light/IMG_2110.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_2110.jpg
+Black/Dark gray,Egenprodusert/Tesla/low-light/%~n1-320.jpg,Medium,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Medium,1.0,1,1.0,6,val/Egenprodusert/Tesla/low-light/%~n1-320.jpg
+White,Eksternt/non-tesla/daylight/0498_04703.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0498_04703.jpg
+Black/Dark gray,Egenprodusert/Tesla/dark/%~n1-41.jpg,Dark,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Dark,1.0,1,1.0,5,val/Egenprodusert/Tesla/dark/%~n1-41.jpg
+Blue,Eksternt/Tesla/daylight/Kaggle/Y/images - 2023-08-30T082144.476.jpg,Light,Y 2020–2024,external,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Eksternt/Tesla/daylight/Kaggle/Y/images - 2023-08-30T082144.jpg
+Blue,Eksternt/non-tesla/daylight/1700_04998.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1700_04998.jpg
+Blue,Eksternt/non-tesla/daylight/1402_02299.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1402_02299.jpg
+White,Egenprodusert/Tesla/dark/%~n1-73.jpg,Dark,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Dark,1.0,1,1.0,5,val/Egenprodusert/Tesla/dark/%~n1-73.jpg
+Light gray/Silver,Egenprodusert/non-tesla/dark/20260303_183322789_iOS.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/20260303_183322789_iOS.jpg
+Black/Dark gray,Egenprodusert/non-tesla/low-light/IMG_2042.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_2042.jpg
+Blue,Egenprodusert/Tesla/low-light/IMG_1543.jpg,Medium,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Medium,1.0,1,1.0,5,val/Egenprodusert/Tesla/low-light/IMG_1543.jpg
+Red,Eksternt/non-tesla/daylight/1049_01931.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1049_01931.jpg
+Orange,Eksternt/non-tesla/daylight/1135_00461.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1135_00461.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/1888_05893.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1888_05893.jpg
+White,Egenprodusert/non-tesla/dark/IMG_4917.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_4917.jpg
+Light gray/Silver,Egenprodusert/non-tesla/low-light/IMG_4341.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_4341.jpg
+Black/Dark gray,Eksternt/Tesla/daylight/Kaggle/S/t12.jpg,Light,S 2016–nå,external,2016–2020,Tesla,S 2016–nå,Tesla|S 2016–nå|Light,1.0,1,1.0,3,val/Eksternt/Tesla/daylight/Kaggle/S/t12.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/0875_06258.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0875_06258.jpg
+Black/Dark gray,Egenprodusert/non-tesla/dark/20260303_175924731_iOS.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/20260303_175924731_iOS.jpg
+Black/Dark gray,Egenprodusert/non-tesla/low-light/IMG_2083.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_2083.jpg
+Yellow,Eksternt/non-tesla/daylight/0196_06923.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0196_06923.jpg
+White,Egenprodusert/non-tesla/low-light/IMG_4671.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_4671.jpg
+Red,Eksternt/non-tesla/daylight/2100_07842.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/2100_07842.jpg
+Red,Egenprodusert/non-tesla/low-light/20260303_122134338_iOS.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/20260303_122134338_iOS.jpg
+Light gray/Silver,Eksternt/Tesla/daylight/Kaggle/X/2017_Tesla_Model_X_100D_Front.jpg,Light,X,external,2016–2020,Tesla,X,Tesla|X|Light,1.0,1,1.0,4,val/Eksternt/Tesla/daylight/Kaggle/X/2017_Tesla_Model_X_100D_Front.jpg
+Red,Eksternt/non-tesla/daylight/0421_00985.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0421_00985.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/0061_03721.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0061_03721.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/2105_00904.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/2105_00904.jpg
+Light gray/Silver,Egenprodusert/Tesla/daylight/IMG_1400.jpg,Light,3 2024–nå,internal,2024–nå,Tesla,3 2024–nå,Tesla|3 2024–nå|Light,1.0,1,1.0,1,val/Egenprodusert/Tesla/daylight/IMG_1400.jpg
+White,Egenprodusert/Tesla/dark/IMG_1666.jpg,Dark,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Dark,1.0,1,1.0,6,val/Egenprodusert/Tesla/dark/IMG_1666.jpg
+White,Egenprodusert/non-tesla/dark/20260303_175957966_iOS.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/20260303_175957966_iOS.jpg
+White,Egenprodusert/Tesla/daylight/IMG_4031.jpg,Light,3 2024–nå,internal,2024–nå,Tesla,3 2024–nå,Tesla|3 2024–nå|Light,1.0,1,1.0,1,val/Egenprodusert/Tesla/daylight/IMG_4031.jpg
+Light gray/Silver,Egenprodusert/Tesla/low-light/IMG_1260.jpg,Medium,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Medium,1.0,1,1.0,6,val/Egenprodusert/Tesla/low-light/IMG_1260.jpg
+Black/Dark gray,Egenprodusert/Tesla/low-light/IMG_1441.jpg,Medium,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Medium,1.0,1,1.0,5,val/Egenprodusert/Tesla/low-light/IMG_1441.jpg
+Blue,Egenprodusert/Tesla/dark/%~n1-256.jpg,Dark,3 2017–2023,internal,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Dark,1.0,1,1.0,0,val/Egenprodusert/Tesla/dark/%~n1-256.jpg
+White,Egenprodusert/non-tesla/low-light/20260303_123414219_iOS.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/20260303_123414219_iOS.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/1755_07611.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1755_07611.jpg
+Black/Dark gray,Egenprodusert/Tesla/dark/%~n1-10.jpg,Dark,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Dark,1.0,1,1.0,5,val/Egenprodusert/Tesla/dark/%~n1-10.jpg
+Light gray/Silver,Egenprodusert/non-tesla/low-light/IMG_1990.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_1990.jpg
+White,Egenprodusert/Tesla/dark/IMG_3807.jpg,Dark,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Dark,1.0,1,1.0,6,val/Egenprodusert/Tesla/dark/IMG_3807.jpg
+Black/Dark gray,Egenprodusert/non-tesla/dark/IMG_4892.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_4892.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/1283_04593.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1283_04593.jpg
+Light gray/Silver,Egenprodusert/non-tesla/low-light/IMG_2139.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_2139.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/0503_03814.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0503_03814.jpg
+Black/Dark gray,Egenprodusert/non-tesla/low-light/IMG_2026.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_2026.jpg
+Light gray/Silver,Eksternt/Tesla/daylight/Kaggle/Y/tesla-model-y-2.jpg,Light,Y 2020–2024,external,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Eksternt/Tesla/daylight/Kaggle/Y/tesla-model-y-2.jpg
+Black/Dark gray,Egenprodusert/Tesla/dark/IMG_1217.jpg,Dark,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Dark,1.0,1,1.0,5,val/Egenprodusert/Tesla/dark/IMG_1217.jpg
+Black/Dark gray,Egenprodusert/Tesla/dark/IMG_4251.jpg,Dark,3 2017–2023,internal,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Dark,1.0,1,1.0,0,val/Egenprodusert/Tesla/dark/IMG_4251.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/0699_02803.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0699_02803.jpg
+Black/Dark gray,Egenprodusert/Tesla/daylight/IMG_1784.jpg,Light,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Light,1.0,1,1.0,6,val/Egenprodusert/Tesla/daylight/IMG_1784.jpg
+Red,Eksternt/non-tesla/daylight/0472_00246.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0472_00246.jpg
+Black/Dark gray,Egenprodusert/non-tesla/dark/20260201_180059734_iOS.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/20260201_180059734_iOS.jpg
+Blue,Egenprodusert/non-tesla/low-light/20260303_122404040_iOS.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/20260303_122404040_iOS.jpg
+Black/Dark gray,Egenprodusert/non-tesla/dark/IMG_4776.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_4776.jpg
+Black/Dark gray,Egenprodusert/Tesla/low-light/IMG_4131.jpg,Medium,3 2017–2023,internal,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Medium,1.0,1,1.0,0,val/Egenprodusert/Tesla/low-light/IMG_4131.jpg
+White,Eksternt/non-tesla/daylight/0938_03299.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0938_03299.jpg
+Red,Eksternt/non-tesla/daylight/0333_06493.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0333_06493.jpg
+Orange,Eksternt/non-tesla/daylight/0013_00206.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0013_00206.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/1437_02652.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1437_02652.jpg
+Light gray/Silver,Egenprodusert/Tesla/daylight/IMG_3989.jpg,Light,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Light,1.0,1,1.0,6,val/Egenprodusert/Tesla/daylight/IMG_3989.jpg
+White,Eksternt/non-tesla/daylight/1487_03125.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1487_03125.jpg
+Orange,Eksternt/non-tesla/daylight/0457_02761.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0457_02761.jpg
+Red,Eksternt/non-tesla/daylight/0551_05801.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0551_05801.jpg
+White,Egenprodusert/Tesla/dark/IMG_4198.jpg,Dark,3 2024–nå,internal,2024–nå,Tesla,3 2024–nå,Tesla|3 2024–nå|Dark,1.0,1,1.0,1,val/Egenprodusert/Tesla/dark/IMG_4198.jpg
+Blue,Egenprodusert/Tesla/low-light/IMG_4077.jpg,Medium,3 2017–2023,internal,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Medium,1.0,1,1.0,0,val/Egenprodusert/Tesla/low-light/IMG_4077.jpg
+White,Egenprodusert/non-tesla/low-light/20260303_122502915_iOS.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/20260303_122502915_iOS.jpg
+Light gray/Silver,Egenprodusert/Tesla/dark/IMG_1394.jpg,Dark,3 2017–2023,internal,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Dark,1.0,1,1.0,0,val/Egenprodusert/Tesla/dark/IMG_1394.jpg
+Black/Dark gray,Eksternt/Tesla/daylight/Kaggle/S/t85.jpg,Light,S 2016–nå,external,2016–2020,Tesla,S 2016–nå,Tesla|S 2016–nå|Light,1.0,1,1.0,3,val/Eksternt/Tesla/daylight/Kaggle/S/t85.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/1397_07505.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1397_07505.jpg
+Orange,Eksternt/non-tesla/daylight/1840_02657.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1840_02657.jpg
+Light gray/Silver,Egenprodusert/Tesla/low-light/%~n1-290.jpg,Medium,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Medium,1.0,1,1.0,5,val/Egenprodusert/Tesla/low-light/%~n1-290.jpg
+Black/Dark gray,Egenprodusert/Tesla/dark/IMG_4148.jpg,Dark,X,internal,2016–2020,Tesla,X,Tesla|X|Dark,1.0,1,1.0,4,val/Egenprodusert/Tesla/dark/IMG_4148.jpg
+Blue,Egenprodusert/Tesla/daylight/IMG_3881.jpg,Light,3 2017–2023,internal,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Light,1.0,1,1.0,0,val/Egenprodusert/Tesla/daylight/IMG_3881.jpg
+Black/Dark gray,Egenprodusert/non-tesla/dark/IMG_4782.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_4782.jpg
+Black/Dark gray,Egenprodusert/Tesla/low-light/IMG_4132.jpg,Medium,3 2017–2023,internal,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Medium,1.0,1,1.0,0,val/Egenprodusert/Tesla/low-light/IMG_4132.jpg
+White,Eksternt/non-tesla/daylight/1229_07152.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1229_07152.jpg
+Blue,Egenprodusert/Tesla/dark/IMG_1191.jpg,Dark,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Dark,1.0,1,1.0,6,val/Egenprodusert/Tesla/dark/IMG_1191.jpg
+Blue,Eksternt/non-tesla/daylight/1053_06608.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1053_06608.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/0701_03497.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0701_03497.jpg
+Black/Dark gray,Egenprodusert/Tesla/low-light/IMG_1459.jpg,Medium,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Medium,1.0,1,1.0,5,val/Egenprodusert/Tesla/low-light/IMG_1459.jpg
+White,Egenprodusert/Tesla/dark/IMG_4154.jpg,Dark,3 2017–2023,internal,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Dark,1.0,1,1.0,0,val/Egenprodusert/Tesla/dark/IMG_4154.jpg
+White,Egenprodusert/Tesla/dark/IMG_3812.jpg,Dark,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Dark,1.0,1,1.0,5,val/Egenprodusert/Tesla/dark/IMG_3812.jpg
+White,Egenprodusert/non-tesla/low-light/IMG_4674.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_4674.jpg
+White,Egenprodusert/Tesla/dark/%~n1-27.jpg,Dark,3 2017–2023,internal,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Dark,1.0,1,1.0,0,val/Egenprodusert/Tesla/dark/%~n1-27.jpg
+White,Egenprodusert/non-tesla/low-light/IMG_4356.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_4356.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/1663_00659.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1663_00659.jpg
+Red,Eksternt/non-tesla/daylight/0289_02142.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0289_02142.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/0689_04020.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0689_04020.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/1530_00400.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1530_00400.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/1540_04007.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1540_04007.jpg
+White,Egenprodusert/Tesla/daylight/IMG_1237.jpg,Light,S 2012–2015,internal,2012–2015,Tesla,S 2012–2015,Tesla|S 2012–2015|Light,1.0,1,1.0,2,val/Egenprodusert/Tesla/daylight/IMG_1237.jpg
+Black/Dark gray,Egenprodusert/non-tesla/dark/IMG_2044.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_2044.jpg
+Blue,Egenprodusert/Tesla/low-light/%~n1-23.jpg,Medium,3 2017–2023,internal,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Medium,1.0,1,1.0,0,val/Egenprodusert/Tesla/low-light/%~n1-23.jpg
+Black/Dark gray,Egenprodusert/Tesla/dark/%~n1-8.jpg,Dark,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Dark,1.0,1,1.0,5,val/Egenprodusert/Tesla/dark/%~n1-8.jpg
+Black/Dark gray,Egenprodusert/non-tesla/low-light/IMG_4678.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_4678.jpg
+White,Egenprodusert/Tesla/low-light/IMG_1257.jpg,Medium,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Medium,1.0,1,1.0,6,val/Egenprodusert/Tesla/low-light/IMG_1257.jpg
+White,Egenprodusert/non-tesla/low-light/IMG_1852.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_1852.jpg
+White,Egenprodusert/Tesla/daylight/20260129_121357905_iOS.jpg,Light,3 2024–nå,internal,2024–nå,Tesla,3 2024–nå,Tesla|3 2024–nå|Light,1.0,1,1.0,1,val/Egenprodusert/Tesla/daylight/20260129_121357905_iOS.jpg
+Black/Dark gray,Egenprodusert/non-tesla/dark/IMG_4895.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_4895.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/1251_01466.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1251_01466.jpg
+Red,Eksternt/non-tesla/daylight/2093_00679.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/2093_00679.jpg
+Blue,Egenprodusert/non-tesla/dark/IMG_4392.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_4392.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/1133_04690.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1133_04690.jpg
+Light gray/Silver,Egenprodusert/non-tesla/low-light/IMG_4592.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_4592.jpg
+Light gray/Silver,Egenprodusert/non-tesla/dark/20260303_182254876_iOS.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/20260303_182254876_iOS.jpg
+Red,Egenprodusert/Tesla/daylight/IMG_1774.jpg,Light,3 2024–nå,internal,2024–nå,Tesla,3 2024–nå,Tesla|3 2024–nå|Light,1.0,1,1.0,1,val/Egenprodusert/Tesla/daylight/IMG_1774.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/0483_05845.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0483_05845.jpg
+Black/Dark gray,Egenprodusert/non-tesla/dark/IMG_4924.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_4924.jpg
+Light gray/Silver,Egenprodusert/Tesla/daylight/IMG_1411.jpg,Light,3 2024–nå,internal,2024–nå,Tesla,3 2024–nå,Tesla|3 2024–nå|Light,1.0,1,1.0,1,val/Egenprodusert/Tesla/daylight/IMG_1411.jpg
+Light gray/Silver,Eksternt/Tesla/daylight/Kaggle/X/images - 2023-08-30T070126.150.jpg,Light,X,external,2016–2020,Tesla,X,Tesla|X|Light,1.0,1,1.0,4,val/Eksternt/Tesla/daylight/Kaggle/X/images - 2023-08-30T070126.jpg
+Black/Dark gray,Egenprodusert/Tesla/dark/IMG_4282.jpg,Dark,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Dark,1.0,1,1.0,6,val/Egenprodusert/Tesla/dark/IMG_4282.jpg
+Light gray/Silver,Egenprodusert/non-tesla/low-light/20260303_121606161_iOS.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/20260303_121606161_iOS.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/0018_01527.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0018_01527.jpg
+Red,Egenprodusert/Tesla/dark/IMG_1248.jpg,Dark,3 2024–nå,internal,2024–nå,Tesla,3 2024–nå,Tesla|3 2024–nå|Dark,1.0,1,1.0,1,val/Egenprodusert/Tesla/dark/IMG_1248.jpg
+Black/Dark gray,Egenprodusert/non-tesla/dark/IMG_2104.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_2104.jpg
+White,Eksternt/non-tesla/daylight/2013_03294.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/2013_03294.jpg
+Black/Dark gray,Egenprodusert/Tesla/low-light/IMG_4046.jpg,Medium,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Medium,1.0,1,1.0,6,val/Egenprodusert/Tesla/low-light/IMG_4046.jpg
+Red,Eksternt/Tesla/daylight/Kaggle/Y/t77.jpg,Light,Y 2020–2024,external,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Eksternt/Tesla/daylight/Kaggle/Y/t77.jpg
+White,Egenprodusert/Tesla/daylight/20260129_122021890_iOS.jpg,Light,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Egenprodusert/Tesla/daylight/20260129_122021890_iOS.jpg
+Black/Dark gray,Egenprodusert/non-tesla/low-light/IMG_4636.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_4636.jpg
+Blue,Eksternt/non-tesla/daylight/1879_00055.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1879_00055.jpg
+White,Egenprodusert/Tesla/daylight/%~n1-445.jpg,Light,X,internal,2016–2020,Tesla,X,Tesla|X|Light,1.0,1,1.0,4,val/Egenprodusert/Tesla/daylight/%~n1-445.jpg
+Light gray/Silver,Egenprodusert/Tesla/dark/%~n1-139.jpg,Dark,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Dark,1.0,1,1.0,5,val/Egenprodusert/Tesla/dark/%~n1-139.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/1793_02805.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1793_02805.jpg
+Black/Dark gray,Egenprodusert/non-tesla/dark/IMG_1946.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_1946.jpg
+White,Egenprodusert/Tesla/dark/IMG_4164.jpg,Dark,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Dark,1.0,1,1.0,5,val/Egenprodusert/Tesla/dark/IMG_4164.jpg
+Black/Dark gray,Egenprodusert/non-tesla/dark/IMG_4805.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_4805.jpg
+White,Eksternt/non-tesla/daylight/0382_00424.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0382_00424.jpg
+Black/Dark gray,Egenprodusert/Tesla/daylight/%~n1-424.jpg,Light,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Egenprodusert/Tesla/daylight/%~n1-424.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/0709_04126.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0709_04126.jpg
+White,Eksternt/non-tesla/daylight/2043_02753.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/2043_02753.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/1835_02504.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1835_02504.jpg
+Black/Dark gray,Egenprodusert/non-tesla/dark/IMG_2105.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_2105.jpg
+White,Egenprodusert/Tesla/low-light/IMG_4072.jpg,Medium,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Medium,1.0,1,1.0,5,val/Egenprodusert/Tesla/low-light/IMG_4072.jpg
+White,Egenprodusert/Tesla/daylight/IMG_3960.jpg,Light,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Egenprodusert/Tesla/daylight/IMG_3960.jpg
+White,Egenprodusert/Tesla/dark/IMG_3795.jpg,Dark,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Dark,1.0,1,1.0,5,val/Egenprodusert/Tesla/dark/IMG_3795.jpg
+Light gray/Silver,Egenprodusert/non-tesla/dark/20260303_180450831_iOS.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/20260303_180450831_iOS.jpg
+Black/Dark gray,Egenprodusert/non-tesla/low-light/20260303_123210047_iOS.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/20260303_123210047_iOS.jpg
+White,Egenprodusert/Tesla/daylight/IMG_4030.jpg,Light,3 2024–nå,internal,2024–nå,Tesla,3 2024–nå,Tesla|3 2024–nå|Light,1.0,1,1.0,1,val/Egenprodusert/Tesla/daylight/IMG_4030.jpg
+Blue,Eksternt/Tesla/daylight/Kaggle/3/images - 2023-08-30T070931.219.jpg,Light,Y 2020–2024,external,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Eksternt/Tesla/daylight/Kaggle/3/images - 2023-08-30T070931.jpg
+Black/Dark gray,Egenprodusert/Tesla/daylight/20260207_142739867_iOS.jpg,Light,S 2012–2015,internal,2012–2015,Tesla,S 2012–2015,Tesla|S 2012–2015|Light,1.0,1,1.0,2,val/Egenprodusert/Tesla/daylight/20260207_142739867_iOS.jpg
+White,Eksternt/non-tesla/daylight/0704_04705.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0704_04705.jpg
+Black/Dark gray,Egenprodusert/non-tesla/low-light/20260303_121842246_iOS.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/20260303_121842246_iOS.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/1548_02258.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1548_02258.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/1521_06076.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1521_06076.jpg
+Blue,Egenprodusert/non-tesla/low-light/20260303_121931121_iOS.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/20260303_121931121_iOS.jpg
+White,Eksternt/non-tesla/daylight/0655_03792.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0655_03792.jpg
+Black/Dark gray,Eksternt/Tesla/daylight/Kaggle/X/images - 2023-08-30T070124.201.jpg,Light,X,external,2021–nå,Tesla,X,Tesla|X|Light,1.0,1,1.0,4,val/Eksternt/Tesla/daylight/Kaggle/X/images - 2023-08-30T070124.jpg
+White,Egenprodusert/non-tesla/low-light/IMG_2224.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_2224.jpg
+White,Egenprodusert/Tesla/low-light/IMG_4081.jpg,Medium,3 2017–2023,internal,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Medium,1.0,1,1.0,0,val/Egenprodusert/Tesla/low-light/IMG_4081.jpg
+White,Egenprodusert/Tesla/daylight/%~n1-420.jpg,Light,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Egenprodusert/Tesla/daylight/%~n1-420.jpg
+Black/Dark gray,Egenprodusert/non-tesla/low-light/20260128_071440089_iOS.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/20260128_071440089_iOS.jpg
+Orange,Eksternt/non-tesla/daylight/1252_03326.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1252_03326.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/0968_06416.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0968_06416.jpg
+White,Egenprodusert/Tesla/low-light/IMG_4109.jpg,Medium,3 2017–2023,internal,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Medium,1.0,1,1.0,0,val/Egenprodusert/Tesla/low-light/IMG_4109.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/1481_00043.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1481_00043.jpg
+Blue,Egenprodusert/Tesla/daylight/IMG_1758.jpg,Light,3 2024–nå,internal,2024–nå,Tesla,3 2024–nå,Tesla|3 2024–nå|Light,1.0,1,1.0,1,val/Egenprodusert/Tesla/daylight/IMG_1758.jpg
+Red,Eksternt/non-tesla/daylight/1321_04117.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1321_04117.jpg
+White,Egenprodusert/Tesla/low-light/IMG_4049.jpg,Medium,3 2024–nå,internal,2024–nå,Tesla,3 2024–nå,Tesla|3 2024–nå|Medium,1.0,1,1.0,1,val/Egenprodusert/Tesla/low-light/IMG_4049.jpg
+Red,Eksternt/non-tesla/daylight/1081_01922.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1081_01922.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/0331_02584.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0331_02584.jpg
+White,Egenprodusert/Tesla/dark/IMG_3801.jpg,Dark,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Dark,1.0,1,1.0,5,val/Egenprodusert/Tesla/dark/IMG_3801.jpg
+Red,Egenprodusert/non-tesla/dark/20260303_180542473_iOS.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/20260303_180542473_iOS.jpg
+White,Egenprodusert/Tesla/daylight/%~n1-385.jpg,Light,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Egenprodusert/Tesla/daylight/%~n1-385.jpg
+White,Eksternt/non-tesla/daylight/1699_01440.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1699_01440.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/1549_05502.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1549_05502.jpg
+Black/Dark gray,Egenprodusert/Tesla/dark/IMG_1314.jpg,Dark,S 2012–2015,internal,2012–2015,Tesla,S 2012–2015,Tesla|S 2012–2015|Dark,1.0,1,1.0,2,val/Egenprodusert/Tesla/dark/IMG_1314.jpg
+Yellow,Eksternt/non-tesla/daylight/2126_03408.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/2126_03408.jpg
+White,Egenprodusert/Tesla/dark/IMG_1600.jpg,Dark,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Dark,1.0,1,1.0,5,val/Egenprodusert/Tesla/dark/IMG_1600.jpg
+White,Egenprodusert/Tesla/daylight/IMG_4021.jpg,Light,3 2017–2023,internal,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Light,1.0,1,1.0,0,val/Egenprodusert/Tesla/daylight/IMG_4021.jpg
+Black/Dark gray,Egenprodusert/Tesla/daylight/IMG_3913.jpg,Light,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Egenprodusert/Tesla/daylight/IMG_3913.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/1804_00995.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1804_00995.jpg
+Blue,Egenprodusert/Tesla/low-light/%~n1-119.jpg,Medium,3 2017–2023,internal,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Medium,1.0,1,1.0,0,val/Egenprodusert/Tesla/low-light/%~n1-119.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/0180_05029.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0180_05029.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/0527_06070.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0527_06070.jpg
+Black/Dark gray,Egenprodusert/non-tesla/low-light/20260303_121815465_iOS.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/20260303_121815465_iOS.jpg
+Black/Dark gray,Egenprodusert/Tesla/low-light/IMG_1270.jpg,Medium,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Medium,1.0,1,1.0,5,val/Egenprodusert/Tesla/low-light/IMG_1270.jpg
+Light gray/Silver,Egenprodusert/non-tesla/dark/IMG_2157.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_2157.jpg
+Red,Eksternt/non-tesla/daylight/0035_01909.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0035_01909.jpg
+Red,Eksternt/non-tesla/daylight/0345_04049.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0345_04049.jpg
+White,Eksternt/non-tesla/daylight/1853_06588.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1853_06588.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/1011_05194.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1011_05194.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/1413_01734.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1413_01734.jpg
+Black/Dark gray,Egenprodusert/Tesla/daylight/IMG_1679.jpg,Light,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Light,1.0,1,1.0,6,val/Egenprodusert/Tesla/daylight/IMG_1679.jpg
+Light gray/Silver,Egenprodusert/non-tesla/dark/20260303_175836644_iOS.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/20260303_175836644_iOS.jpg
+Red,Eksternt/Tesla/daylight/Kaggle/3/2022-Tesla-Model-S-Plaid+-sedan-red-1001x-565-1_2.jpg,Light,S 2016–nå,external,2021–nå,Tesla,S 2016–nå,Tesla|S 2016–nå|Light,1.0,1,1.0,3,val/Eksternt/Tesla/daylight/Kaggle/3/2022-Tesla-Model-S-Plaid+-sedan-red-1001x-565-1_2.jpg
+White,Eksternt/Tesla/daylight/Kaggle/X/images - 2023-08-30T070123.612.jpg,Light,X,external,2016–2020,Tesla,X,Tesla|X|Light,1.0,1,1.0,4,val/Eksternt/Tesla/daylight/Kaggle/X/images - 2023-08-30T070123.jpg
+White,Eksternt/non-tesla/daylight/1791_06312.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1791_06312.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/1102_04785.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1102_04785.jpg
+Blue,Egenprodusert/non-tesla/low-light/20260303_122243879_iOS.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/20260303_122243879_iOS.jpg
+White,Eksternt/Tesla/daylight/Kaggle/X/images - 2023-08-30T070123.146.jpg,Light,X,external,2021–nå,Tesla,X,Tesla|X|Light,1.0,1,1.0,4,val/Eksternt/Tesla/daylight/Kaggle/X/images - 2023-08-30T070123.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/1680_02712.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1680_02712.jpg
+White,Egenprodusert/Tesla/low-light/IMG_4228.jpg,Dark,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Dark,1.0,1,1.0,5,val/Egenprodusert/Tesla/low-light/IMG_4228.jpg
+Black/Dark gray,Egenprodusert/Tesla/dark/IMG_1482.jpg,Dark,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Dark,1.0,1,1.0,6,val/Egenprodusert/Tesla/dark/IMG_1482.jpg
+White,Egenprodusert/non-tesla/low-light/IMG_2054.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_2054.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/1009_05484.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1009_05484.jpg
+Light gray/Silver,Egenprodusert/Tesla/low-light/IMG_1651.jpg,Medium,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Medium,1.0,1,1.0,6,val/Egenprodusert/Tesla/low-light/IMG_1651.jpg
+Black/Dark gray,Eksternt/Tesla/daylight/Kaggle/X/2018-tesla-model-x-75d-suv-angular-front.jpg,Light,X,external,2016–2020,Tesla,X,Tesla|X|Light,1.0,1,1.0,4,val/Eksternt/Tesla/daylight/Kaggle/X/2018-tesla-model-x-75d-suv-angular-front.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/2054_00295.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/2054_00295.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/0065_06627.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0065_06627.jpg
+Light gray/Silver,Egenprodusert/non-tesla/low-light/20260303_123213176_iOS.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/20260303_123213176_iOS.jpg
+Blue,Egenprodusert/Tesla/daylight/%~n1-412.jpg,Light,3 2017–2023,internal,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Light,1.0,1,1.0,0,val/Egenprodusert/Tesla/daylight/%~n1-412.jpg
+Light gray/Silver,Egenprodusert/Tesla/daylight/%~n1-455.jpg,Light,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Egenprodusert/Tesla/daylight/%~n1-455.jpg
+White,Egenprodusert/non-tesla/low-light/IMG_2027.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_2027.jpg
+Black/Dark gray,Egenprodusert/non-tesla/low-light/IMG_4737.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_4737.jpg
+White,Egenprodusert/Tesla/dark/IMG_1156.jpg,Dark,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Dark,1.0,1,1.0,5,val/Egenprodusert/Tesla/dark/IMG_1156.jpg
+White,Eksternt/non-tesla/daylight/2261_08013.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/2261_08013.jpg
+Black/Dark gray,Egenprodusert/non-tesla/dark/IMG_4792.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_4792.jpg
+White,Egenprodusert/Tesla/low-light/%~n1-104.jpg,Medium,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Medium,1.0,1,1.0,5,val/Egenprodusert/Tesla/low-light/%~n1-104.jpg
+Blue,Egenprodusert/non-tesla/dark/IMG_4377.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_4377.jpg
+Yellow,Eksternt/non-tesla/daylight/2080_06262.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/2080_06262.jpg
+Red,Eksternt/non-tesla/daylight/1022_04910.jpg,Dark,Other car,external,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1022_04910.jpg
+Red,Egenprodusert/non-tesla/dark/IMG_2223.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_2223.jpg
+Black/Dark gray,Egenprodusert/Tesla/dark/IMG_1478.jpg,Dark,3 2024–nå,internal,2024–nå,Tesla,3 2024–nå,Tesla|3 2024–nå|Dark,1.0,1,1.0,1,val/Egenprodusert/Tesla/dark/IMG_1478.jpg
+White,Eksternt/non-tesla/daylight/2188_02209.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/2188_02209.jpg
+White,Egenprodusert/Tesla/daylight/%~n1-504.jpg,Light,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Egenprodusert/Tesla/daylight/%~n1-504.jpg
+White,Eksternt/Tesla/daylight/Kaggle/3/images - 2023-08-30T071002.860.jpg,Light,3 2017–2023,external,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Light,1.0,1,1.0,0,val/Eksternt/Tesla/daylight/Kaggle/3/images - 2023-08-30T071002.jpg
+Black/Dark gray,Egenprodusert/non-tesla/low-light/20260303_121650899_iOS.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/20260303_121650899_iOS.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/0415_06461.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0415_06461.jpg
+White,Egenprodusert/Tesla/low-light/IMG_4173.jpg,Medium,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Medium,1.0,1,1.0,5,val/Egenprodusert/Tesla/low-light/IMG_4173.jpg
+White,Egenprodusert/Tesla/dark/IMG_1299.jpg,Dark,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Dark,1.0,1,1.0,5,val/Egenprodusert/Tesla/dark/IMG_1299.jpg
+White,Eksternt/Tesla/daylight/Kaggle/X/03O4IA6HkqzK8U25pjEhmLX-10.fit_scale.size_760x427.v1569482326.jpg,Light,X,external,2016–2020,Tesla,X,Tesla|X|Light,1.0,1,1.0,4,val/Eksternt/Tesla/daylight/Kaggle/X/03O4IA6HkqzK8U25pjEhmLX-10.fit_scale.size_760x427.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/0976_00348.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0976_00348.jpg
+Black/Dark gray,Egenprodusert/non-tesla/low-light/IMG_2005.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_2005.jpg
+Light gray/Silver,Egenprodusert/Tesla/dark/IMG_3785.jpg,Dark,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Dark,1.0,1,1.0,5,val/Egenprodusert/Tesla/dark/IMG_3785.jpg
+Black/Dark gray,Egenprodusert/Tesla/daylight/IMG_4036.jpg,Light,S 2012–2015,internal,2012–2015,Tesla,S 2012–2015,Tesla|S 2012–2015|Light,1.0,1,1.0,2,val/Egenprodusert/Tesla/daylight/IMG_4036.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/1981_06308.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1981_06308.jpg
+Red,Eksternt/non-tesla/daylight/1345_04445.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1345_04445.jpg
+Black/Dark gray,Egenprodusert/Tesla/dark/IMG_4139.jpg,Dark,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Dark,1.0,1,1.0,5,val/Egenprodusert/Tesla/dark/IMG_4139.jpg
+Black/Dark gray,Egenprodusert/Tesla/daylight/20260129_121726917_iOS.jpg,Light,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Light,1.0,1,1.0,6,val/Egenprodusert/Tesla/daylight/20260129_121726917_iOS.jpg
+White,Egenprodusert/non-tesla/daylight/%~n1-515.jpg,Light,Other car,internal,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Egenprodusert/non-tesla/daylight/%~n1-515.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/1119_02528.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1119_02528.jpg
+White,Egenprodusert/non-tesla/dark/IMG_1879.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_1879.jpg
+White,Eksternt/non-tesla/daylight/1263_06250.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1263_06250.jpg
+Blue,Egenprodusert/non-tesla/low-light/IMG_2100.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_2100.jpg
+Black/Dark gray,Egenprodusert/Tesla/dark/IMG_4232.jpg,Dark,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Dark,1.0,1,1.0,6,val/Egenprodusert/Tesla/dark/IMG_4232.jpg
+Black/Dark gray,Egenprodusert/non-tesla/low-light/IMG_4703.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_4703.jpg
+White,Egenprodusert/Tesla/dark/%~n1-325.jpg,Dark,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Dark,1.0,1,1.0,5,val/Egenprodusert/Tesla/dark/%~n1-325.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/0418_05546.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0418_05546.jpg
+White,Egenprodusert/Tesla/dark/IMG_3818.jpg,Dark,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Dark,1.0,1,1.0,6,val/Egenprodusert/Tesla/dark/IMG_3818.jpg
+White,Eksternt/Tesla/daylight/Kaggle/Y/t173.jpg,Light,Y 2020–2024,external,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Eksternt/Tesla/daylight/Kaggle/Y/t173.jpg
+Light gray/Silver,Egenprodusert/non-tesla/dark/IMG_4874.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_4874.jpg
+White,Eksternt/Tesla/daylight/Kaggle/3/hero-image.fill.size_1200x675.jpg,Light,S 2012–2015,external,2012–2015,Tesla,S 2012–2015,Tesla|S 2012–2015|Light,1.0,1,1.0,2,val/Eksternt/Tesla/daylight/Kaggle/3/hero-image.fill.jpg
+Black/Dark gray,Egenprodusert/Tesla/dark/%~n1-115.jpg,Dark,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Dark,1.0,1,1.0,5,val/Egenprodusert/Tesla/dark/%~n1-115.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/0856_07264.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0856_07264.jpg
+Black/Dark gray,Egenprodusert/non-tesla/low-light/IMG_4362.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_4362.jpg
+White,Egenprodusert/Tesla/low-light/IMG_4170.jpg,Medium,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Medium,1.0,1,1.0,5,val/Egenprodusert/Tesla/low-light/IMG_4170.jpg
+Black/Dark gray,Egenprodusert/Tesla/daylight/IMG_1398.jpg,Light,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Egenprodusert/Tesla/daylight/IMG_1398.jpg
+Red,Eksternt/Tesla/daylight/Kaggle/3/t134.jpg,Light,Y 2020–2024,external,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Eksternt/Tesla/daylight/Kaggle/3/t134.jpg
+Red,Egenprodusert/Tesla/low-light/%~n1-84.jpg,Medium,3 2024–nå,internal,2024–nå,Tesla,3 2024–nå,Tesla|3 2024–nå|Medium,1.0,1,1.0,1,val/Egenprodusert/Tesla/low-light/%~n1-84.jpg
+Light gray/Silver,Egenprodusert/Tesla/daylight/IMG_3940.jpg,Light,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Egenprodusert/Tesla/daylight/IMG_3940.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/0739_05693.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0739_05693.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/2255_05764.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/2255_05764.jpg
+White,Egenprodusert/Tesla/low-light/IMG_1567.jpg,Medium,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Medium,1.0,1,1.0,5,val/Egenprodusert/Tesla/low-light/IMG_1567.jpg
+Light gray/Silver,Egenprodusert/non-tesla/dark/IMG_4369.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_4369.jpg
+Black/Dark gray,Egenprodusert/Tesla/low-light/IMG_1442.jpg,Medium,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Medium,1.0,1,1.0,5,val/Egenprodusert/Tesla/low-light/IMG_1442.jpg
+White,Egenprodusert/Tesla/daylight/%~n1-437.jpg,Light,X,internal,2016–2020,Tesla,X,Tesla|X|Light,1.0,1,1.0,4,val/Egenprodusert/Tesla/daylight/%~n1-437.jpg
+White,Egenprodusert/Tesla/daylight/IMG_3884.jpg,Light,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Egenprodusert/Tesla/daylight/IMG_3884.jpg
+Black/Dark gray,Egenprodusert/non-tesla/low-light/IMG_2051.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_2051.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/2193_04807.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/2193_04807.jpg
+Light gray/Silver,Egenprodusert/Tesla/daylight/20260129_122037077_iOS.jpg,Light,3 2024–nå,internal,2024–nå,Tesla,3 2024–nå,Tesla|3 2024–nå|Light,1.0,1,1.0,1,val/Egenprodusert/Tesla/daylight/20260129_122037077_iOS.jpg
+White,Eksternt/non-tesla/daylight/1899_02593.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1899_02593.jpg
+White,Eksternt/non-tesla/daylight/0762_04241.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0762_04241.jpg
+Light gray/Silver,Egenprodusert/Tesla/daylight/%~n1-456.jpg,Light,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Egenprodusert/Tesla/daylight/%~n1-456.jpg
+Black/Dark gray,Egenprodusert/Tesla/low-light/IMG_4128.jpg,Medium,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Medium,1.0,1,1.0,5,val/Egenprodusert/Tesla/low-light/IMG_4128.jpg
+Red,Eksternt/non-tesla/daylight/1502_04010.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1502_04010.jpg
+White,Egenprodusert/Tesla/dark/IMG_1159.jpg,Dark,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Dark,1.0,1,1.0,5,val/Egenprodusert/Tesla/dark/IMG_1159.jpg
+Black/Dark gray,Egenprodusert/non-tesla/dark/IMG_1895.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_1895.jpg
+Black/Dark gray,Egenprodusert/Tesla/dark/IMG_1175.jpg,Dark,3 2024–nå,internal,2024–nå,Tesla,3 2024–nå,Tesla|3 2024–nå|Dark,1.0,1,1.0,1,val/Egenprodusert/Tesla/dark/IMG_1175.jpg
+Red,Egenprodusert/Tesla/daylight/IMG_1776.jpg,Light,3 2024–nå,internal,2024–nå,Tesla,3 2024–nå,Tesla|3 2024–nå|Light,1.0,1,1.0,1,val/Egenprodusert/Tesla/daylight/IMG_1776.jpg
+Black/Dark gray,Egenprodusert/Tesla/dark/%~n1-260.jpg,Dark,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Dark,1.0,1,1.0,5,val/Egenprodusert/Tesla/dark/%~n1-260.jpg
+White,Egenprodusert/Tesla/low-light/IMG_4190.jpg,Dark,3 2024–nå,internal,2024–nå,Tesla,3 2024–nå,Tesla|3 2024–nå|Dark,1.0,1,1.0,1,val/Egenprodusert/Tesla/low-light/IMG_4190.jpg
+Red,Eksternt/non-tesla/daylight/0533_02767.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0533_02767.jpg
+White,Eksternt/Tesla/daylight/Kaggle/X/tesla-model-x-main-hero-desktop-rhd-xlhi.jpg,Light,X,external,2021–nå,Tesla,X,Tesla|X|Light,1.0,1,1.0,4,val/Eksternt/Tesla/daylight/Kaggle/X/tesla-model-x-main-hero-desktop-rhd-xlhi.jpg
+Red,Eksternt/non-tesla/daylight/0703_03154.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0703_03154.jpg
+White,Eksternt/non-tesla/daylight/0491_06241.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0491_06241.jpg
+White,Egenprodusert/Tesla/daylight/IMG_4004.jpg,Light,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Egenprodusert/Tesla/daylight/IMG_4004.jpg
+White,Eksternt/non-tesla/daylight/2336_00030.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/2336_00030.jpg
+White,Egenprodusert/non-tesla/low-light/IMG_2147.jpg,Medium,Other car,internal,,Other,,Other|NA|Medium,0.0,0,1.0,0,val/Egenprodusert/non-tesla/low-light/IMG_2147.jpg
+Green,Egenprodusert/Tesla/daylight/IMG_1773.jpg,Light,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Egenprodusert/Tesla/daylight/IMG_1773.jpg
+Light gray/Silver,Egenprodusert/non-tesla/dark/IMG_1915.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_1915.jpg
+White,Egenprodusert/Tesla/daylight/IMG_3994.jpg,Light,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Egenprodusert/Tesla/daylight/IMG_3994.jpg
+Black/Dark gray,Egenprodusert/non-tesla/dark/IMG_1939.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/IMG_1939.jpg
+Light gray/Silver,Egenprodusert/non-tesla/dark/20260303_182443666_iOS.jpg,Dark,Other car,internal,,Other,,Other|NA|Dark,0.0,0,1.0,0,val/Egenprodusert/non-tesla/dark/20260303_182443666_iOS.jpg
+White,Egenprodusert/Tesla/low-light/%~n1-173.jpg,Medium,3 2024–nå,internal,2024–nå,Tesla,3 2024–nå,Tesla|3 2024–nå|Medium,1.0,1,1.0,1,val/Egenprodusert/Tesla/low-light/%~n1-173.jpg
+White,Egenprodusert/Tesla/low-light/IMG_1608.jpg,Medium,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Medium,1.0,1,1.0,5,val/Egenprodusert/Tesla/low-light/IMG_1608.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/2058_06396.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/2058_06396.jpg
+White,Eksternt/non-tesla/daylight/1994_03023.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1994_03023.jpg
+Light gray/Silver,Egenprodusert/Tesla/daylight/IMG_3997.jpg,Light,Y 2020–2024,internal,2020–2024,Tesla,Y 2020–2024,Tesla|Y 2020–2024|Light,1.0,1,1.0,5,val/Egenprodusert/Tesla/daylight/IMG_3997.jpg
+Red,Egenprodusert/Tesla/dark/%~n1-127.jpg,Dark,Y 2025-nå,internal,2025-nå,Tesla,Y 2025-nå,Tesla|Y 2025-nå|Dark,1.0,1,1.0,6,val/Egenprodusert/Tesla/dark/%~n1-127.jpg
+Red,Eksternt/non-tesla/daylight/1225_06567.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1225_06567.jpg
+Black/Dark gray,Eksternt/non-tesla/daylight/1379_06694.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1379_06694.jpg
+Red,Egenprodusert/Tesla/daylight/IMG_1765.jpg,Light,3 2017–2023,internal,2017–2023,Tesla,3 2017–2023,Tesla|3 2017–2023|Light,1.0,1,1.0,0,val/Egenprodusert/Tesla/daylight/IMG_1765.jpg
+Black/Dark gray,Egenprodusert/non-tesla/daylight/IMG_4315.jpg,Light,Other car,internal,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Egenprodusert/non-tesla/daylight/IMG_4315.jpg
+White,Eksternt/non-tesla/daylight/0429_04591.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0429_04591.jpg
+Light gray/Silver,Eksternt/non-tesla/daylight/0348_07822.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/0348_07822.jpg
+Blue,Eksternt/Tesla/daylight/Kaggle/X/t97.jpg,Light,X,external,2016–2020,Tesla,X,Tesla|X|Light,1.0,1,1.0,4,val/Eksternt/Tesla/daylight/Kaggle/X/t97.jpg
+Red,Eksternt/non-tesla/daylight/1020_00560.jpg,Light,Other car,external,,Other,,Other|NA|Light,0.0,0,1.0,0,val/Eksternt/non-tesla/daylight/1020_00560.jpg
+White,Egenprodusert/Tesla/low-light/IMG_3703.jpg,Medium,3 2024–nå,internal,2024–nå,Tesla,3 2024–nå,Tesla|3 2024–nå|Medium,1.0,1,1.0,1,val/Egenprodusert/Tesla/low-light/IMG_3703.jpg
