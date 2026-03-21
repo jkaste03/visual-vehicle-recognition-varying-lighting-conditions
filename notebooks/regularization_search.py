@@ -1,8 +1,8 @@
-from aim.keras import AimCallback
+from tensorflow import keras
+from keras import layers, regularizers
+from aim.keras import AimCallback  # remove if you don't use it
 import numpy as np
-import keras
 import utils
-from keras import layers
 import gc
 from sklearn.metrics import f1_score
 import tensorflow as tf
@@ -62,27 +62,29 @@ class ValF1Callback(keras.callbacks.Callback):
             f"{self.name_lvl2} = {f1_lvl2_macro:.4f}, "
             f"{self.name_combined} = {score_50_50:.4f}"
         )
-# ------------------------------------------------------------
 
+
+# ------------------------------------------------------------
 
 SEED = 42
 IMG_SIZE = (300, 300)
 EPOCHS = 200
 BATCH_SIZE = 16
-FILE_NAME = "out_bayesian_search_2.txt"
+FILE_NAME = "out_bayesian_search_dropout_l2.txt"
+MAX_TRIALS = 30
 
 # -------------------------------------------------------
-# Data loading (unchanged)
+# Data loading
 # -------------------------------------------------------
 (train_x, train_y), (val_x, val_y), (test_x, test_y) = utils.read_andre_data()
 
-train_y_dict = {'lvl1': train_y["lvl1"], 'lvl2': train_y["lvl2"]}
-val_y_dict = {'lvl1': val_y["lvl1"], 'lvl2': val_y["lvl2"]}
-validation_data = (val_x, {'lvl1': val_y["lvl1"], 'lvl2': val_y["lvl2"]})
+train_y_dict = {"lvl1": train_y["lvl1"], "lvl2": train_y["lvl2"]}
+val_y_dict = {"lvl1": val_y["lvl1"], "lvl2": val_y["lvl2"]}
+validation_data = (val_x, {"lvl1": val_y["lvl1"], "lvl2": val_y["lvl2"]})
 
 sample_weight = {
     "lvl1": np.ones(len(train_y)),
-    "lvl2": train_y['lvl1'].to_numpy()
+    "lvl2": train_y["lvl1"].to_numpy(),
 }
 
 # ----- custom F1 callback + EarlyStopping on that metric -----
@@ -104,51 +106,104 @@ early_stop = keras.callbacks.EarlyStopping(
 )
 
 # -------------------------------------------------------
-
-
-# -------------------------------------------------------
-# Base model builder (without augmentation inline)
+# Fixed augmentation layer (your "best_data_augmentation")
 # -------------------------------------------------------
 
+augmentation = keras.Sequential(
+    [
+        layers.RandomFlip("horizontal", name="rand_flip"),
+        layers.RandomZoom(
+            height_factor=(-0.10, 0.03),
+            width_factor=(-0.10, 0.03),
+            fill_mode="reflect",
+            name="rand_zoom",
+        ),
+        layers.RandomContrast(
+            factor=0.10,
+            name="rand_contrast",
+        ),
+    ],
+    name="best_data_augmentation",
+)
 
-def v4_model(augmentation_layer):
-    inputs = x = keras.Input(shape=(*IMG_SIZE, 3))
+# -------------------------------------------------------
+# Base model builder using given augmentation + hp for dropout & l2
+# -------------------------------------------------------
 
-    if augmentation_layer is not None:
-        x = augmentation_layer(x)
 
+def v4_model(augmentation, l2_factor=0.01, dropout_rate=0.5):
+    # l2_factor = 0.0  → no L2
+    # dropout_rate = 0.0 → no Dropout
+
+    input = x = keras.Input(shape=(*IMG_SIZE, 3))
+    x = augmentation(x)
     x = layers.Rescaling(1.0 / 255)(x)
-    x = layers.Conv2D(filters=32, kernel_size=3,
-                      activation="relu", padding="same")(x)
-    x = layers.Conv2D(filters=32, kernel_size=3,
-                      activation="relu", padding="same")(x)
+
+    reg = regularizers.l2(l2_factor) if l2_factor > 0.0 else None
+
+    x = layers.Conv2D(
+        filters=32,
+        kernel_size=3,
+        activation="relu",
+        kernel_regularizer=reg,
+    )(x)
+    x = layers.Conv2D(
+        filters=32,
+        kernel_size=3,
+        activation="relu",
+        kernel_regularizer=reg,
+    )(x)
     x = layers.MaxPool2D()(x)
 
-    x = layers.Conv2D(filters=64, kernel_size=3,
-                      activation="relu", padding="same")(x)
-    x = layers.Conv2D(filters=64, kernel_size=3,
-                      activation="relu", padding="same")(x)
+    x = layers.Conv2D(
+        filters=64,
+        kernel_size=3,
+        activation="relu",
+        kernel_regularizer=reg,
+    )(x)
+    x = layers.Conv2D(
+        filters=64,
+        kernel_size=3,
+        activation="relu",
+        kernel_regularizer=reg,
+    )(x)
     x = layers.MaxPool2D()(x)
 
-    x = layers.Conv2D(filters=128, kernel_size=3,
-                      activation="relu", padding="same")(x)
-    x = layers.Conv2D(filters=128, kernel_size=3,
-                      activation="relu", padding="same")(x)
+    x = layers.Conv2D(
+        filters=128,
+        kernel_size=3,
+        activation="relu",
+        kernel_regularizer=reg,
+    )(x)
+    x = layers.Conv2D(
+        filters=128,
+        kernel_size=3,
+        activation="relu",
+        kernel_regularizer=reg,
+    )(x)
     x = layers.MaxPool2D()(x)
 
-    x = layers.Conv2D(filters=256, kernel_size=3,
-                      activation="relu", padding="same")(x)
+    x = layers.Conv2D(
+        filters=256,
+        kernel_size=3,
+        activation="relu",
+        kernel_regularizer=reg,
+    )(x)
+
     x = layers.GlobalAveragePooling2D()(x)
     x = layers.Dense(256, activation="relu")(x)
+
+    if dropout_rate > 0.0:
+        x = layers.Dropout(dropout_rate)(x)
 
     lvl1 = layers.Dense(1, activation="sigmoid", name="lvl1")(x)
     lvl2 = layers.Dense(7, activation="softmax", name="lvl2")(x)
 
-    model = keras.Model(inputs=inputs, outputs={"lvl1": lvl1, "lvl2": lvl2},
+    model = keras.Model(inputs=input, outputs={"lvl1": lvl1, "lvl2": lvl2},
                         name="v4_model")
 
+    # >>> IMPORTANT: compile the model here <<<
     opt = keras.optimizers.Adam(learning_rate=6e-4)
-
     model.compile(
         optimizer=opt,
         loss={
@@ -162,131 +217,43 @@ def v4_model(augmentation_layer):
             "lvl2": [keras.metrics.SparseCategoricalAccuracy(name="acc")],
         },
     )
+
     return model
 
+
 # -------------------------------------------------------
-# HyperModel / build function for Keras Tuner
+# HyperModel / build function for Keras Tuner (dropout & l2)
 # -------------------------------------------------------
 
 
 def build_model(hp: kt.HyperParameters):
-    """
-    This function defines the search space:
-      - Whether each augmentation is used or not.
-      - Magnitudes of some augmentations.
-    """
-
-    # --- Augmentation hyperparameters and conditional inclusion ---
-
-    # RandomFlip horizontal
-    use_flip = hp.Boolean("use_flip", default=True)
-
-    # RandomRotation
-    use_rotation = hp.Boolean("use_rotation", default=True)
-    max_rotation = hp.Float(
-        "max_rotation",
-        min_value=0.0,
-        max_value=0.15,
-        step=0.01,
-        default=0.05,
-    )
-
-    # RandomZoom
-    use_zoom = hp.Boolean("use_zoom", default=True)
-    max_zoom_in = hp.Float(
-        "max_zoom_in",
-        min_value=0.0,
-        max_value=0.1,
-        step=0.01,
-        default=0.03,  # matches your ~0.03 in height/width
-    )
-    max_zoom_out = hp.Float(
-        "max_zoom_out",
-        min_value=0.0,
-        max_value=0.1,
-        step=0.01,
-        default=0.01,
-    )
-
-    # RandomTranslation
-    use_translation = hp.Boolean("use_translation", default=True)
-    max_translation = hp.Float(
-        "max_translation",
-        min_value=0.0,
-        max_value=0.1,
-        step=0.01,
-        default=0.03,
-    )
-
-    # RandomContrast
-    use_contrast = hp.Boolean("use_contrast", default=True)
-    contrast_factor = hp.Float(
-        "contrast_factor",
+    # Dropout rate: 0.0–0.5
+    dropout_rate = hp.Float(
+        "dropout_rate",
         min_value=0.0,
         max_value=0.5,
         step=0.05,
-        default=0.2,
+        default=0.0,
     )
 
-    # RandomBrightness (keras >= 2.11)
-    use_brightness = hp.Boolean("use_brightness", default=True)
-    brightness_factor = hp.Float(
-        "brightness_factor",
-        min_value=0.0,
-        max_value=0.5,
-        step=0.05,
-        default=0.2,
-    )
-
-    aug_layers = []
-
-    if use_flip:
-        aug_layers.append(
-            layers.RandomFlip("horizontal", seed=SEED)
+    # Allow "no L2" + positive L2 values (log-sampled)
+    use_l2 = hp.Boolean("use_l2", default=True)
+    if use_l2:
+        l2_factor = hp.Float(
+            "l2_factor",
+            min_value=1e-7,
+            max_value=1e-3,
+            sampling="log",
+            default=1e-4,
         )
-
-    if use_rotation and max_rotation > 0.0:
-        aug_layers.append(
-            layers.RandomRotation(max_rotation, seed=SEED)
-        )
-
-    if use_zoom and (max_zoom_in > 0.0 or max_zoom_out > 0.0):
-        aug_layers.append(
-            layers.RandomZoom(
-                height_factor=(-max_zoom_in, max_zoom_out),
-                width_factor=(-max_zoom_in, max_zoom_out),
-                fill_mode="reflect",
-                seed=SEED
-            )
-        )
-
-    if use_translation and max_translation > 0.0:
-        aug_layers.append(
-            layers.RandomTranslation(
-                height_factor=max_translation,
-                width_factor=max_translation,
-                fill_mode="reflect",
-                seed=SEED
-            )
-        )
-
-    if use_contrast and contrast_factor > 0.0:
-        aug_layers.append(
-            layers.RandomContrast(contrast_factor, seed=SEED)
-        )
-
-    if use_brightness and brightness_factor > 0.0:
-        aug_layers.append(
-            layers.RandomBrightness(factor=brightness_factor, seed=SEED)
-        )
-
-    if len(aug_layers) > 0:
-        augmentation_layer = keras.Sequential(
-            aug_layers, name="data_augmentation")
     else:
-        augmentation_layer = None
+        l2_factor = 0.0
 
-    model = v4_model(augmentation_layer)
+    model = v4_model(
+        augmentation=augmentation,
+        l2_factor=l2_factor,
+        dropout_rate=dropout_rate,
+    )
     return model
 
 
@@ -296,10 +263,10 @@ def build_model(hp: kt.HyperParameters):
 tuner = kt.BayesianOptimization(
     build_model,
     objective=kt.Objective("val_score_50_50", direction="max"),
-    max_trials=30,               # number of different augmentation configs to try
-    num_initial_points=8,        # random initial points
+    max_trials=MAX_TRIALS,
+    num_initial_points=8,
     directory="bayesian_search",
-    project_name="vehicle_lvl_aug_2nd",
+    project_name="vehicle_lvl_dropout_l2",
     overwrite=True,
 )
 
@@ -335,16 +302,16 @@ with open(FILE_NAME, mode="w") as f:
 
     # Predictions
     preds = best_model.predict(val_x, verbose=0)
-    p1_probs = preds['lvl1'].flatten()      # shape (N,)
-    p2_probs = preds['lvl2']                # shape (N, 7)
+    p1_probs = preds["lvl1"].flatten()      # shape (N,)
+    p2_probs = preds["lvl2"]                # shape (N, 7)
 
     # lvl1 F1
     y1_pred = (p1_probs >= 0.5).astype(int)
-    f1_lvl1 = f1_score(val_y['lvl1'], y1_pred)
+    f1_lvl1 = f1_score(val_y["lvl1"], y1_pred)
 
     # lvl2 F1 (macro)
     y2_pred = p2_probs.argmax(axis=1)
-    f1_lvl2_macro = f1_score(val_y['lvl2'], y2_pred, average="macro")
+    f1_lvl2_macro = f1_score(val_y["lvl2"], y2_pred, average="macro")
 
     # Combined 50/50 score
     score_50_50 = 0.5 * f1_lvl1 + 0.5 * f1_lvl2_macro
@@ -359,5 +326,4 @@ with open(FILE_NAME, mode="w") as f:
 
     print(file=f, flush=True)
 
-
-gc.collect()
+gc.collect

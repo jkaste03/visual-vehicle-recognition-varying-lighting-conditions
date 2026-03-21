@@ -224,6 +224,7 @@ requirements.txt
 .venv_l
 logs/*
 datasett_src
+datasett_preprocessed
 notebooks/.aim
 .aim
 

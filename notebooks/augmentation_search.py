@@ -16,7 +16,7 @@ tf.config.optimizer.set_jit(False)
 
 SEED = 42
 IMG_SIZE = (300, 300)
-EPOCHS = 200
+EPOCHS = 1
 BATCH_SIZE = 16
 FILE_NAME = "out_augmentation"
 

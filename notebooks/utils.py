@@ -10,9 +10,11 @@ from sklearn.preprocessing import LabelEncoder
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 IMG_ROOT = BASE_DIR / 'datasett'
-IMG_ROOT_ANDRE = BASE_DIR / 'datasett_src'
+IMG_ROOT_ANDRE = BASE_DIR / 'datasett_preprocessed'
 
-
+TRAIN_DIR = 'train'
+VAL_DIR = 'val'
+TEST_DIR = 'test'
 internal = pd.read_csv(BASE_DIR / 'annotations/internal_new.csv')
 external = pd.read_csv(BASE_DIR / 'annotations/external_new.csv')
 
@@ -72,9 +74,12 @@ def int_to_model_str(x):
 
 
 def read_andre_data(target_size=(300, 300)):
-    train_df = pd.read_csv(BASE_DIR / 'datasplitt/train.csv')
-    val_df = pd.read_csv(BASE_DIR / 'datasplitt/val.csv')
-    test_df = pd.read_csv(BASE_DIR / 'datasplitt/test.csv')
+    train_df = pd.read_csv(
+        BASE_DIR / 'datasplitt_preprocessed/train_processed.csv')
+    val_df = pd.read_csv(
+        BASE_DIR / 'datasplitt_preprocessed/val_processed.csv')
+    test_df = pd.read_csv(
+        BASE_DIR / 'datasplitt_preprocessed/test_processed.csv')
 
     le_gate1 = LabelEncoder()
     le_gate1.fit(train_df['lvl1'])
@@ -85,7 +90,7 @@ def read_andre_data(target_size=(300, 300)):
     le_gate2.fit(tesla_train)
 
     xs = []
-    for df in [train_df, val_df, test_df]:
+    for df, folder_path in zip([train_df, val_df, test_df], [TRAIN_DIR, VAL_DIR, TEST_DIR]):
         df['gate1'] = le_gate1.transform(df['lvl1'])
         is_tesla = df['lvl1'] == 'Tesla'
 
@@ -96,7 +101,8 @@ def read_andre_data(target_size=(300, 300)):
         df['lvl1'] = df['gate1']
         df['lvl2'] = df['gate2']
         xs.append(load_images_and_labels(
-            data=df, target_size=target_size, img_root=IMG_ROOT_ANDRE))
+            data=df, target_size=target_size, img_root=IMG_ROOT_ANDRE / folder_path)
+        )
 
     return xs[0], xs[1], xs[2]
 
@@ -107,8 +113,6 @@ def read_stratified_data(
     target_size: Tuple[int, int] = (300, 300),
     columns=('color', 'lighting', 'model', 'year'),
     strata_threshold=10
-
-
 ) -> Tuple:
     combined = pd.concat([internal, external]).reset_index(drop=True)
 

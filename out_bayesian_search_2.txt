@@ -1,18 +1,21 @@
-2026-03-18 04:35:29.473417
+2026-03-20 14:03:34.005259
 Best hyperparameters:
-use_flip: True
+use_flip: False
 use_rotation: False
-max_rotation: 0.06
+max_rotation: 0.01
 use_zoom: True
 max_zoom_in: 0.1
-max_zoom_out: 0.03
+max_zoom_out: 0.0
 use_translation: False
-max_translation: 0.04
-use_contrast: True
-contrast_factor: 0.1
-use_brightness: False
-brightness_factor: 0.1
-Validation metrics:
-{'loss': 3.774402618408203, 'lvl1_acc': 0.9615861177444458, 'lvl1_loss': 0.1856381893157959, 'lvl2_acc': 0.4931846261024475, 'lvl2_loss': 3.6524457931518555}
-F1 (lvl1): 0.9540740740740741
+max_translation: 0.06
+use_contrast: False
+contrast_factor: 0.2
+use_brightness: True
+brightness_factor: 0.05
+Validation metrics (Keras):
+{'loss': 2.522667646408081, 'lvl1_acc': 0.5762081742286682, 'lvl1_loss': 0.6823873519897461, 'lvl2_acc': 0.15861214697360992, 'lvl2_loss': 1.846254825592041}
+Custom F1 metrics:
+F1 (lvl1): 0.0
+F1 (lvl2 macro): 0.039113827349121465
+Combined 50/50 score: 0.019556913674560732
 
