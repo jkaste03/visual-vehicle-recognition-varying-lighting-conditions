@@ -3,10 +3,4 @@ Best hyperparameters:
 dropout_rate: 0.45
 use_l2: False
 l2_factor: 0.0003248200730931154
-Validation metrics (Keras):
-{'loss': 2.6510961055755615, 'lvl1_acc': 0.9429987668991089, 'lvl1_loss': 0.21273240447044373, 'lvl2_acc': 0.462205708026886, 'lvl2_loss': 2.5071310997009277}
-Custom F1 metrics:
-F1 (lvl1): 0.9352112676056338
-F1 (lvl2 macro): 0.5679907471850527
-Combined 50/50 score: 0.7516010073953432
 

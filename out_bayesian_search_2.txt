@@ -12,10 +12,3 @@ use_contrast: False
 contrast_factor: 0.2
 use_brightness: True
 brightness_factor: 0.05
-Validation metrics (Keras):
-{'loss': 2.522667646408081, 'lvl1_acc': 0.5762081742286682, 'lvl1_loss': 0.6823873519897461, 'lvl2_acc': 0.15861214697360992, 'lvl2_loss': 1.846254825592041}
-Custom F1 metrics:
-F1 (lvl1): 0.0
-F1 (lvl2 macro): 0.039113827349121465
-Combined 50/50 score: 0.019556913674560732
-
