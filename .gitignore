@@ -228,5 +228,6 @@ notebooks/results/
 notebooks/checkpoints/
 
 datasett_src
+datasett_preprocessed
 notebooks/logs
 gradio/.gradio
