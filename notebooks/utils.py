@@ -7,11 +7,13 @@ from keras.utils import load_img, img_to_array
 from sklearn.model_selection import train_test_split
 from pathlib import Path
 from sklearn.preprocessing import LabelEncoder
+import tensorflow as tf
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 IMG_ROOT = BASE_DIR / 'datasett'
+IMG_ROOT_PREPROCESSED = BASE_DIR / 'datasett_preprocessed'
 IMG_ROOT_ANDRE = BASE_DIR / 'datasett_preprocessed'
-
+IMG_SIZE = (300, 300)
 TRAIN_DIR = 'train'
 VAL_DIR = 'val'
 TEST_DIR = 'test'
@@ -104,6 +106,59 @@ def read_andre_data(target_size=(300, 300)):
         )
 
     return xs[0], xs[1], xs[2]
+
+
+def read_andre_data_preprocessed(BATCH_SIZE=32,):
+    SEED = 42
+    tf.random.set_seed(SEED)
+    np.random.seed(SEED)
+
+    CWD = Path.cwd()
+
+    train_df = pd.read_csv(
+        BASE_DIR / 'datasplitt_preprocessed/train_processed.csv')
+    val_df = pd.read_csv(
+        BASE_DIR / 'datasplitt_preprocessed/val_processed.csv')
+    test_df = pd.read_csv(
+        BASE_DIR / 'datasplitt_preprocessed/test_processed.csv')
+    train_df['image'] = "train/"+train_df['image']
+    val_df['image'] = "train/"+val_df['image']
+    test_df['image'] = "train/"+test_df['image']
+
+    def decode_and_preprocess(path: tf.Tensor, training: bool) -> tf.Tensor:
+        img_bytes = tf.io.read_file(path)
+        img = tf.image.decode_jpeg(img_bytes, channels=3)
+        img = tf.image.convert_image_dtype(img, tf.float32)  # [0,1]
+
+        return img
+
+    def make_dataset(df: pd.DataFrame, training: bool) -> tf.data.Dataset:
+        paths = np.array([str(IMG_ROOT_PREPROCESSED / p)
+                         for p in df["image"].astype(str).to_list()], dtype=np.str_)
+        y1 = df["y_lvl1"].to_numpy(np.int32)
+        y2 = df["y_lvl2"].to_numpy(np.int32)
+        w1 = df["w_lvl1"].to_numpy(np.float32)
+        w2 = df["w_lvl2"].to_numpy(np.float32)
+
+        ds = tf.data.Dataset.from_tensor_slices((paths, y1, y2, w1, w2))
+        if training:
+            ds = ds.shuffle(buffer_size=min(len(df), 5000),
+                            seed=SEED, reshuffle_each_iteration=True)
+
+        def _map(path, y1, y2, w1, w2):
+            img = decode_and_preprocess(path, training=training)
+            y = {"lvl1": y1, "lvl2": y2}
+            sw = {"lvl1": w1, "lvl2": w2}   # lvl2 maskeres for Other via w2=0
+            return img, y, sw
+
+        ds = ds.map(_map, num_parallel_calls=tf.data.AUTOTUNE)
+        ds = ds.batch(BATCH_SIZE).prefetch(tf.data.AUTOTUNE)
+        return ds
+
+    train_ds = make_dataset(train_df, training=True)
+    val_ds = make_dataset(val_df, training=False)
+    test_ds = make_dataset(test_df, training=False)
+    return train_ds, val_ds, test_ds
 
 
 def read_stratified_data(
