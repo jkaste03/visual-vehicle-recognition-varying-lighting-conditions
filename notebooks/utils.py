@@ -97,7 +97,6 @@ def read_andre_data(target_size=(300, 300)):
         df.loc[is_tesla, 'gate2'] = le_gate2.transform(
             df.loc[is_tesla, 'lvl2'])
         df['gate2'] = df['gate2'].fillna(0).astype(int)
-        df = fix_image_paths(df, IMG_ROOT_ANDRE)
         df['lvl1'] = df['gate1']
         df['lvl2'] = df['gate2']
         xs.append(load_images_and_labels(

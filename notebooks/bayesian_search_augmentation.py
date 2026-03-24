@@ -94,6 +94,7 @@ val_f1_cb = ValF1Callback(
     name_lvl2="val_f1_lvl2_macro",
     name_combined="val_score_50_50",
     threshold=0.5,
+
 )
 
 early_stop = keras.callbacks.EarlyStopping(
@@ -101,6 +102,7 @@ early_stop = keras.callbacks.EarlyStopping(
     mode="max",
     patience=10,
     restore_best_weights=True,
+    start_from_epoch=100
 )
 
 # -------------------------------------------------------
