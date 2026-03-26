@@ -122,13 +122,14 @@ def read_andre_data_preprocessed(BATCH_SIZE=32,):
     test_df = pd.read_csv(
         BASE_DIR / 'datasplitt_preprocessed/test_processed.csv')
     train_df['image'] = "train/"+train_df['image']
-    val_df['image'] = "train/"+val_df['image']
-    test_df['image'] = "train/"+test_df['image']
+    val_df['image'] = "val/"+val_df['image']
+    test_df['image'] = "test/"+test_df['image']
 
     def decode_and_preprocess(path: tf.Tensor, training: bool) -> tf.Tensor:
         img_bytes = tf.io.read_file(path)
         img = tf.image.decode_jpeg(img_bytes, channels=3)
-        img = tf.image.convert_image_dtype(img, tf.float32)  # [0,1]
+        # img = tf.image.convert_image_dtype(img, tf.float32)  # [0,1]
+        img = tf.ensure_shape(img, [*IMG_SIZE, 3])
 
         return img
 

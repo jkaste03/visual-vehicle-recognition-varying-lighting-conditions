@@ -1,0 +1,436 @@
+Experiment run: 2026-03-26T15:05:05.259343
+IMG_SIZE=(300, 300), default_num_lvl2=7
+--------------------------------------------------------------------------------
+
+
+=== Result: use_dense=False, num_unfrozen_layers=0 ===
+Epochs: 30
+Validation results:
+{'loss': 0.6295058131217957, 'lvl1_acc': 0.9417595863342285, 'lvl1_loss': 0.19911742210388184, 'lvl2_acc': 0.640350878238678, 'lvl2_loss': 0.4239000976085663}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.791055
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=False, num_unfrozen_layers=1 ===
+Epochs: 30
+Validation results:
+{'loss': 0.6329607963562012, 'lvl1_acc': 0.9429987668991089, 'lvl1_loss': 0.19682985544204712, 'lvl2_acc': 0.640350878238678, 'lvl2_loss': 0.43001556396484375}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.791675
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=False, num_unfrozen_layers=2 ===
+Epochs: 30
+Validation results:
+{'loss': 0.6253497004508972, 'lvl1_acc': 0.9429987668991089, 'lvl1_loss': 0.19577625393867493, 'lvl2_acc': 0.652046799659729, 'lvl2_loss': 0.4240444600582123}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.797523
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=False, num_unfrozen_layers=3 ===
+Epochs: 30
+Validation results:
+{'loss': 0.5650856494903564, 'lvl1_acc': 0.9504337310791016, 'lvl1_loss': 0.17281852662563324, 'lvl2_acc': 0.6988304257392883, 'lvl2_loss': 0.3861444890499115}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.824632
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=False, num_unfrozen_layers=4 ===
+Epochs: 30
+Validation results:
+{'loss': 0.243910551071167, 'lvl1_acc': 0.9851301312446594, 'lvl1_loss': 0.04561762511730194, 'lvl2_acc': 0.8654970526695251, 'lvl2_loss': 0.19215700030326843}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.925314
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=False, num_unfrozen_layers=5 ===
+Epochs: 30
+Validation results:
+{'loss': 0.23988653719425201, 'lvl1_acc': 0.9814126491546631, 'lvl1_loss': 0.04443196952342987, 'lvl2_acc': 0.859649121761322, 'lvl2_loss': 0.18916890025138855}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.920531
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=False, num_unfrozen_layers=6 ===
+Epochs: 30
+Validation results:
+{'loss': 0.2338569015264511, 'lvl1_acc': 0.9826517701148987, 'lvl1_loss': 0.04742201417684555, 'lvl2_acc': 0.8771929740905762, 'lvl2_loss': 0.17998504638671875}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.929922
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=False, num_unfrozen_layers=7 ===
+Epochs: 30
+Validation results:
+{'loss': 0.25014811754226685, 'lvl1_acc': 0.9814126491546631, 'lvl1_loss': 0.044489189982414246, 'lvl2_acc': 0.859649121761322, 'lvl2_loss': 0.19916290044784546}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.920531
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=False, num_unfrozen_layers=8 ===
+Epochs: 30
+Validation results:
+{'loss': 0.23235319554805756, 'lvl1_acc': 0.9888476133346558, 'lvl1_loss': 0.0368136465549469, 'lvl2_acc': 0.8654970526695251, 'lvl2_loss': 0.18873046338558197}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.927172
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=False, num_unfrozen_layers=9 ===
+Epochs: 30
+Validation results:
+{'loss': 0.23373787105083466, 'lvl1_acc': 0.983890950679779, 'lvl1_loss': 0.035400811582803726, 'lvl2_acc': 0.8684210777282715, 'lvl2_loss': 0.19151346385478973}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.926156
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=False, num_unfrozen_layers=10 ===
+Epochs: 30
+Validation results:
+{'loss': 0.23139692842960358, 'lvl1_acc': 0.9826517701148987, 'lvl1_loss': 0.039666883647441864, 'lvl2_acc': 0.8742690086364746, 'lvl2_loss': 0.18488329648971558}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.928460
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=False, num_unfrozen_layers=11 ===
+Epochs: 30
+Validation results:
+{'loss': 0.24269281327724457, 'lvl1_acc': 0.9851301312446594, 'lvl1_loss': 0.04341641813516617, 'lvl2_acc': 0.8742690086364746, 'lvl2_loss': 0.19217337667942047}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.929700
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=False, num_unfrozen_layers=12 ===
+Epochs: 30
+Validation results:
+{'loss': 0.2337229996919632, 'lvl1_acc': 0.983890950679779, 'lvl1_loss':--------
+
+=== Result: use_dense=False, num_unfrozen_layers=13 ===
+Epochs: 30
+Validation results:
+{'loss': 0.21616347134113312, 'lvl1_acc': 0.986369252204895, 'lvl1_loss': 0.03275996819138527, 'lvl2_acc': 0.8801169395446777, 'lvl2_loss': 0.17697440087795258}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.933243
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=False, num_unfrozen_layers=14 ===
+Epochs: 30
+Validation results:
+{'loss': 0.2273549884557724, 'lvl1_acc': 0.9913259148597717, 'lvl1_loss': 0.03138134628534317, 'lvl2_acc': 0.8684210777282715, 'lvl2_loss': 0.18927502632141113}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.929873
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=False, num_unfrozen_layers=15 ===
+Epochs: 30
+Validation results:
+{'loss': 0.24148723483085632, 'lvl1_acc': 0.9851301312446594, 'lvl1_loss': 0.03824084624648094, 'lvl2_acc': 0.8684210777282715, 'lvl2_loss': 0.19633221626281738}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.926776
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=False, num_unfrozen_layers=16 ===
+Epochs: 30
+Validation results:
+{'loss': 0.22984400391578674, 'lvl1_acc': 0.986369252204895, 'lvl1_loss': 0.045895881950855255, 'lvl2_acc': 0.871345043182373, 'lvl2_loss': 0.17715972661972046}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.928857
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=False, num_unfrozen_layers=17 ===
+Epochs: 30
+Validation results:
+{'loss': 0.22090357542037964, 'lvl1_acc': 0.986369252204895, 'lvl1_loss': 0.031139852479100227, 'lvl2_acc': 0.871345043182373, 'lvl2_loss': 0.1832156777381897}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.928857
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=False, num_unfrozen_layers=18 ===
+Epochs: 30
+Validation results:
+{'loss': 0.23227454721927643, 'lvl1_acc': 0.9826517701148987, 'lvl1_loss': 0.04092719778418541, 'lvl2_acc': 0.8625730872154236, 'lvl2_loss': 0.18444332480430603}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.922612
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=False, num_unfrozen_layers=19 ===
+Epochs: 30
+Validation results:
+{'loss': 0.1685684770345688, 'lvl1_acc': 0.9925650358200073, 'lvl1_loss': 0.021622223779559135, 'lvl2_acc': 0.8888888955116272, 'lvl2_loss': 0.14191482961177826}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.940727
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=False, num_unfrozen_layers=20 ===
+Epochs: 30
+Validation results:
+{'loss': 0.18121345341205597, 'lvl1_acc': 0.986369252204895, 'lvl1_loss': 0.030263148248195648, 'lvl2_acc': 0.9064327478408813, 'lvl2_loss': 0.14556488394737244}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.946401
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=False, num_unfrozen_layers=21 ===
+Epochs: 30
+Validation results:
+{'loss': 0.1579052060842514, 'lvl1_acc': 0.9938042163848877, 'lvl1_loss': 0.015402700752019882, 'lvl2_acc': 0.9210526347160339, 'lvl2_loss': 0.13785400986671448}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.957428
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=False, num_unfrozen_layers=22 ===
+Epochs: 30
+Validation results:
+{'loss': 0.1712561994791031, 'lvl1_acc': 0.9913259148597717, 'lvl1_loss': 0.013390855863690376, 'lvl2_acc': 0.9093567132949829, 'lvl2_loss': 0.1528797745704651}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.950341
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=False, num_unfrozen_layers=23 ===
+Epochs: 30
+Validation results:
+{'loss': 0.18706215918064117, 'lvl1_acc': 0.9925650358200073, 'lvl1_loss': 0.019699789583683014, 'lvl2_acc': 0.8888888955116272, 'lvl2_loss': 0.16174602508544922}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.940727
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=False, num_unfrozen_layers=24 ===
+Epochs: 30
+Validation results:
+{'loss': 0.19194945693016052, 'lvl1_acc': 0.9913259148597717, 'lvl1_loss': 0.021658549085259438, 'lvl2_acc': 0.8859649300575256, 'lvl2_loss': 0.16454444825649261}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.938645
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=False, num_unfrozen_layers=25 ===
+Epochs: 30
+Validation results:
+{'loss': 0.1721508651971817, 'lvl1_acc': 0.9876084327697754, 'lvl1_loss': 0.02464774064719677, 'lvl2_acc': 0.8976607918739319, 'lvl2_loss': 0.14236727356910706}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.942635
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=False, num_unfrozen_layers=26 ===
+Epochs: 30
+Validation results:
+{'loss': 0.1725914627313614, 'lvl1_acc': 0.9925650358200073, 'lvl1_loss': 0.014975656755268574, 'lvl2_acc': 0.9005848169326782, 'lvl2_loss': 0.15243126451969147}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.946575
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=False, num_unfrozen_layers=27 ===
+Epochs: 30
+Validation results:
+{'loss': 0.1849893182516098, 'lvl1_acc': 0.9938042163848877, 'lvl1_loss': 0.01806085743010044, 'lvl2_acc': 0.9122806787490845, 'lvl2_loss': 0.16140834987163544}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.953042
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=False, num_unfrozen_layers=28 ===
+Epochs: 30
+Validation results:
+{'loss': 0.17701299488544464, 'lvl1_acc': 0.9900867342948914, 'lvl1_loss': 0.02795903943479061, 'lvl2_acc': 0.9035087823867798, 'lvl2_loss': 0.1438354253768921}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.946798
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=False, num_unfrozen_layers=29 ===
+Epochs: 30
+Validation results:
+{'loss': 0.18878483772277832, 'lvl1_acc': 0.9913259148597717, 'lvl1_loss': 0.026770055294036865, 'lvl2_acc': 0.8918128609657288, 'lvl2_loss': 0.1563553661108017}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.941569
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=False, num_unfrozen_layers=30 ===
+Epochs: 30
+Validation results:
+{'loss': 0.20263062417507172, 'lvl1_acc': 0.9900867342948914, 'lvl1_loss': 0.029525192454457283, 'lvl2_acc': 0.8976607918739319, 'lvl2_loss': 0.16707584261894226}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.943874
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=True, num_unfrozen_layers=0 ===
+Epochs: 30
+Validation results:
+{'loss': 0.37320616841316223, 'lvl1_acc': 0.9677819013595581, 'lvl1_loss': 0.08098533749580383, 'lvl2_acc': 0.7631579041481018, 'lvl2_loss': 0.28468433022499084}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.865470
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=True, num_unfrozen_layers=1 ===
+Epochs: 30
+Validation results:
+{'loss': 0.3855707347393036, 'lvl1_acc': 0.9653035998344421, 'lvl1_loss': 0.08869966864585876, 'lvl2_acc': 0.7690058350563049, 'lvl2_loss': 0.2889769971370697}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.867155
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=True, num_unfrozen_layers=2 ===
+Epochs: 30
+Validation results:
+{'loss': 0.37718671560287476, 'lvl1_acc': 0.9640644192695618, 'lvl1_loss': 0.08767502009868622, 'lvl2_acc': 0.7660818696022034, 'lvl2_loss': 0.28017425537109375}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.865073
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=True, num_unfrozen_layers=3 ===
+Epochs: 30
+Validation results:
+{'loss': 0.3529404103755951, 'lvl1_acc': 0.9677819013595581, 'lvl1_loss': 0.07473774254322052, 'lvl2_acc': 0.7719298005104065, 'lvl2_loss': 0.2708123028278351}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.869856
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=True, num_unfrozen_layers=4 ===
+Epochs: 30
+Validation results:
+{'loss': 0.3059835135936737, 'lvl1_acc': 0.9851301312446594, 'lvl1_loss': 0.03563733398914337, 'lvl2_acc': 0.8187134265899658, 'lvl2_loss': 0.2614547908306122}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.901922
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=True, num_unfrozen_layers=5 ===
+Epochs: 30
+Validation results:
+{'loss': 0.2722208499908447, 'lvl1_acc': 0.983890950679779, 'lvl1_loss': 0.03559572994709015, 'lvl2_acc': 0.847953200340271, 'lvl2_loss': 0.231438547372818}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.915922
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=True, num_unfrozen_layers=6 ===
+Epochs: 30
+Validation results:
+{'loss': 0.25936126708984375, 'lvl1_acc': 0.9851301312446594, 'lvl1_loss': 0.02847234159708023, 'lvl2_acc': 0.8362573385238647, 'lvl2_loss': 0.223617821931839}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.910694
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=True, num_unfrozen_layers=7 ===
+Epochs: 30
+Validation results:
+{'loss': 0.2470579594373703, 'lvl1_acc': 0.9888476133346558, 'lvl1_loss': 0.027159035205841064, 'lvl2_acc': 0.859649121761322, 'lvl2_loss': 0.21284890174865723}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.924248
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=True, num_unfrozen_layers=8 ===
+Epochs: 30
+Validation results:
+{'loss': 0.2309507131576538, 'lvl1_acc': 0.9888476133346558, 'lvl1_loss': 0.03025503270328045, 'lvl2_acc': 0.8888888955116272, 'lvl2_loss': 0.19387325644493103}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.938868
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=True, num_unfrozen_layers=9 ===
+Epochs: 30
+Validation results:
+{'loss': 0.2692188620567322, 'lvl1_acc': 0.9888476133346558, 'lvl1_loss': 0.026206951588392258, 'lvl2_acc': 0.8333333134651184, 'lvl2_loss': 0.23501358926296234}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.911090
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=True, num_unfrozen_layers=10 ===
+Epochs: 30
+Validation results:
+{'loss': 0.2505547106266022, 'lvl1_acc': 0.9814126491546631, 'lvl1_loss': 0.04165095090866089, 'lvl2_acc': 0.871345043182373, 'lvl2_loss': 0.20143026113510132}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.926379
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=True, num_unfrozen_layers=11 ===
+Epochs: 30
+Validation results:
+{'loss': 0.24381203949451447, 'lvl1_acc': 0.9900867342948914, 'lvl1_loss': 0.03158058226108551, 'lvl2_acc': 0.8654970526695251, 'lvl2_loss': 0.20501483976840973}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.927792
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=True, num_unfrozen_layers=12 ===
+Epochs: 30
+Validation results:
+{'loss': 0.21936118602752686, 'lvl1_acc': 0.9888476133346558, 'lvl1_loss': 0.027301160618662834, 'lvl2_acc': 0.8859649300575256, 'lvl2_loss': 0.1857469081878662}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.937406
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=True, num_unfrozen_layers=13 ===
+Epochs: 30
+Validation results:
+{'loss': 0.24055549502372742, 'lvl1_acc': 0.9876084327697754, 'lvl1_loss': 0.037326470017433167, 'lvl2_acc': 0.8830409646034241, 'lvl2_loss': 0.19604498147964478}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.935325
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=True, num_unfrozen_layers=14 ===
+Epochs: 30
+Validation results:
+{'loss': 0.27031418681144714, 'lvl1_acc': 0.9888476133346558, 'lvl1_loss': 0.02540096826851368, 'lvl2_acc': 0.8508771657943726, 'lvl2_loss': 0.23679906129837036}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.919862
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=True, num_unfrozen_layers=15 ===
+Epochs: 30
+Validation results:
+{'loss': 0.23375140130519867, 'lvl1_acc': 0.986369252204895, 'lvl1_loss': 0.032100092619657516, 'lvl2_acc': 0.8684210777282715, 'lvl2_loss': 0.19465996325016022}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.927395
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=True, num_unfrozen_layers=16 ===
+Epochs: 30
+Validation results:
+{'loss': 0.23788058757781982, 'lvl1_acc': 0.9826517701148987, 'lvl1_loss': 0.03985575959086418, 'lvl2_acc': 0.8859649300575256, 'lvl2_loss': 0.19100697338581085}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.934308
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=True, num_unfrozen_layers=17 ===
+Epochs: 30
+Validation results:
+{'loss': 0.2357148975133896, 'lvl1_acc': 0.9925650358200073, 'lvl1_loss': 0.0221409909427166, 'lvl2_acc': 0.8538011908531189, 'lvl2_loss': 0.20664048194885254}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.923183
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=True, num_unfrozen_layers=18 ===
+Epochs: 30
+Validation results:
+{'loss': 0.2372436374425888, 'lvl1_acc': 0.9925650358200073, 'lvl1_loss': 0.020005445927381516, 'lvl2_acc': 0.8801169395446777, 'lvl2_loss': 0.21015620231628418}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.936341
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=True, num_unfrozen_layers=19 ===
+Epochs: 30
+Validation results:
+{'loss': 0.2440880835056305, 'lvl1_acc': 0.9888476133346558, 'lvl1_loss': 0.028570514172315598, 'lvl2_acc': 0.8771929740905762, 'lvl2_loss': 0.2082045078277588}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.933020
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=True, num_unfrozen_layers=20 ===
+Epochs: 30
+Validation results:
+{'loss': 0.20800794661045074, 'lvl1_acc': 0.9925650358200073, 'lvl1_loss': 0.030925869941711426, 'lvl2_acc': 0.8830409646034241, 'lvl2_loss': 0.1718260943889618}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.937803
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=True, num_unfrozen_layers=21 ===
+Epochs: 30
+Validation results:
+{'loss': 0.16854871809482574, 'lvl1_acc': 0.9888476133346558, 'lvl1_loss': 0.022351521998643875, 'lvl2_acc': 0.9239766001701355, 'lvl2_loss': 0.1411360204219818}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.956412
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=True, num_unfrozen_layers=22 ===
+Epochs: 30
+Validation results:
+{'loss': 0.18109090626239777, 'lvl1_acc': 0.9876084327697754, 'lvl1_loss': 0.03258616104722023, 'lvl2_acc': 0.9005848169326782, 'lvl2_loss': 0.14313864707946777}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.944097
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=True, num_unfrozen_layers=23 ===
+Epochs: 30
+Validation results:
+{'loss': 0.21962930262088776, 'lvl1_acc': 0.9913259148597717, 'lvl1_loss': 0.0255366750061512, 'lvl2_acc': 0.8742690086364746, 'lvl2_loss': 0.18758264183998108}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.932797
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=True, num_unfrozen_layers=24 ===
+Epochs: 30
+Validation results:
+{'loss': 0.21497677266597748, 'lvl1_acc': 0.9851301312446594, 'lvl1_loss': 0.03237151727080345, 'lvl2_acc': 0.9064327478408813, 'lvl2_loss': 0.1761513352394104}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.945781
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=True, num_unfrozen_layers=25 ===
+Epochs: 30
+Validation results:
+{'loss': 0.2078939825296402, 'lvl1_acc': 0.9913259148597717, 'lvl1_loss': 0.029494507238268852, 'lvl2_acc': 0.8947368264198303, 'lvl2_loss': 0.17215578258037567}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.943031
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=True, num_unfrozen_layers=26 ===
+Epochs: 30
+Validation results:
+{'loss': 0.18803459405899048, 'lvl1_acc': 0.9925650358200073, 'lvl1_loss': 0.01783992536365986, 'lvl2_acc': 0.9035087823867798, 'lvl2_loss': 0.16457203030586243}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.948037
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=True, num_unfrozen_layers=27 ===
+Epochs: 30
+Validation results:
+{'loss': 0.19294022023677826, 'lvl1_acc': 0.9913259148597717, 'lvl1_loss': 0.024868080392479897, 'lvl2_acc': 0.9093567132949829, 'lvl2_loss': 0.16229210793972015}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.950341
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=True, num_unfrozen_layers=28 ===
+Epochs: 30
+Validation results:
+{'loss': 0.20519162714481354, 'lvl1_acc': 0.9888476133346558, 'lvl1_loss': 0.031208666041493416, 'lvl2_acc': 0.8918128609657288, 'lvl2_loss': 0.16785702109336853}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.940330
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=True, num_unfrozen_layers=29 ===
+Epochs: 30
+Validation results:
+{'loss': 0.19225777685642242, 'lvl1_acc': 0.9962825179100037, 'lvl1_loss': 0.01946648582816124, 'lvl2_acc': 0.9064327478408813, 'lvl2_loss': 0.16701920330524445}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.951358
+--------------------------------------------------------------------------------
+
+=== Result: use_dense=True, num_unfrozen_layers=30 ===
+Epochs: 30
+Validation results:
+{'loss': 0.19201046228408813, 'lvl1_acc': 0.986369252204895, 'lvl1_loss': 0.0356709323823452, 'lvl2_acc': 0.9005848169326782, 'lvl2_loss': 0.15061964094638824}
+Combined score (lvl1_acc + lvl2_acc) / 2 = 0.943477
+--------------------------------------------------------------------------------
