@@ -16,8 +16,7 @@ def center_crop_after_resize_short_side(img: tf.Tensor, target: int) -> tf.Tenso
     new_h = tf.cast(tf.math.ceil(h * scale), tf.int32)
     new_w = tf.cast(tf.math.ceil(w * scale), tf.int32)
 
-    img = tf.image.resize(img, [new_h, new_w],
-                          antialias=True, method="bilinear")
+    img = tf.image.resize(img, [new_h, new_w], antialias=True, method="bilinear")
     img = tf.image.resize_with_crop_or_pad(img, target, target)
     return img
 
@@ -44,8 +43,7 @@ def hybrid_crop_reflect_landscape(
     new_w = tf.cast(tf.math.ceil(w * scale), tf.int32)
     new_w = tf.maximum(new_w, 1)
 
-    img = tf.image.resize(img, [new_h, new_w],
-                          antialias=True, method="bilinear")
+    img = tf.image.resize(img, [new_h, new_w], antialias=True, method="bilinear")
 
     # Steg 2: crop bort en andel av overskuddsbredden
     excess_w = tf.maximum(new_w - target, 0)
@@ -76,8 +74,7 @@ def hybrid_crop_reflect_landscape(
     )
     resized_h = tf.maximum(resized_h, 1)
 
-    img = tf.image.resize(img, [resized_h, target],
-                          antialias=True, method="bilinear")
+    img = tf.image.resize(img, [resized_h, target], antialias=True, method="bilinear")
 
     # Steg 4: reflect-pad høyden opp til target
     pad_h = target - resized_h
@@ -90,10 +87,8 @@ def hybrid_crop_reflect_landscape(
         pad_h > 0,
         lambda: tf.cond(
             can_reflect,
-            lambda: tf.pad(
-                img, [[top, bottom], [0, 0], [0, 0]], mode="REFLECT"),
-            lambda: tf.pad(img, [[top, bottom], [0, 0], [0, 0]],
-                           mode="CONSTANT", constant_values=0.0),
+            lambda: tf.pad(img, [[top, bottom], [0, 0], [0, 0]], mode="REFLECT"),
+            lambda: tf.pad(img, [[top, bottom], [0, 0], [0, 0]], mode="CONSTANT", constant_values=0.0),
         ),
         lambda: img,
     )
