@@ -128,7 +128,7 @@ def read_andre_data_preprocessed(BATCH_SIZE=32,):
     def decode_and_preprocess(path: tf.Tensor, training: bool) -> tf.Tensor:
         img_bytes = tf.io.read_file(path)
         img = tf.image.decode_jpeg(img_bytes, channels=3)
-        # img = tf.image.convert_image_dtype(img, tf.float32)  # [0,1]
+        img = tf.image.convert_image_dtype(img, tf.float32)  # [0,1]
         img = tf.ensure_shape(img, [*IMG_SIZE, 3])
 
         return img
