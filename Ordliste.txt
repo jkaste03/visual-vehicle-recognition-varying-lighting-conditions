@@ -7,12 +7,11 @@ Balanced accuracy
 Binary Accuracy
 Binary Crossentropy
 Big‑bang hierarkisk modell
-Bootstrap / k‑fold (splitt)
+Bootstrap
 Centercrop
 Checkpoint
 Computer vision
 Confusion matrix / Forvirringsmatrise
-CRISP‑ML(Q)
 CSV (Comma Separated Values)
 Dataaugmentering
 Datapipeline
@@ -36,12 +35,11 @@ Klassifisering
 Label Studio
 Lambda / tapsfunksjon (loss)
 Læringsrate
-Lavlys / LLIR (Low‑Light Image Restoration)
 Letterbox / reflect padding
 LLIR (Low‑Light Image Restoration)
 Loss / Tapsfunksjon
-Maskering
 Macro F1
+Maskering
 Max‑pooling
 Modellarkitektur
 Modellkompleksitet
@@ -58,7 +56,8 @@ Presisjon (precision)
 Pretrained model
 Prosjektmetodikk (Gantt, risikovurdering)
 Random seed / reproduserbarhet
-Recall / Sensitivitet
+Recall
+Sensitivitet
 Regularisering
 Repository / versjonskontroll
 Resizing (med bevart sideforhold)
@@ -99,7 +98,7 @@ TL1
 Generalisering
 Eksperimentløp
 Kombinasjonseksplosjon
-Underfitting
+Undertilpasning
 HEIC
 JPEG
 Dashcam
@@ -119,7 +118,7 @@ Egenskapskart
 Søkerom
 Residuale koblinger
 Binary crossentropy
-Categorical_crossentropy
+Categorical crossentropy
 Gradient
 Læringsalgoritme
 Reduksjonslag
@@ -146,4 +145,5 @@ Portrait- og landscape-formater
 Centercrop
 Letterbox + reflect
 Padding
+Kjøretøygruppe
 -> 4.1.3.3 <-
