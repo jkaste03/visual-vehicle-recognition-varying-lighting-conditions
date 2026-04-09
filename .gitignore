@@ -226,3 +226,5 @@ logs/*
 datasett_src
 datasett_preprocessed
 gradio/.gradio
+
+*.h5
