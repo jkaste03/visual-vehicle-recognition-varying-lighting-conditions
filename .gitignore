@@ -228,3 +228,5 @@ datasett_preprocessed
 gradio/.gradio
 
 *.h5
+notebooks/logs
+.aim
