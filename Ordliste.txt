@@ -29,7 +29,6 @@ Klassifisering: Predikering av hvilken klasse (kategori) noe tilhører.
 Label Studio: Applikasjon brukt til å annotere data og generere annoteringsfiler.
 Lambda / tapsfunksjon (loss)
 Læringsrate: En verdi som styrer hvor mye vektene til en maskinlæringsmodell skal justeres etter gradient descent. 
-Letterbox / reflect padding
 LLIR (Low‑Light Image Restoration): Etterbehandling av bilder for å forbedre bildekvalitet i lavlysforhold.
 Loss / Tapsfunksjon: En deriverbar verdi som forteller hvor langt unna fasiten prediksjonene er.
 Maskering: Etterbehandling av bilder for å skjule for eksempel registreringsskilt.
@@ -129,7 +128,77 @@ Centercrop: Beskjæring av bilder slik at det største mulige kvadratiske og sen
 Letterbox + reflect (Dette forklares i rapporten. Så jeg anbefaler å droppe i ordlisten).
 Padding: Overflødig innhold.
 Kjøretøygruppe
--> 4.1.3.3 <-
+
+Maskering/Sladding
+Forvirringsmatrise
+Repository
+Versjonskontroll
+Tuningparameter
+Output-hode
+Keras
+ImageNet
+Beregningskostnade
+Bildeklassifisering
+EfficientNetV2
+Syntetisk transformasjon
+Kildesignal
+Hierarkisk multi-head
+Trehierarki
+Feilpropagering
+Label
+Unfreeze
+GPU
+Visual Studio Code
+IDE
+Python
+Maskinlæring
+Annoteringsverktøy
+KerasTuner
+Bayesian     optimization
+Numpy
+Pandas
+Matplotlib
+Scikit-learn
+Deterministisk kode
+CRISP-ML(Q)
+Operasjonalisering
+Gantt
+Accuracy
+TPR
+TNR
+Balansert accuracy
+Makro-F1
+Toppforvekslinger
+Ground truth
+Hierarkisk systemscore
+Visuelle forklaringsmetoder
+Heatmap
+Eksponering
+EV
+Nattmodus
+Batch-størrelse
+Batch
+GlobalAveragePooling2D
+MaxPooling2D
+Conv2D
+Dense-lag
+ReLU
+Sigmoid
+Softmax
+Kernelstørrelse
+Featurekart
+Sample weights
+Routing
+Routingledd
+Branch purity
+Hierarkisk balansert prediksjonsnøyaktighet
+Hierarkisk makro-F1
+Tesla Kaggle-datasett
+TensorFlow Dataset
+Batch‑normalisering
+Epoke
+Ende‑til‑ende‑evaluering
+Multi‑head‑modell
 
 Konklusjon og nedover:
 Scratch-modell
@@ -137,3 +206,5 @@ Finmaskede
 EfficientNet: En pretrent bildegjenkjenningsmodell.
 pretrained/pretrent: Noe som allerede er trent.
 chrome delete (vedlegg): Maskering av krom-områder.
+
+nevron
