@@ -1,8 +1,7 @@
 Adam
-Augmentering
+Augmentering: Endre treningsdataen slik at det er mer varisjon i dataen, noe som fører til bedre generalisering.
 Baseline
-Baseline-modell
-Balanced accuracy
+Balanced accuracy: Står om i teori
 Binary Accuracy
 Big‑bang hierarkisk modell
 Bootstrap
@@ -10,24 +9,23 @@ Checkpoint:
 Computer vision: Datamaskiner blir brukt til å forstå bilde- eller videodata.
 Confusion matrix / Forvirringsmatrise: Matrise som viser hvordan fordelingen av prediksjoner henger sammen med fordelingen av faktiske labels.
 CSV (Comma Separated Values): Enkelt filformat for å lagre tabeller. 
-Dataaugmentering
-Datapipeline
+Datapipeline: Flere ledd av operasjoner som data gjennomgår.
 Data‑ og modellversjonering
 Early stopping: Stansing av treningen når for eksempel tapsfunksjonen ikke reduseres etter x antall epoker.
 Evalueringsmetrikker
 Feature extraction
-F1
-Finetuning
-Flat klassifisering
-Forbehandling
+F1: Står om i teori
+Finetuning: Står om i teori
+Flat klassifisering: Klassifisering på ett nivå (ingen hierrarki).
+Forbehandling: Behandling av noe i forkant.
 Forkastet / NA‑plassholder (nivå 2 for Other)
 GPU‑akselerasjon: Bruk av GPU fremfor CPU for å øke ytelse.
 Hierarkisk accuracy
 Hierarkiske labels (nivå 1 / nivå 2)
-Hyperparameter
+Hyperparameter: Parameter som styrer modellarkitektur og trening.
 Hyperparameter‑optimalisering (optimeringssøket)
-Inputstørrelse (300×300)
-Klassifisering
+Inputstørrelse (300×300): Størrelsen på bildene som kommer inn (300x300 piksler).
+Klassifisering: Predikering av hvilken klasse (kategori) noe tilhører.
 Label Studio: Applikasjon brukt til å annotere data og generere annoteringsfiler.
 Lambda / tapsfunksjon (loss)
 Læringsrate: En verdi som styrer hvor mye vektene til en maskinlæringsmodell skal justeres etter gradient descent. 
