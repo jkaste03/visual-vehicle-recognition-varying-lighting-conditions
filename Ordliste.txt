@@ -1,22 +1,19 @@
 Adam
 Augmentering
-Batch-normalisering
 Baseline
 Baseline-modell
 Balanced accuracy
 Binary Accuracy
-Binary Crossentropy
 Big‑bang hierarkisk modell
 Bootstrap
-Centercrop
-Checkpoint
-Computer vision
-Confusion matrix / Forvirringsmatrise
-CSV (Comma Separated Values)
+Checkpoint: 
+Computer vision: Datamaskiner blir brukt til å forstå bilde- eller videodata.
+Confusion matrix / Forvirringsmatrise: Matrise som viser hvordan fordelingen av prediksjoner henger sammen med fordelingen av faktiske labels.
+CSV (Comma Separated Values): Enkelt filformat for å lagre tabeller. 
 Dataaugmentering
 Datapipeline
 Data‑ og modellversjonering
-Early stopping
+Early stopping: Stansing av treningen når for eksempel tapsfunksjonen ikke reduseres etter x antall epoker.
 Evalueringsmetrikker
 Feature extraction
 F1
@@ -24,133 +21,121 @@ Finetuning
 Flat klassifisering
 Forbehandling
 Forkastet / NA‑plassholder (nivå 2 for Other)
-Forvirringsmatrise
-GPU‑akselerasjon
+GPU‑akselerasjon: Bruk av GPU fremfor CPU for å øke ytelse.
 Hierarkisk accuracy
 Hierarkiske labels (nivå 1 / nivå 2)
 Hyperparameter
 Hyperparameter‑optimalisering (optimeringssøket)
 Inputstørrelse (300×300)
 Klassifisering
-Label Studio
+Label Studio: Applikasjon brukt til å annotere data og generere annoteringsfiler.
 Lambda / tapsfunksjon (loss)
-Læringsrate
+Læringsrate: En verdi som styrer hvor mye vektene til en maskinlæringsmodell skal justeres etter gradient descent. 
 Letterbox / reflect padding
-LLIR (Low‑Light Image Restoration)
-Loss / Tapsfunksjon
-Macro F1
-Maskering
+LLIR (Low‑Light Image Restoration): Etterbehandling av bilder for å forbedre bildekvalitet i lavlysforhold.
+Loss / Tapsfunksjon: En deriverbar verdi som forteller hvor langt unna fasiten prediksjonene er.
+Maskering: Etterbehandling av bilder for å skjule for eksempel registreringsskilt.
 Max‑pooling
-Modellarkitektur
-Modellkompleksitet
-Modelltrening
+Modellarkitektur: Design av en modells oppbygning av lag.
+Modellkompleksitet: Kompleksiteten av en modells arkitektur. 
+Modelltrening: Iterativ justering av en modells vekter ved bruk av gradient descent.
 Modellversjonering
 Multiattributt‑klassifisering
-NaN / NA
-Optimalisering
+NaN / NA: Ikke et tall / Ikke ?
+Optimalisering: Forsøke å gjøre noe mer effektivt.
 Optimering / Optimizer (Adam)
-Other
-Overtilpasning (overfitting)
-Pipeline for trening
-Presisjon (precision)
-Pretrained model
+Other: Alt annet enn Tesla-klassen.
+Overtilpasning (overfitting): Når en modell tilpasser seg treningsdataen for mye og det går ut over generalisering til ny data. 
+Pipeline for trening: Flere ledd med operasjoner som gjøres tilknyttet trening.
+Pretrained model: En modell som allerede er trent.
 Prosjektmetodikk (Gantt, risikovurdering)
-Random seed / reproduserbarhet
-Recall
-Sensitivitet
-Regularisering
-Repository / versjonskontroll
-Resizing (med bevart sideforhold)
+Random seed / reproduserbarhet: En verdi som bestemmer utfallet av tilfeldige operasjoner / Samme resultat kan oppnås flere ganger.
+Repository / versjonskontroll: Oppbevaringsplass for kode / System for å holde kontroll på ulike versjoner av den samme tingen.
+Resizing (med bevart sideforhold): Endring av oppløsning slik at forholdet mellom bredde og høyde bevares. 
 ROC / trenings‑ og valideringskurver
-Scikit‑learn
+Scikit‑learn: Et Python-bibliotek for ?
 Skiltmaskering (policyalternativer)
-Sparse Categorical Accuracy
+Sparse Categorical Accuracy: En metrikk for treffsikkerhet når det er flere enn to klasser og one-hot-encoding blir gjort?
 Sparse Categorical Crossentropy
-Stanford Cars Dataset
+Stanford Cars Dataset: Et bildedatasett med mange ulike biler.
 Start / stopp i hierarki (branching)
-Stratifisering
-Systemscore (hierarkisk score, branch purity)
-AIM
-TensorFlow
+Stratifisering: Å sørge for at én eller flere verdier er forholdsmessig fordelt.
+Systemscore (hierarkisk score, branch purity): En metrikk som måler den totale ytelsen til modellen.
+AIM: Et verktøy for å visualisere og loggføre resultatene ved modelltrening.
+TensorFlow: Et backend dyplæringsbibliotek?
 Transfer learning
 Training batch
-Treningsstrategi
-Trenings- og valideringskurver
-kompresjonsteknikker
-Modell- og treningskonfigurasjon
+Treningsstrategi: Oppskriften på hvordan hyperparametersøk skal gjøres.
+Trenings- og valideringskurver: Kurver som viser hvordan metrikker og/eller tap utvikler seg gjennom trening for trenings- og valideringssett
+komprimeringssteknikker: Teknikker for hvordan data skal ta opp mindre plass.
+Modell- og treningskonfigurasjon: Oppskrift på hvordan en modell og dens trening skal se ut.
 Proprietært datasett
-Prediksjonsnøyaktighet
-Dyp læring
-Modell
-Attributter
-Konvolusjonelt nevralt nettverk(CNN)
-Normalisering
-Inputstandardisering
-Preprosessering
-Modellkonfigurasjoner
-Datasplitt
-Treningssett
-Evalueringssett
-Testsett
-Head
-Backbone
+Dyp læring: Læring gjennom flere lag med matriseoperasjoner.
+Modell: En sammensetning av lag med matriseoperasjoner som kan benyttes til prediksjon eller generering.
+Attributter: Egenskap
+Normalisering (Dette forklares i det første avsnittet i kapittelet om batch-normalisering. tror ikke vi trenger det i ordlisten).
+Inputstandardisering: Sørge for at data som går inn i noe (for eksempel en modell) gjøres om til en standard format.
+Preprosessering: Behandle noe i forkant av noe annet.
+Modellkonfigurasjoner: Oppskrifter på hvordan modeller ser ut.
+Datasplitt: Hvordan data fordeles på for eksempel et trenings-, validerings- og testsett.
+Treningssett: Den delen av datasettet som benyttes til trening. Modellen får se fasiten til denne delen.
+Valideringssett: Den delen av datasettet som benyttes til å evaluere ulike modeller slik at den beste kan velges. 
+Testsett: Den delen av datasettet som benyttes til å evaluere den valgte modellen.
+Head: Det siste laget til en modell.
+Backbone: Alt utenom hodet (head) til modellen.
 TL1
-Generalisering
-Eksperimentløp
-Kombinasjonseksplosjon
-Undertilpasning
-HEIC
-JPEG
-Dashcam
-CCTV
-Komprimeringsteknikker
-Facelift
-Beregningskapasitet
-Enhancement-steg
-Multi-output
-Feature-ekstraktor
-Attributt
-Hierarkisk klassifisering
+Generalisering: Å tilpasse seg generell (ny) data.
+Eksperimentløp: Oppskrift på hvordan for eksempel hyperparametersøk skal gjennomføres.
+Kombinasjonseksplosjon: For mange kombinasjoner velges. 
+Undertilpasning: Når en modell tilpasser seg treningsdataen i for liten grad. 
+HEIC: Et bildeformat med ekstra mye komprimering som Apple bruker.
+JPEG: Et standard bildeformat med komprimering.
+Dashcam: Et kamera som er plassert på dashbordet til biler.
+CCTV: Kameraovervåkingssystem
+Komprimeringsteknikker: Teknikker for hvordan komprimering av for eksempel bilder skal gjøres.
+Facelift: En visuell oppgradering. Typisk brukt om mindre oppgraderinger av bilmodeller.
+Beregningskapasitet: Handlingsrom for å gjøre regneoperasjoner. Typisk brukt om datakomponenter som CPU og GPU.
+Enhancement-steg: En eller flere operasjoner som forbedrer noe (for eksempel bilder).
+Multi-output: Å ha ting som kommer ut av for eksempel en funksjon. Typisk brukt om ML-modeller.
+Hierarkisk klassifisering: Klassifisering på flere nivåer. Høyere nivåer påvirker muligheten til klassifisering for lavere nivåer.
 Top-down-prediksjon
 DAG
 IS-A-relasjon
-Egenskapskart
-Søkerom
-Residuale koblinger
+Egenskapskart (Dette står om under 3.2.1. Tror ikke man trenger i ordlisten).
+Søkerom: Område som søkes i. Brukes for eksempel om hyperparametersøk.
 Binary crossentropy
 Categorical crossentropy
-Gradient
-Læringsalgoritme
-Reduksjonslag
+Gradient: Helning. Typisk brukt om punkter på funksjoner.
+Læringsalgoritme: Algoritme bestemmer hvordan en modell lærer. 
 Kernel
-Forflyttningsinvariant
+Forflyttningsinvariant: Ikke bry seg om hvor noe befinner seg. Typisk brukt om modeller med forflytnings-augmentering.
 Standardavvik
 Vektkoeffisient
-L1-regularisering
-L2-regularisering
-Dropout
-Klasse
-Bias
-Leaf-label
+L1-regularisering: Straffing av vekter som er store, slik at vektene holder seg likere hverandre. Vekter risikerer å bli satt til null(?)
+L2-regularisering: Straffing av vekter som er store, slik at vektene holder seg likere hverandre.
+Dropout (Forklares i rapporten. Foreslår å ikke ha i ordlisten).
+Klasse: Kategori. Typisk brukt om kategorier som det er ønskelig å predikere.
+Bias: En uønsket og typisk uforutsett årsak til at noe velges fremfor noe annet.
+Leaf-label: Labelen til bladnoder.
 Top down inferens
-Prediksjonsdybde
+Prediksjonsdybde. Antall nivåer som det gjøres prediksjoner på.
 Big-bang hierarkisk modell
-Randomisert
+Randomisert: Satt/endret noe tilfeldig.
 Benchmark
 Domene-holdout
-Kryssvalidering
-Oppløsning
-Sideforhold
-Portrait- og landscape-formater
-Centercrop
-Letterbox + reflect
-Padding
+Kryssvalidering: Validering av en modell ved å validere flere ganger hvor valideringssettet og treningssettet er forskjellig hver gang.
+Oppløsning: Hvor godt oppdelt noe er. Typisk brukt om fordelingen av piksler på bilder.
+Sideforhold: Forholdet mellom lengden til sider av for eksempel bilder.
+Portrait- og landscape-formater: Bildeformat. Noe er i protrait-format dersom bildet er høyere enn det er bredt. Det er i landsscape-format dersom det er bredere enn det er høyt.
+Centercrop: Beskjæring av bilder slik at det største mulige kvadratiske og sentrerte utsnittet benyttes.
+Letterbox + reflect (Dette forklares i rapporten. Så jeg anbefaler å droppe i ordlisten).
+Padding: Overflødig innhold.
 Kjøretøygruppe
 -> 4.1.3.3 <-
 
 Konklusjon og nedover:
 Scratch-modell
 Finmaskede
-EfficientNet
-pretrained/pretrent
-chrome delete (vedlegg)
+EfficientNet: En pretrent bildegjenkjenningsmodell.
+pretrained/pretrent: Noe som allerede er trent.
+chrome delete (vedlegg): Maskering av krom-områder.
