@@ -31,7 +31,7 @@ Lambda / tapsfunksjon (loss)
 Læringsrate: En verdi som styrer hvor mye vektene til en maskinlæringsmodell skal justeres etter gradient descent. 
 LLIR (Low‑Light Image Restoration): Etterbehandling av bilder for å forbedre bildekvalitet i lavlysforhold.
 Loss / Tapsfunksjon: En deriverbar verdi som forteller hvor langt unna fasiten prediksjonene er.
-Maskering: Etterbehandling av bilder for å skjule for eksempel registreringsskilt.
+Maskering/Sladding: Etterbehandling av bilder for å skjule for eksempel registreringsskilt.
 Max‑pooling
 Modellarkitektur: Design av en modells oppbygning av lag.
 Modellkompleksitet: Kompleksiteten av en modells arkitektur. 
@@ -129,76 +129,71 @@ Letterbox + reflect (Dette forklares i rapporten. Så jeg anbefaler å droppe i 
 Padding: Overflødig innhold.
 Kjøretøygruppe
 
-Maskering/Sladding
-Forvirringsmatrise
-Repository
-Versjonskontroll
 Tuningparameter
 Output-hode
-Keras
+Keras: Python-bibliotek brukt til dyplæring.
 ImageNet
-Beregningskostnade
-Bildeklassifisering
-EfficientNetV2
-Syntetisk transformasjon
-Kildesignal
-Hierarkisk multi-head
-Trehierarki
-Feilpropagering
-Label
-Unfreeze
-GPU
-Visual Studio Code
-IDE
-Python
-Maskinlæring
-Annoteringsverktøy
-KerasTuner
-Bayesian     optimization
-Numpy
-Pandas
-Matplotlib
-Scikit-learn
-Deterministisk kode
-CRISP-ML(Q)
+Beregningskostnad
+Bildeklassifisering: Prediksjon av hvilke klasser (kategorier) bilder tilhører.
+EfficientNetV2: Pretrent modell for bildeklassifisering.
+Kildesignal: Hint om hvor noe har opphav fra.
+Hierarkisk multi-head: Flere nivåer med flere utganger for data.
+Trehierarki: Flere nivåer uten sykler.
+Feilpropagering: Feil sendes videre nedover.
+Label: Merkelapp/fasit.
+Unfreeze: Opptine slik at vekter kan justeres.
+GPU: Grafikkprosessor (Graphical processing unit)
+Visual Studio Code: Applikasjon for utviklings av programvare (Integrated development environment) fra Microsoft.
+IDE: Applikasjon for utviklings av programvare (Integrated development environment)
+Python: Høynivå programeringsspråk
+Maskinlæring: En måte å få datamaskiner til å lære på. Datamaskinene lærer seg reglene basert på inndata og label (fasit).
+Annoteringsverktøy: Verktøy for å merke instanser i et datasett med labels.
+KerasTuner: Python-bibliotek for hyperparametertuning.
+Bayesian optimization: En algoritme for å raskt og smart finne frem til gode hyperparametere. 
+Numpy: Python-bibliotek for en høy-ytelses implementering av matriser og beregninger (?).
+Pandas: Python-bibliotek for en høy-ytelses implementering av matriser og beregninger (?).
+Matplotlib: Python-bibliotek for plotting (visualisering) av grafer og andre figurer.
+Scikit-learn: Maskinlæringsbibliotek for Python (?).
+Deterministisk kode: Kode som har likt utfall hver gang (ingen tilfeldigheter).
+CRISP-ML(Q): 
 Operasjonalisering
-Gantt
-Accuracy
-TPR
-TNR
-Balansert accuracy
-Makro-F1
+Gantt-diagram: Diagram brukt til planlegging av hendelser over tid.
+Accuracy: Prediksjonsnøyaktighet.
+TPR: True positive rate (andel positive som korrekt er predikert at er positive).
+TNR: True negative rate (andel negative som korrekt er predikert at er negative).
+Balansert accuracy:
+CNN: Konvolusjonelt nevralt nettverk (Convolutional neural network).
+Makro-F1:
 Toppforvekslinger
 Ground truth
-Hierarkisk systemscore
-Visuelle forklaringsmetoder
-Heatmap
-Eksponering
-EV
-Nattmodus
-Batch-størrelse
-Batch
-GlobalAveragePooling2D
-MaxPooling2D
-Conv2D
-Dense-lag
-ReLU
-Sigmoid
-Softmax
-Kernelstørrelse
-Featurekart
-Sample weights
-Routing
-Routingledd
-Branch purity
-Hierarkisk balansert prediksjonsnøyaktighet
-Hierarkisk makro-F1
-Tesla Kaggle-datasett
-TensorFlow Dataset
-Batch‑normalisering
-Epoke
-Ende‑til‑ende‑evaluering
-Multi‑head‑modell
+Visuelle forklaringsmetoder: Visualiseringer som forklarer konsepter, resultater eller lignende.
+Heatmap: Varmekart som viser hvor fremtredende områder er.
+Eksponering: Hvor mye lys kommer inn i en kameralinse.
+EV: Eksponeringsverdi. Hvor mye lys som får mulighet til å komme inn i en kameralinse.
+Nattmodus: Kamerainnstilling som lar mer lys komme inn i kameralinsen.
+Batch-størrelse: Antall instanser i et datasett som blir tatt inn i minnet om gangen (?).
+Batch: En samling av instanser i et datasett som blir tatt inn i minnet (?).
+GlobalAveragePooling2D: Et Keras-dyplæringslag som komprimerer informasjon ved å hente ut lokale gjennomsnitt. 
+MaxPooling2D: Et Keras-dyplæringslag som komprimerer informasjon ved å hente ut lokale maksimale verdier.
+Conv2D: Et Keras-dyplæringslag som gjennomfører konvolusjoner.
+Dense-lag: ?
+ReLU: En ikke-lineær operasjon brukt i konvolusjonelle lag.
+Sigmoid: En ikke-lineær operasjon brukt i konvolusjonelle lag til å gjøre binær klassifisering.
+Softmax: En ikke-lineær operasjon brukt i konvolusjonelle lag til å gjøre klassifisering dersom det er flere enn to klasser.
+Kernelstørrelse: Størrelsen på filterene som går gjennom bildet i et konvolusjonelt lag.
+Featurekart: Et slags kart som viser hvor mye et spesifikt mønster er tilstede på områder på et bilde.
+Sample weights: ?
+Routing: Dirigering av noe.
+Routingledd: Et dirigeringsledd.
+Branch purity: Andel korrekte prediksjoner som befinner seg i en gren i en hierarkisk klassifisering.
+Hierarkisk balansert prediksjonsnøyaktighet: ?
+Hierarkisk makro-F1: ?
+Tesla Kaggle-datasett: Et datasett på Kaggle med bilder og annoteringer av Tesla-biler.
+TensorFlow Dataset: ?
+Batch‑normalisering: ?
+Epoke: Én treningsiterasjon i maskinlæring hvor alle instansene har blitt sett på én gang. 
+Ende‑til‑ende‑evaluering: Evaluering av et system fra start til slutt.
+Multi‑head‑modell: Modell 
 
 Konklusjon og nedover:
 Scratch-modell
