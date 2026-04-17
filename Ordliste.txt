@@ -1,6 +1,5 @@
 Adam
 Augmentering: Endre treningsdataen slik at det er mer varisjon i dataen, noe som fører til bedre generalisering.
-Baseline
 Balanced accuracy: Står om i teori
 Binary Accuracy
 Big‑bang hierarkisk modell
@@ -104,7 +103,7 @@ Binary crossentropy
 Categorical crossentropy
 Gradient: Helning. Typisk brukt om punkter på funksjoner.
 Læringsalgoritme: Algoritme bestemmer hvordan en modell lærer. 
-Kernel
+Kernel: En slags kjerne som leter etter et bestemt mønster.
 Forflyttningsinvariant: Ikke bry seg om hvor noe befinner seg. Typisk brukt om modeller med forflytnings-augmentering.
 Standardavvik
 Vektkoeffisient
@@ -192,8 +191,7 @@ TensorFlow Dataset: ?
 Batch‑normalisering: ?
 Epoke: Én treningsiterasjon i maskinlæring hvor alle instansene har blitt sett på én gang. 
 Ende‑til‑ende‑evaluering: Evaluering av et system fra start til slutt.
-Multi‑head‑modell: Modell 
-Scratch-modell
+Multi‑head‑modell: Modell med flere output-hoder.
 Finmaskede
 EfficientNet: En pretrent bildegjenkjenningsmodell.
 pretrained/pretrent: Noe som allerede er trent.
