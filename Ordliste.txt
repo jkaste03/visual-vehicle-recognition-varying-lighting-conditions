@@ -128,7 +128,6 @@ Centercrop: Beskjæring av bilder slik at det største mulige kvadratiske og sen
 Letterbox + reflect (Dette forklares i rapporten. Så jeg anbefaler å droppe i ordlisten).
 Padding: Overflødig innhold.
 Kjøretøygruppe
-
 Tuningparameter
 Output-hode
 Keras: Python-bibliotek brukt til dyplæring.
@@ -194,12 +193,9 @@ Batch‑normalisering: ?
 Epoke: Én treningsiterasjon i maskinlæring hvor alle instansene har blitt sett på én gang. 
 Ende‑til‑ende‑evaluering: Evaluering av et system fra start til slutt.
 Multi‑head‑modell: Modell 
-
-Konklusjon og nedover:
 Scratch-modell
 Finmaskede
 EfficientNet: En pretrent bildegjenkjenningsmodell.
 pretrained/pretrent: Noe som allerede er trent.
 chrome delete (vedlegg): Maskering av krom-områder.
-
 nevron
