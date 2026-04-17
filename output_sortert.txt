@@ -17,7 +17,6 @@ Beregningskapasitet: Handlingsrom for å gjøre regneoperasjoner. Typisk brukt o
 Beregningskostnad
 Bias: En uønsket og typisk uforutsett årsak til at noe velges fremfor noe annet.
 Big-bang hierarkisk modell
-Big‑bang hierarkisk modell
 Bildeklassifisering: Prediksjon av hvilke klasser (kategorier) bilder tilhører.
 Binary Accuracy
 Binary crossentropy
@@ -45,7 +44,6 @@ Domene-holdout
 Dropout (Forklares i rapporten. Foreslår å ikke ha i ordlisten).
 Dyp læring: Læring gjennom flere lag med matriseoperasjoner.
 Early stopping: Stansing av treningen når for eksempel tapsfunksjonen ikke reduseres etter x antall epoker.
-EfficientNet: En pretrent bildegjenkjenningsmodell.
 EfficientNetV2: Pretrent modell for bildeklassifisering.
 Egenskapskart (Dette står om under 3.2.1. Tror ikke man trenger i ordlisten).
 Eksperimentløp: Oppskrift på hvordan for eksempel hyperparametersøk skal gjennomføres.
@@ -106,7 +104,6 @@ L1-regularisering: Straffing av vekter som er store, slik at vektene holder seg 
 L2-regularisering: Straffing av vekter som er store, slik at vektene holder seg likere hverandre.
 Label Studio: Applikasjon brukt til å annotere data og generere annoteringsfiler.
 Label: Merkelapp/fasit.
-Lambda / tapsfunksjon (loss)
 Leaf-label: Labelen til bladnoder.
 Letterbox + reflect (Dette forklares i rapporten. Så jeg anbefaler å droppe i ordlisten).
 LLIR (Low‑Light Image Restoration): Etterbehandling av bilder for å forbedre bildekvalitet i lavlysforhold.
