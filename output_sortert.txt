@@ -1,5 +1,5 @@
 Accuracy: Prediksjonsnøyaktighet.
-Adam
+Adam: 
 AIM: Et verktøy for å visualisere og loggføre resultatene ved modelltrening.
 Annoteringsverktøy: Verktøy for å merke instanser i et datasett med labels.
 Attributter: Egenskap
@@ -51,11 +51,12 @@ Eksponering: Hvor mye lys kommer inn i en kameralinse.
 Ende‑til‑ende‑evaluering: Evaluering av et system fra start til slutt.
 Enhancement-steg: En eller flere operasjoner som forbedrer noe (for eksempel bilder).
 Epoke: Én treningsiterasjon i maskinlæring hvor alle instansene har blitt sett på én gang. 
+EUM: Egen Utviklet Modell
 EV: Eksponeringsverdi. Hvor mye lys som får mulighet til å komme inn i en kameralinse.
 Evalueringsmetrikker
 F1: Står om i teori
 Facelift: En visuell oppgradering. Typisk brukt om mindre oppgraderinger av bilmodeller.
-Feature extraction
+Feature extractor
 Featurekart: Et slags kart som viser hvor mye et spesifikt mønster er tilstede på områder på et bilde.
 Feilpropagering: Feil sendes videre nedover.
 Finetuning: Står om i teori
@@ -106,7 +107,7 @@ Label Studio: Applikasjon brukt til å annotere data og generere annoteringsfile
 Label: Merkelapp/fasit.
 Leaf-label: Labelen til bladnoder.
 Letterbox + reflect (Dette forklares i rapporten. Så jeg anbefaler å droppe i ordlisten).
-LLIR (Low‑Light Image Restoration): Etterbehandling av bilder for å forbedre bildekvalitet i lavlysforhold.
+LLIE (Low‑Light Image Enhancement): Etterbehandling av bilder for å forbedre bildekvalitet i lavlysforhold.
 Loss / Tapsfunksjon: En deriverbar verdi som forteller hvor langt unna fasiten prediksjonene er.
 Læringsalgoritme: Algoritme bestemmer hvordan en modell lærer. 
 Læringsrate: En verdi som styrer hvor mye vektene til en maskinlæringsmodell skal justeres etter gradient descent. 
