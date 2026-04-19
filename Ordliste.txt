@@ -5,13 +5,14 @@ Binary Accuracy
 Big‑bang hierarkisk modell
 Bootstrap
 Checkpoint: 
-Computer vision: Datamaskiner blir brukt til å forstå bilde- eller videodata.
+Computer vision (CV): Datamaskiner blir brukt til å forstå bilde- eller videodata.
 Confusion matrix / Forvirringsmatrise: Matrise som viser hvordan fordelingen av prediksjoner henger sammen med fordelingen av faktiske labels.
 CSV (Comma Separated Values): Enkelt filformat for å lagre tabeller. 
 Datapipeline: Flere ledd av operasjoner som data gjennomgår.
 Data‑ og modellversjonering
 Early stopping: Stansing av treningen når for eksempel tapsfunksjonen ikke reduseres etter x antall epoker.
 Evalueringsmetrikker
+EV
 Feature extraction
 F1: Står om i teori
 Finetuning: Står om i teori

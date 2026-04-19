@@ -149,7 +149,7 @@ pretrained/pretrent: Noe som allerede er trent.
 Proprietært datasett
 Prosjektmetodikk (Gantt, risikovurdering)
 Python: Høynivå programeringsspråk
-Random seed / reproduserbarhet: En verdi som bestemmer utfallet av tilfeldige operasjoner / Samme resultat kan oppnås flere ganger.
+Random seed: En verdi som bestemmer utfallet av tilfeldige operasjoner / Samme resultat kan oppnås flere ganger.
 Randomisert: Satt/endret noe tilfeldig.
 ReLU: En ikke-lineær operasjon brukt i konvolusjonelle lag.
 Repository / versjonskontroll: Oppbevaringsplass for kode / System for å holde kontroll på ulike versjoner av den samme tingen.
@@ -161,6 +161,7 @@ Sample weights: ?
 Scikit-learn: Maskinlæringsbibliotek for Python (?).
 Scikit‑learn: Et Python-bibliotek for ?
 Scratch-modell
+Shortcut learning
 Sideforhold: Forholdet mellom lengden til sider av for eksempel bilder.
 Sigmoid: En ikke-lineær operasjon brukt i konvolusjonelle lag til å gjøre binær klassifisering.
 Skiltmaskering (policyalternativer)
