@@ -1,0 +1,54 @@
+<View>
+  <Image name="image" value="$image"/>
+  
+  <Choices name="lighting" toName="image" choice="single" required="true" layout="inline">
+    <Choice value="Light"  hotkey="1"/>
+    <Choice value="Medium" hotkey="2"/>
+    <Choice value="Dark"   hotkey="3"/>
+  </Choices>
+  
+  <Choices name="color" toName="image" choice="single" required="true" layout="inline">
+    <Choice value="Black/Dark gray"  hotkey="q"/>
+    <Choice value="White"  hotkey="w"/>
+    <Choice value="Light gray/Silver" hotkey="e"/>
+    <Choice value="Red"    hotkey="r"/>
+    <Choice value="Blue"   hotkey="t"/>
+    <Choice value="Green" hotkey="y"/>
+    <Choice value="Yellow" hotkey="u"/>
+    <Choice value="Orange" hotkey="i"/>
+  </Choices>
+
+  <Choices name="model" toName="image" choice="single" required="true" layout="inline">
+    <Choice value="S" hotkey="a"/>
+    <Choice value="X" hotkey="s"/>
+    <Choice value="3" hotkey="d"/>
+    <Choice value="Y" hotkey="f"/>
+    <Choice value="Other car" hotkey="g"/>
+  </Choices>
+
+  <Choices name="year_s" toName="image" choice="single" required="true"
+           visibleWhen="choice-selected" whenTagName="model" whenChoiceValue="S" layout="inline">
+    <Choice value="2012–2015" hotkey="z"/>
+    <Choice value="2016–2020" hotkey="x"/>
+    <Choice value="2021–nå"   hotkey="c"/>
+  </Choices>
+
+  <Choices name="year_x" toName="image" choice="single" required="true"
+           visibleWhen="choice-selected" whenTagName="model" whenChoiceValue="X" layout="inline">
+    <Choice value="2016–2020" hotkey="q"/>
+    <Choice value="2021–nå" hotkey="w"/>
+  </Choices>
+  
+  <Choices name="year_3" toName="image" choice="single" required="true"
+           visibleWhen="choice-selected" whenTagName="model" whenChoiceValue="3" layout="inline">
+    <Choice value="2017–2023" hotkey="z"/>
+    <Choice value="2024–nå" hotkey="x"/>
+  </Choices>
+
+  <Choices name="year_y" toName="image" choice="single" required="true"
+           visibleWhen="choice-selected" whenTagName="model" whenChoiceValue="Y" layout="inline">
+    <Choice value="2020–2024" hotkey="z"/>
+    <Choice value="2025-nå" hotkey="x"/>
+  </Choices>
+
+</View>
