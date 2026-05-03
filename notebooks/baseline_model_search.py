@@ -158,10 +158,8 @@ def v5_model():
     x = layers.Conv2D(256, 3, padding="same", activation="relu")(x)
     x = layers.GlobalAveragePooling2D()(x)
     x = layers.Dense(512, activation="relu")(x)
-
     lvl1 = layers.Dense(1, activation="sigmoid", name="lvl1")(x)
     lvl2 = layers.Dense(7, activation="softmax", name="lvl2")(x)
-
     return keras.Model(inputs=input, outputs={"lvl1": lvl1, "lvl2": lvl2}, name="André")
 
 
