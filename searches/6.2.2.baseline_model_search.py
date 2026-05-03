@@ -1,7 +1,7 @@
 from aim.keras import AimCallback
 import numpy as np
 import keras
-import utils
+import searches.utils as utils
 import aim
 from keras import layers
 import gc
@@ -17,7 +17,7 @@ SEED = 42
 IMG_SIZE = (300, 300)
 EPOCHS = 150
 BATCH_SIZE = 32
-FILE_NAME = "out_baseline_padding.txt"
+FILE_NAME = "out_baseline_.txt"
 
 
 def faiga_model():

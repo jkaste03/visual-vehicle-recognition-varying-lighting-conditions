@@ -228,5 +228,5 @@ Model: "André"
  Trainable params: 691,016 (2.64 MB)
  Non-trainable params: 0 (0.00 B)
 
-Resultat F1: 0.9438
+Resultat F1: 0.8979
 {'loss': 5.235925674438477, 'lvl1_acc': 0.9529120326042175, 'lvl1_loss': 0.25881069898605347, 'lvl2_acc': 0.2812887132167816, 'lvl2_loss': 4.9935736656188965}
