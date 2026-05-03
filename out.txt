@@ -1,5 +1,0 @@
-
-[Tester]: Flip
-Resultat F1: 0.8767
-
-[Tester]: Rotation
