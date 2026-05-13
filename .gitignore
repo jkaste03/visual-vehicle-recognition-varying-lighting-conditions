@@ -220,7 +220,6 @@ __marimo__/
 .DS_Store
 
 datasett
-requirements.txt
 .lvenv
 logs/*
 datasett_src
