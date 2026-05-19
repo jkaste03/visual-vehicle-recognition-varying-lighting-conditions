@@ -27,20 +27,20 @@ from PIL import Image
 # 
 # Let's download and set up a `MobileNetV2` model, trained on the 1000 classes in the ImageNet dataset. You can change this to anything you like. Remeber, however, to also use the appropriate preprocessing function.
 
-# In[2]:
+# In[3]:
 
 
 # model = MobileNetV2(weights="imagenet")
 
-# The model loading below is from Deep Learning with Python, Third edition. Chapter: 8, Fitting the model
+# The model loading below is from Deep Learning with Python, Third edition (https://deeplearningwithpython.io). Chapter: 8, Fitting the model
 model1 = keras.models.load_model(
     "train_hierarchical_cnn_global_aug_v2.keras"
 )
-# The model loading below is from Deep Learning with Python, Third edition. Chapter: 8, Fitting the model
+# The model loading below is from Deep Learning with Python, Third edition (https://deeplearningwithpython.io). Chapter: 8, Fitting the model
 model2 = keras.models.load_model(
     "hierarchical_cnn_global_final_v2.keras"
 )
-# The model loading below is from Deep Learning with Python, Third edition. Chapter: 8, Fitting the model
+# The model loading below is from Deep Learning with Python, Third edition (https://deeplearningwithpython.io). Chapter: 8, Fitting the model
 model3 = keras.models.load_model(
     "tl2_efficientnetv2s_finetune60.keras"
 )
@@ -52,10 +52,10 @@ IMG_RES = (300, 300)
 
 # #### The two cells below are based on Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps, Image-Specific Class Saliency Visualisation (https://arxiv.org/abs/1312.6034)
 
-# In[ ]:
+# In[4]:
 
 
-# This method is based on Deep Learning with Python, Third edition. Chapter: 2, Gradient computation,
+# This method is based on Deep Learning with Python, Third edition (https://deeplearningwithpython.io). Chapter: 2, Gradient computation,
 # and get_gradients from https://keras.io/examples/vision/integrated_gradients/
 def get_gradients(img_array, lvl, model, lvl2_pred_index):
     with tf.GradientTape() as tape:
@@ -70,13 +70,13 @@ def get_gradients(img_array, lvl, model, lvl2_pred_index):
     return gradients
 
 
-# In[ ]:
+# In[5]:
 
 
 def get_heatmap(img_array, lvl, model, lvl2_pred_index=None):
     gradients = get_gradients(img_array, lvl, model, lvl2_pred_index)
     abs_gradients = np.abs(gradients[0])
-    # np.max is from: Deep Learning with Python, Third edition. Chapter: 10, Displaying the class activation heatmap
+    # np.max is from: Deep Learning with Python, Third edition (https://deeplearningwithpython.io). Chapter: 10, Displaying the class activation heatmap
     max_gradient = np.max(abs_gradients)
 
     if max_gradient == 0.0:
@@ -91,7 +91,7 @@ def get_heatmap(img_array, lvl, model, lvl2_pred_index=None):
 
 # #### The idea of the method below is from: SmoothGrad: removing noise by adding noise, Capping outlying values (https://arxiv.org/pdf/1706.03825)
 
-# In[ ]:
+# In[6]:
 
 
 import math
@@ -110,7 +110,7 @@ def cap_heatmap(heatmap):
             if (heatmap[i][j] > ninty_nine_percentile):
                 heatmap[i][j] = ninty_nine_percentile
 
-    # np.max is from: Deep Learning with Python, Third edition. Chapter: 10, Displaying the class activation heatmap
+    # np.max is from: Deep Learning with Python, Third edition (https://deeplearningwithpython.io). Chapter: 10, Displaying the class activation heatmap
     max_value = np.max(heatmap)
     if (max_value == 0.0):
         max_value = 0.000000000001
@@ -119,9 +119,9 @@ def cap_heatmap(heatmap):
     return heatmap
 
 
-# ### The below cell is strongly based on Deep Learning with Python, Third edition. Chapter: 10, Visualizing heatmaps of class activation
+# ### The below cell is strongly based on Deep Learning with Python, Third edition (https://deeplearningwithpython.io). Chapter: 10, Visualizing heatmaps of class activation
 
-# In[ ]:
+# In[7]:
 
 
 import matplotlib.cm as cm
@@ -144,7 +144,7 @@ def superimpose(img_array, heatmap):
 
 # # Cellene over kommer tilnærmet direkte fra et annet prosjekt gruppen har arbeidet med i faget, DAT255. Referanse: A. Kidess, J. O. Rosberg, og J. Kaste, «Upublisert egen semesteroppgave i faget, DAT255: Explainability methods for image classification», Upublisert egen semesteroppgave i faget, DAT255, Høgskulen på Vestlandet, Haugesund, 2026.
 
-# In[ ]:
+# In[8]:
 
 
 # import imageio
@@ -172,7 +172,7 @@ def classify_image(img: Image.Image, checkbox_group, sg_checkbox):
     # arr = keras.ops.convert_to_tensor(arr, dtype="float32")
 
     arr = preprocess_image_tensor(arr, IMG_RES[0])
-    # np.max is from: Deep Learning with Python, Third edition. Chapter: 10, Displaying the class activation heatmap
+    # np.max is from: Deep Learning with Python, Third edition (https://deeplearningwithpython.io). Chapter: 10, Displaying the class activation heatmap
     # arr = arr / np.max(arr)
 
     # Kodelinjen under kommer delvis fra et annet prosjekt gruppen har arbeidet med i faget, DAT255. Referanse: A. Kidess, J. O. Rosberg, og J. Kaste, «Upublisert egen semesteroppgave i faget, DAT255: Explainability methods for image classification», Upublisert egen semesteroppgave i faget, DAT255, Høgskulen på Vestlandet, Haugesund, 2026.
@@ -219,7 +219,7 @@ def classify_image(img: Image.Image, checkbox_group, sg_checkbox):
         # og herfra: https://numpy.org/doc/2.1/reference/random/generated/numpy.random.Generator.normal.html#numpy.random.Generator.normal
         # =====
 
-        # The below line is based on Deep Learning with Python, Third edition. Chapter: 10, Visualizing heatmaps of class activation
+        # The below line is based on Deep Learning with Python, Third edition (https://deeplearningwithpython.io). Chapter: 10, Visualizing heatmaps of class activation
         superimposed = superimpose(arr[0], finished_heatmap_lvl1)
 
         # Line below is based on: https://pillow.readthedocs.io/en/stable/reference/Image.html
@@ -258,7 +258,7 @@ def classify_image(img: Image.Image, checkbox_group, sg_checkbox):
             # og herfra: https://numpy.org/doc/2.1/reference/random/generated/numpy.random.Generator.normal.html#numpy.random.Generator.normal
             # =====
 
-            # The below line is based on Deep Learning with Python, Third edition. Chapter: 10, Visualizing heatmaps of class activation
+            # The below line is based on Deep Learning with Python, Third edition (https://deeplearningwithpython.io). Chapter: 10, Visualizing heatmaps of class activation
             superimposed_lvl2 = superimpose(arr[0], finished_heatmap_lvl2)
 
         # Line below is based on https://stackoverflow.com/questions/57253048/scipy-misc-has-no-attribute-imsave and https://www.geeksforgeeks.org/python/getting-started-with-imageio-library-in-python/
@@ -306,7 +306,7 @@ def classify_image(img: Image.Image, checkbox_group, sg_checkbox):
         # og herfra: https://numpy.org/doc/2.1/reference/random/generated/numpy.random.Generator.normal.html#numpy.random.Generator.normal
         # =====
 
-        # The below line is based on Deep Learning with Python, Third edition. Chapter: 10, Visualizing heatmaps of class activation
+        # The below line is based on Deep Learning with Python, Third edition (https://deeplearningwithpython.io). Chapter: 10, Visualizing heatmaps of class activation
         superimposed = superimpose(arr[0], finished_heatmap_lvl1)
 
         # Line below is based on: https://pillow.readthedocs.io/en/stable/reference/Image.html
@@ -345,7 +345,7 @@ def classify_image(img: Image.Image, checkbox_group, sg_checkbox):
             # og herfra: https://numpy.org/doc/2.1/reference/random/generated/numpy.random.Generator.normal.html#numpy.random.Generator.normal
             # =====
 
-            # The below line is based on Deep Learning with Python, Third edition. Chapter: 10, Visualizing heatmaps of class activation
+            # The below line is based on Deep Learning with Python, Third edition (https://deeplearningwithpython.io). Chapter: 10, Visualizing heatmaps of class activation
             superimposed_lvl2 = superimpose(arr[0], finished_heatmap_lvl2)
 
         # Line below is based on https://stackoverflow.com/questions/57253048/scipy-misc-has-no-attribute-imsave and https://www.geeksforgeeks.org/python/getting-started-with-imageio-library-in-python/
@@ -392,7 +392,7 @@ def classify_image(img: Image.Image, checkbox_group, sg_checkbox):
         # og herfra: https://numpy.org/doc/2.1/reference/random/generated/numpy.random.Generator.normal.html#numpy.random.Generator.normal
         # =====
 
-        # The below line is based on Deep Learning with Python, Third edition. Chapter: 10, Visualizing heatmaps of class activation
+        # The below line is based on Deep Learning with Python, Third edition (https://deeplearningwithpython.io). Chapter: 10, Visualizing heatmaps of class activation
         superimposed = superimpose(arr[0], finished_heatmap_lvl1)
 
         # Line below is based on: https://pillow.readthedocs.io/en/stable/reference/Image.html
@@ -431,7 +431,7 @@ def classify_image(img: Image.Image, checkbox_group, sg_checkbox):
             # og herfra: https://numpy.org/doc/2.1/reference/random/generated/numpy.random.Generator.normal.html#numpy.random.Generator.normal
             # =====
 
-            # The below line is based on Deep Learning with Python, Third edition. Chapter: 10, Visualizing heatmaps of class activation
+            # The below line is based on Deep Learning with Python, Third edition (https://deeplearningwithpython.io). Chapter: 10, Visualizing heatmaps of class activation
             superimposed_lvl2 = superimpose(arr[0], finished_heatmap_lvl2)
         # Line below is based on https://stackoverflow.com/questions/57253048/scipy-misc-has-no-attribute-imsave and https://www.geeksforgeeks.org/python/getting-started-with-imageio-library-in-python/
         # imageio.imwrite("Neinieg.png", superimposed)
@@ -443,9 +443,9 @@ def classify_image(img: Image.Image, checkbox_group, sg_checkbox):
 
 
 
-# #### Cellen under er basert på: https://github.com/gradio-app/gradio/issues/2066 og https://discuss.huggingface.co/t/how-to-programmatically-enable-or-disable-components/52350
+# #### Cellen under brukte elementer herfra: https://github.com/gradio-app/gradio/issues/2066 og https://discuss.huggingface.co/t/how-to-programmatically-enable-or-disable-components/52350
 
-# In[ ]:
+# In[9]:
 
 
 def change_visibility(checkbox_group, model_1_label1, model_1_label2, model_2_label1, model_2_label2, model_3_label1, model_3_label2):
@@ -487,7 +487,7 @@ def change_visibility(checkbox_group, model_1_label1, model_1_label2, model_2_la
 # 
 # Check the [documentation](https://www.gradio.app/docs) for the various things we can add here.
 
-# In[ ]:
+# In[10]:
 
 
 # Example images
@@ -580,7 +580,7 @@ with gr.Blocks(title="Multiattributt visuell kjøretøygjenkjenning under varier
 
 # Now we can run it:
 
-# In[ ]:
+# In[11]:
 
 
 demo.launch(share=False)
