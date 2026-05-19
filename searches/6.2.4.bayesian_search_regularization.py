@@ -69,7 +69,7 @@ class ValF1Callback(keras.callbacks.Callback):
 SEED = 42
 IMG_SIZE = (300, 300)
 EPOCHS = 200
-BATCH_SIZE = 64
+BATCH_SIZE = 16
 FILE_NAME = "out_bayesian_search_dropout_l2.txt"
 MAX_TRIALS = 30
 

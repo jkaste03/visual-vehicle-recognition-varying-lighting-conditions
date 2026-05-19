@@ -16,7 +16,7 @@ tf.config.optimizer.set_jit(False)
 SEED = 42
 IMG_SIZE = (300, 300)
 EPOCHS = 150
-BATCH_SIZE = 32
+BATCH_SIZE = 16
 FILE_NAME = "out_baseline_.txt"
 
 
